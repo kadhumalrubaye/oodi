@@ -9,8 +9,8 @@
                             <picture><img class="image-fluid" :src="img1" style="position: relative;" width="354" />
                             </picture>
                         </div>
-                        <div id="oodImgText" class=" col ">
-                            <p>
+                        <div id="oodImgText" class=" col  ">
+                            <p class="text-justify">
                                 Launched
                                 <strong>10+</strong>
                                 first-in-market products &amp; featureswith oodi <br> application last year<br>
@@ -55,8 +55,8 @@
                         </div>
                         <div id="digitalFactoryTextCol" class="col">
                             <p>Developed 4 new
-                                Digital Assets in the last year Launched the Zain-Fi application enabling customers to
-                                seamlessly manage their Zain-Fi accounts and devices</p>
+                                Digital Assets in the last year <br> Launched the Zain-Fi application enabling customers to
+                                seamlessly <br> manage their Zain-Fi accounts and devices</p>
                         </div>
                     </div>
 
