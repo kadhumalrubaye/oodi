@@ -2,12 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 d-none d-md-block">
-                <div class="container"><img :src="halfCircleWhite" style="margin-bottom: -196px;margin-left: 32px;" /><img
-                        :src="halfCircleGreen" style="margin-bottom: -144px;margin-left: -236px;" />
+                <div class="container">
+                    <img class="halfCircleWhite" :src="halfCircleWhite" style="margin-bottom: -196px;margin-left: 32px;" />
+                    <img class="halfCircleGreen" :src="halfCircleGreen"
+                        style="margin-bottom: -144px;margin-left: -236px;" />
                 </div>
             </div>
             <div class="col-sm-12 d-md-none ">
-                <div class="container"><img height="120" :src="halfCircleWhite"
+                <div class="container"><img class=" img-fluid" height="120" :src="halfCircleWhite"
                         style="margin-bottom: -100px;margin-left: -1px;" />
                     <img :src="halfCircleGreen" height="50" style="margin-bottom: -75px;margin-left: -100px;" />
                 </div>
@@ -48,6 +50,24 @@ export default {
 </script>
 
 <style scoped>
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+
+
+    .halfCircleGreen {
+        width: 50;
+
+
+    }
+
+    .halfCircleWhite {
+        width: 30%;
+
+
+    }
+
+
+}
+
 div {
 
     background-repeat: no-repeat;

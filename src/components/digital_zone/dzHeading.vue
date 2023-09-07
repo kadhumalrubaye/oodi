@@ -61,7 +61,7 @@ h4 {
 
 /* Styles for tablet-sized screens (between 768px and 1024px) */
 @media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
-    .row {}
+
 
     h1,
     h2 {
@@ -82,4 +82,5 @@ h4 {
         text-align: center;
         margin-left: 50px;
     }
-}</style>
+}
+</style>

@@ -66,7 +66,7 @@
             </div>
 
             <div class="col position-absolute text-end " id="weAreZainText">
-                <h1 style=" font-size: 63px;color: var(--bs-white);"><strong>..WE ARE <br> ZAIN <br>
+                <h1 style=" color: var(--bs-white);"><strong>..WE ARE <br> ZAIN <br>
                         IRAQ&#39;S <br>
                         DIGITAL
                         <br>
@@ -99,7 +99,6 @@ img {
     margin-left: -50px;
 }
 
-.digitalServiceText {}
 
 #weAreZainText {
     color: #FFF;
@@ -173,9 +172,15 @@ p {
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
     #weAreZainText {
-        margin-top: 500px;
+        margin-top: 80%;
+    }
+
+    h1 {
+        font-size: 70px;
+        /* Adjust the font size as needed */
     }
 }
+
 
 
 /* // Large devices (desktops, 992px and up) */
