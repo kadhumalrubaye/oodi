@@ -61,9 +61,8 @@ h4 {
 
     h1 span {
         font-size: 30px;
-        -webkit-text-stroke: 1px #6BDD6B;
-        /* WebKit browsers (Safari) */
-        color: #fff;
+
+
     }
 
 

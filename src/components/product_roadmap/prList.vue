@@ -13,7 +13,8 @@
         </div>
         <div class="col-md-8 col-sm-12">
             <p s><strong>New and enhanced features are coming…
-                </strong>• Redesigned sign-up journey.<br />• In-depth event tracking. <br />• Clevertap integration for
+                </strong> <br />• Redesigned sign-up journey.<br />• In-depth event tracking. <br />• Clevertap integration
+                for
                 advanced <br />analytics, personalized messaging, and <br />engagement tools <strong>&amp;
                     More!</strong></p>
         </div>
@@ -21,7 +22,7 @@
     <div class="row ">
         <div class=" col-md-8 col-sm-12">
             <p><strong>Refreshed self-care features including
-                </strong><br /><strong>registration, subscription management, etc.</strong>• Next-best-action
+                </strong><br /><strong>registration, subscription management, etc.</strong><br />• Next-best-action
                 dashboard.<br />• Exclusive welcome gift.<br />• Embedded Imtiyaz.<br />• App referrals and in-app
                 feedback<br /><strong>&amp; More!</strong></p>
         </div>

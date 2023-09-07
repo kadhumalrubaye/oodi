@@ -1,5 +1,5 @@
 <template>
-    <div class="container" :style="{ 'background-image': 'url(' + layar7 + ') ', }">
+    <div class=" container" :style="{ 'background-image': 'url(' + layar7 + ') ' }">
         <PrHeainding />
         <prList />
     </div>
@@ -28,6 +28,6 @@ export default {
 <style scoped>
 .container {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 </style>
