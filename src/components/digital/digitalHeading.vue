@@ -1,22 +1,11 @@
 <template>
-    <div class="row">
-        <div class="col-md-12 d-none d-md-block">
-            <h1>
-
-                WHEN WE SAY
-            </h1>
-            <h2>
-                <span>DIGITAL</span>, WE MEAN…
-            </h2>
-        </div>
-        <div class="col-sm-12 d-md-none">
-            <h3>
-                WHEN WE SAY
-            </h3>
-            <h4>
-                <span>DIGITAL</span>, WE MEAN…
-            </h4>
-        </div>
+    <div class="container">
+        <h1>
+            WHEN WE SAY
+        </h1>
+        <h2>
+            <span>DIGITAL</span>, WE MEAN…
+        </h2>
     </div>
 </template>
 
@@ -54,24 +43,29 @@ h2 {
     text-align: right;
 }
 
-h3 {
-    color: #5B0AD9;
-    font-family: Inter;
-    font-size: 27.802px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+
+    h2 {
+        text-align: center;
+        -webkit-text-stroke: 1px #6BDD6B;
+        /* WebKit browsers (Safari) */
+        color: #fff;
+        color: #5B0AD9;
+        font-size: 25px;
+    }
+
+    h2 span {
+        font-size: 30px;
+    }
 }
 
-h4 {
-
-    color: #5B0AD9;
-
-    font-family: Inter;
-    font-size: 27.802px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: right;
-}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {}
 </style>

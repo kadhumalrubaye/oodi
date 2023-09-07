@@ -39,10 +39,20 @@ export default {
 
 img {
 
-    border-color: greenyellow;
+    border-color: #6BDD6B;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    img {
+
+        border-color: #6BDD6B;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 50%;
+    }
 }
 </style>
   

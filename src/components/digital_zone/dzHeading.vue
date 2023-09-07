@@ -1,22 +1,14 @@
 <template>
     <br>
     <div class="row">
-        <div class="col-md-12 d-none d-md-block">
-            <h1 class="text-sm">
-                <span>DIGITAL </span> @ ZAIN
-            </h1>
-            <h2 class="text-sm">
-                DID YOU KNOW?
-            </h2>
-        </div>
-        <div class="col-sm-12 d-md-none">
-            <h3>
-                <span>DIGITAL </span> @ ZAIN
-            </h3>
-            <h4>
-                DID YOU KNOW?
-            </h4>
-        </div>
+        <h1 class="text-sm">
+            <span>DIGITAL </span> @ ZAIN
+        </h1>
+        <h2 class="text-sm">
+            DID YOU KNOW?
+        </h2>
+
+
     </div>
 </template>
 
@@ -60,27 +52,34 @@ h4 {
 }
 
 /* Styles for tablet-sized screens (between 768px and 1024px) */
-@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    h1 span {
+        font-size: 30px;
+        -webkit-text-stroke: 1px #6BDD6B;
+        /* WebKit browsers (Safari) */
+        color: #fff;
+    }
 
 
-    h1,
+
+
     h2 {
-        font-size: 60px;
-        /* Adjust font size for tablets */
         text-align: center;
+        -webkit-text-stroke: 1px #6BDD6B;
+        /* WebKit browsers (Safari) */
+        color: #fff;
+        color: #5B0AD9;
+        font-size: 30px;
     }
 
-    h3 {
-        font-size: 27.802px;
-        /* Leave the font size unchanged for h3 */
-        text-align: center;
-    }
 
-    h4 {
-        font-size: 27.802px;
-        /* Leave the font size unchanged for h4 */
-        text-align: center;
-        margin-left: 50px;
-    }
 }
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {}
 </style>

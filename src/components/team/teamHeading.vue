@@ -1,22 +1,15 @@
 <template>
-    <div class="row">
-        <div class="col-md-12 d-none d-md-block">
-            <h1>
+    <div class="container">
 
-                INTRODUCING
-            </h1>
-            <h2>
-                THE TEAM...
-            </h2>
-        </div>
-        <div class="col-sm-12 d-md-none">
-            <h3>
-                INTRODUCING
-            </h3>
-            <h4>
-                THE TEAM...
-            </h4>
-        </div>
+        <h1>
+
+            INTRODUCING
+        </h1>
+        <h2>
+            THE TEAM...
+        </h2>
+
+
     </div>
 </template>
 
@@ -52,26 +45,21 @@ h2 {
     text-align: right;
 }
 
-h3 {
-    color: #5B0AD9;
-    font-family: Inter;
-    font-size: 27.802px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        -webkit-text-stroke: 2px #6BDD6B;
+        /* WebKit browsers (Safari) */
+        color: #fff;
+        color: #5B0AD9;
+        font-size: 50px;
+    }
 }
 
-h4 {
-    -webkit-text-stroke: 1px #6BDD6B;
-    /* WebKit browsers (Safari) */
-    color: #fff;
-    color: #5B0AD9;
-
-    font-family: Inter;
-    font-size: 27.802px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: right;
-}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {}
 </style>
