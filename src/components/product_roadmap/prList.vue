@@ -1,8 +1,5 @@
 <template>
     <div class="row">
-        <h1 style="font-style: italic;color: var(--bs-indigo);">GET A SNEAK PEEK INTO WHAT IS COMING</h1>
-    </div>
-    <div class="row">
         <h1 style="font-size: 25px;color: var(--bs-indigo);"><strong>EXCITING NEWS! </strong><br />Some big product
             releases are planned in the upcoming months: an enhanced <br /><strong>oodi app with advanced lifestyle
                 products and refreshed UI for efficient user</strong>experience, <strong>and a brand-new Zain&#39;s
@@ -10,7 +7,7 @@
     </div>
     <div class="row d-xl-flex align-items-xl-center">
         <div class="col">
-            <picture><img class="img-fluid" src="phone1.png" /></picture>
+            <picture><img class="img-fluid" :src="phone1" /></picture>
         </div>
         <div class="col">
             <h1 style="font-size: 22px;color: var(--bs-indigo);"><strong>New and enhanced features are coming…
@@ -26,7 +23,7 @@
                 dashboard.<br />• Exclusive welcome gift.<br />• Embedded Imtiyaz.<br />• App referrals and in-app
                 feedback<br /><strong>&amp; More!</strong></h1>
         </div>
-        <div class="col"><img class="img-fluid" src="phone2.png" /></div>
+        <div class="col"><img class="img-fluid" :src="phone2" /></div>
     </div>
     <div class="row">
         <h1 style="text-align: center;font-size: 100px;font-weight: bold;color: rgb(80,237,54);">…STAY TUNED!</h1>
@@ -56,7 +53,17 @@
     </div>
 </template>
 <script lang="ts">
+import phone1 from './../../assets/img/phone1.png'
+import phone2 from './../../assets/img/phone2.png'
 export default {
+
+
+    data() {
+        return {
+            phone1: phone1,
+            phone2: phone2
+        }
+    }
 
 }
 </script>
