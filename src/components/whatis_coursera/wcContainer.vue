@@ -62,6 +62,7 @@ img {
 
 }
 
+/* for phone */
 @media (max-width: 768px) {}
 
 img {
@@ -98,7 +99,8 @@ h1 {
     font-size: 40px;
 }
 
-@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+/* for tablet */
+@media only screen and (min-device-width: 768px) {
     img {
         margin: 0;
         display: block;
