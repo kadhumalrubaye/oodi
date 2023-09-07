@@ -118,10 +118,6 @@ img {
 
 }
 
-
-
-
-
 p {
     color: #5B0AD9;
     font-size: 20px;
@@ -131,10 +127,8 @@ p {
 
 }
 
-#middleSection p {}
 
 
-/* Styles for screens smaller than 768px (typically mobile devices) */
 
 @media (max-width: 768px) {
 
@@ -167,28 +161,26 @@ p {
 
 
 
-    /* Styles for screens between 768px and 991px (typically tablets) */
-    @media (min-width: 768px) and (max-width: 991px) {
-        #weAreZainText {
-            display: none;
 
-        }
-    }
+}
 
-    @media (max-width: 1000px) {
-        #weAreZainText {
-            display: none;
-        }
-    }
+/*  Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
 
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
 
-    /* Styles for screens 992px and larger (typically desktops) */
-    @media (min-width: 992px) {}
-
-    @media (max-width: 1200px)and (min-width: 1200px) {
-        #weAreZainText {
-            display: none;
-        }
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+    #weAreZainText {
+        margin-top: 500px;
     }
 }
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
 </style>

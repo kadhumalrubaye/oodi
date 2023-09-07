@@ -30,11 +30,7 @@ export default {
 </script>
 
 <style scoped>
-/* @media screen and (min-width: 300px) {
-    p {
-        font-size: large;
-    }
-} */
+@media (min-width: 576px) {}
 
 
 
