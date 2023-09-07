@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="col-sm-12 d-md-none ">
-                <div class="container"><img class=" img-fluid" height="120" :src="halfCircleWhite"
+                <div class="container"><img height="120" :src="halfCircleWhite"
                         style="margin-bottom: -100px;margin-left: -1px;" />
                     <img :src="halfCircleGreen" height="50" style="margin-bottom: -75px;margin-left: -100px;" />
                 </div>
@@ -55,13 +55,11 @@ export default {
 
     .halfCircleGreen {
         width: 50;
-
-
     }
 
     .halfCircleWhite {
         width: 30%;
-
+        margin-right: -6%;
 
     }
 
