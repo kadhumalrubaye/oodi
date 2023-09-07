@@ -5,6 +5,8 @@ import teamMember from './components/team/teamMember.vue'
 import digitalContainer from './components/digital/digitalContainer.vue';
 import dzContainer from './components/digital_zone/dzContainer.vue';
 import prContainer from './components/product_roadmap/prContainer.vue'
+import wcContainer from './components/whatis_coursera/wcContainer.vue'
+
 
 
 </script>
@@ -22,6 +24,9 @@ import prContainer from './components/product_roadmap/prContainer.vue'
     <dzContainer />
     <br>
     <prContainer />
+    <br>
+    <wcContainer />
+
   </main>
 </template>
 

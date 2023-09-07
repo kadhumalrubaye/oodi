@@ -2,6 +2,7 @@
     <div class=" container" :style="{ 'background-image': 'url(' + layar7 + ') ' }">
         <PrHeainding />
         <prList />
+        <stay_tuned />
     </div>
 </template>
 
@@ -11,6 +12,7 @@
 import PrHeainding from './prHeainding.vue';
 import prList from './prList.vue';
 import layar7 from '../../assets/img/Layer 7.png'
+import stay_tuned from './stay_tuned.vue';
 export default {
 
     data() {
@@ -19,6 +21,7 @@ export default {
         }
     },
     components: {
+        stay_tuned,
         PrHeainding,
         prList
     }
