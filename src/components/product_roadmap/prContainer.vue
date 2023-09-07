@@ -14,7 +14,11 @@ import prList from './prList.vue';
 import layar7 from '../../assets/img/Layer 7.png'
 export default {
 
-
+    data() {
+        return {
+            layar7: layar7,
+        }
+    },
     components: {
         PrHeainding,
         prList
