@@ -30,11 +30,13 @@ export default {
 </script>
 
 <style scoped>
-span {
-    -webkit-text-stroke: 5px #ffff;
-    /* WebKit browsers (Safari) */
-    color: #6BDD6B;
-}
+/* @media screen and (min-width: 300px) {
+    p {
+        font-size: large;
+    }
+} */
+
+
 
 h1 {
     color: #5B0AD9;
@@ -46,6 +48,12 @@ h1 {
     text-align: center;
 }
 
+h1 span {
+    -webkit-text-stroke: 5px #ffff;
+    /* WebKit browsers (Safari) */
+    color: #6BDD6B;
+}
+
 h2 {
 
     color: #5B0AD9;
@@ -55,8 +63,7 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-align: center;
-    margin-left: 120px;
+    text-align: right;
 }
 
 h3 {
@@ -66,6 +73,13 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-align: center;
+}
+
+h3 span {
+    -webkit-text-stroke: 1px #ffff;
+    /* WebKit browsers (Safari) */
+    color: #6BDD6B;
 }
 
 h4 {
@@ -77,6 +91,7 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-align: right;
+    text-align: center;
+    margin-left: 50px;
 }
 </style>

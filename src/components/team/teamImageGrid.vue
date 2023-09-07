@@ -24,6 +24,7 @@ export default {
             ceoImage1: ceoImage1,
             ceoDesc: desc,
             ceoImages: ceoImages,
+
         }
 
     }
