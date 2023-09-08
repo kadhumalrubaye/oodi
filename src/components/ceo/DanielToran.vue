@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-6  col-sm-12  ">
+    <div class="col  ">
         <div class="card justify-content-center align-items-center align-content-center "
             style="border-style: none; background: rgba(255,255,255,0);">
             <div class="bg-light border rounded-circle border-5 border-light d-inline float-start justify-content-xxl-center align-items-xxl-center"
@@ -10,10 +10,10 @@
             </div>
 
 
-            <div class=" card-body p-5" style="background-color: #5B0AD9; border-radius: 110px; padding: 10px;">
+            <div class=" card-body  " style="background-color: #5B0AD9; border-radius: 110px; padding: 10px;">
                 <h4 class=" card-title" style="margin-top: 70px; color: white">Daniel Turan</h4>
                 <h6 class=" card-subtitle" style="margin-top: 4px; color: #6BDD6B">Chief Digital Office</h6>
-                <p class=" card-text mt-3 " style="color: white;  ">
+                <p class=" card-text   " style="color: white;  ">
                     {{ DanielToran }}
                     <br>
 
@@ -63,9 +63,7 @@ h6 {
         font-size: 14px;
     }
 
-    img {
-        margin-right: 200px;
-    }
+
 }
 
 /* Medium screens (577px to 768px) */

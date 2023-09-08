@@ -1,6 +1,6 @@
 <template>
     <div id="ceoContainer" class="container" :style="{ 'background-image': 'url(' + background + ') ' }">
-        <div class="row">
+        <div class="row text-center">
             <AliAliZahid />
             <DanielToran />
         </div>

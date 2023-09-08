@@ -32,6 +32,6 @@ export default {
 .container {
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: top left;
+    background-position: left;
 }
 </style>
