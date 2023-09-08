@@ -11,7 +11,7 @@
 <script lang="ts">
 import PrHeainding from './prHeainding.vue';
 import prList from './prList.vue';
-import layar7 from '../../assets/img/Layer 7.png'
+import layar7 from '../../assets/img/layer7.png'
 import stay_tuned from './stay_tuned.vue';
 export default {
 
@@ -32,5 +32,6 @@ export default {
 .container {
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: top right;
 }
 </style>
