@@ -1,5 +1,5 @@
 <template>
-    <div class="container  mt-5">
+    <div class="row  mt-5">
 
         <h1>
 

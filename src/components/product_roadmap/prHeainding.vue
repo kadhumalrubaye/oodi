@@ -39,10 +39,12 @@ h2 {
 @media (max-width: 768px) {
     h1 {
         font-size: 50px;
+        text-align: center;
     }
 
     h2 {
         font-size: 25px;
+        text-align: center;
     }
 }
 

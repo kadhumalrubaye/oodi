@@ -4,9 +4,9 @@
             height="278px" />
         <img class="float-end" :src="greenStarImg" style="text-align: right;margin-top:-30px;" width="78" height="80" />
     </div> -->
-    <div class="row text-center">
+    <div class=" container text-center">
         <teamHeading />
-        <br>
+
         <teamImageGrid />
     </div>
 </template>

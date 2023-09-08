@@ -34,7 +34,7 @@ export default {
   
 <style scoped>
 #teamImageGridRow {
-    padding: 50px;
+    padding: 30px;
 }
 
 img {
