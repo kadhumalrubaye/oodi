@@ -14,9 +14,8 @@ import thankYouContainer from './components/thank_you/thankYouContainer.vue'
 </script>
 
 <template>
-  <myheader />
-
   <main>
+    <myheader />
     <ceo />
 
     <teamMember />
