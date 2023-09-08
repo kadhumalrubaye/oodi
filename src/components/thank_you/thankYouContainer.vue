@@ -69,6 +69,8 @@ export default defineComponent({
 <style scoped>
 .container {
     background-color: #5B0AD9;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
