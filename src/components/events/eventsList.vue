@@ -24,8 +24,7 @@
 
         </div>
         <!-- row 2 -->
-        <div class="row flex-column-reverse flex-lg-row">
-
+        <div class="row flex-column-reverse flex-lg-row flex-md-row flex-sm-row flex-xl-row">
             <div class="col ">
                 <h2>
                     Native Platform Vs Cross-Platform Session
@@ -49,6 +48,8 @@
             <div class="col ">
                 <img :src="eventImage2" alt="">
             </div>
+
+
         </div>
         <!-- row3 -->
         <div class="row">
@@ -80,8 +81,7 @@
 
         </div>
         <!-- row4 -->
-        <div class="row flex-column-reverse flex-lg-row">
-
+        <div class="row flex-column-reverse flex-lg-row flex-md-row flex-sm-row flex-xl-row">
             <div class="col">
                 <h2>
                     E-Sports: PUBG Regional Tournament
@@ -104,6 +104,8 @@
             <div class="col">
                 <img :src="eventImage4" alt="eventImage4">
             </div>
+
+
         </div>
     </div>
 </template>

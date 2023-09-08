@@ -8,10 +8,8 @@ import prContainer from './components/product_roadmap/prContainer.vue'
 import wcContainer from './components/whatis_coursera/wcContainer.vue'
 import awards from './components/awards/awardsContainer.vue'
 import EvetnsContainer from './components/events/evetnsContainer.vue';
-
-
-
-
+import gameOnContainer from './components/game_on/gameOnContainer.vue'
+import thankYouContainer from './components/thank_you/thankYouContainer.vue'
 
 </script>
 
@@ -32,6 +30,8 @@ import EvetnsContainer from './components/events/evetnsContainer.vue';
     <wcContainer />
     <awards />
     <EvetnsContainer />
+    <gameOnContainer />
+    <thankYouContainer />
 
   </main>
 </template>

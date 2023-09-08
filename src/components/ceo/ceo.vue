@@ -27,13 +27,13 @@ export default {
   
 <style scoped>
 #ceoContainer {
-    padding: 11px;
+
 
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: right;
-    ;
-    background-position: top;
+    background-position: right top;
+
+
 
 
 }
