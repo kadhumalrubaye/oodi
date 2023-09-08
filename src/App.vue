@@ -15,18 +15,18 @@ import thankYouContainer from './components/thank_you/thankYouContainer.vue'
 
 <template>
   <myheader />
-  <br>
+
   <main>
     <ceo />
-    <br>
+
     <teamMember />
-    <br>
+
     <digitalContainer />
-    <br>
+
     <dzContainer />
-    <br>
+
     <prContainer />
-    <br>
+
     <wcContainer />
     <awards />
     <EvetnsContainer />
