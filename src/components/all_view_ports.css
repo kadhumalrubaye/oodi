@@ -1,23 +1,23 @@
-/* Small screens (up to 576px) */
-@media (max-width: 576px) {
+/* The mobile-first pre-defined media queries: */
 
-  
-}
+/* @media (  width < 475px){} */
+/* @media(width >= 600px){} */
 
-/* Medium screens (577px to 768px) */
-@media (min-width: 577px) and (max-width: 768px) {
 
- 
-}
+/* xs */
+@media (min-width: 475px) {}
 
-/* Large screens (769px to 992px) */
-@media (min-width: 769px) and (max-width: 992px) {
+/* sm */
+@media (min-width: 640px) {}
 
-   
-}
+/* md */
+@media (min-width: 768px) {}
 
-/* Extra-large screens (wider than 992px) */
-@media (min-width: 993px) {
+/* lg */
+@media (min-width: 1024px) {}
 
-  
-}
+/* xl */
+@media (min-width: 1280px) {}
+
+/* 2xl */
+@media (min-width: 1536px) {}

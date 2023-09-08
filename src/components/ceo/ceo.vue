@@ -1,18 +1,19 @@
 <template>
     <div id="ceoContainer" class="container" :style="{ 'background-image': 'url(' + background + ') ' }">
         <div class="row text-center">
-            <AliAliZahid />
-            <DanielToran />
+            <div class="row mt-5">
+                <ceoCard />
+            </div>
         </div>
     </div>
 </template>
   
 <script lang="ts">
 
-import AliAliZahid from './AliAliZahid.vue';
-import image from './../../assets/img/Group2276.png'
-import DanielToran from './DanielToran.vue';
 
+import image from './../../assets/img/Group2276.png'
+
+import ceoCard from './ceoCard.vue';
 
 
 
@@ -24,8 +25,8 @@ export default {
     },
     components: {
 
-        AliAliZahid,
-        DanielToran
+        ceoCard,
+
 
 
     },
@@ -36,7 +37,8 @@ export default {
 #ceoContainer {
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: top;
+    background-size: 1000px;
 }
 </style>
   
