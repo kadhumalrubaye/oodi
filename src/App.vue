@@ -7,6 +7,9 @@ import dzContainer from './components/digital_zone/dzContainer.vue';
 import prContainer from './components/product_roadmap/prContainer.vue'
 import wcContainer from './components/whatis_coursera/wcContainer.vue'
 import awards from './components/awards/awardsContainer.vue'
+import EvetnsContainer from './components/events/evetnsContainer.vue';
+
+
 
 
 
@@ -27,8 +30,9 @@ import awards from './components/awards/awardsContainer.vue'
     <prContainer />
     <br>
     <wcContainer />
-    <br>
     <awards />
+    <EvetnsContainer />
+
   </main>
 </template>
 
