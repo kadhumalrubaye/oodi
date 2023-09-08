@@ -1,5 +1,5 @@
 <template>
-    <div class="col  ">
+    <div class="col-sm-12 col-md-6  ">
         <div class="card justify-content-center align-items-center align-content-center "
             style="border-style: none; background: rgba(255,255,255,0);">
             <div class=" bg-light border rounded-circle border-5 border-light d-inline float-start justify-content-xxl-center align-items-xxl-center"
@@ -10,12 +10,12 @@
             </div>
 
 
-            <div class=" card-body   p-5" style="background-color: #5B0AD9; border-radius: 110px; padding: 10px;">
-                <h5 class=" c<ceo />ard-title" style="margin-top: 70px; color: white">Daniel Turan</h5>
-                <h6 class=" card-subtitle" style="margin-top: 4px; color: #6BDD6B">Chief Digital Office</h6>
-                <p class=" card-text  ">
+            <div class=" card-body  " style="background-color: #5B0AD9; border-radius: 110px; padding: 10px;">
+                <h4 class=" card-title text-light mt-5">Ali Al-Zahid</h4>
+                <h5 class=" card-subtitle mt-2 mb-3">Chief Executive Officer </h5>
+                <p class=" card-text ps-2 pe-2   ">
                     {{ AliAliZahid }}
-                    <br>
+
                 </p>
                 <h6>
                     Wishing you all afantastic quarter ahead!
@@ -31,7 +31,8 @@
 <script lang="ts">
 
 import AliAlZahidImg from '../../assets/img/AliAl-Zahid.png'
-import { AliAliZahid } from './../../dumpCeoDesc'
+import { AliAliZahid } from '../../dumpCeoDesc';
+
 export default {
     data: function () {
         return {
@@ -46,9 +47,61 @@ export default {
 </script>
   
 <style scoped>
+h5 {
+    color: #6BDD6B;
+}
+
 p,
 h6 {
     color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+h6 {
+    margin-bottom: 14%;
+}
+
+/* Small screens (up to 576px) */
+@media (max-width: 576px) {
+
+    p,
+    h6 {
+        font-size: 12px;
+    }
+}
+
+/* Medium screens (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+
+    p,
+    h6 {
+        font-size: 16px;
+    }
+
+    h6 {
+        margin-bottom: 20%;
+    }
+}
+
+/* Large screens (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+
+    p,
+    h6 {
+        font-size: 18px;
+    }
+}
+
+/* Extra-large screens (wider than 992px) */
+@media (min-width: 993px) {
+
+    p,
+    h6 {
+        font-size: 20px;
+    }
 }
 </style>
   
