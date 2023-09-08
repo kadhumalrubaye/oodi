@@ -93,52 +93,52 @@ p {
     line-height: normal;
 }
 
-@media only screen and (min-device-width: 768px) {
-
-
-
-    h1 {
-        font-size: 50px;
-    }
+/* Small screens (up to 576px) */
+@media (max-width: 576px) {
 
     p {
-        font-size: 15px;
-
-
+        font-size: 10px;
     }
 
-    h3 {
-        font-size: 20px;
+    h1 {
+        font-size: 30px;
     }
 
-    .container {
-        background-size: contain;
+    img {
+        max-width: 60%;
     }
 }
 
-@media only screen and (max-device-width: 768px) {
-
-    #oodiLogo {
-        max-width: 75%;
-        margin-left: 20px;
+/* Medium screens (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+    p {
+        font-size: 20px;
     }
 
     h1 {
         font-size: 50px;
     }
 
-    p {
-        font-size: 15px;
-
-
+    img {
+        max-width: 60%;
     }
+}
 
-    h3 {
+/* Large screens (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+    p {
         font-size: 20px;
     }
 
-    .container {
-        background-size: contain;
+    img {
+        max-width: 50%;
+    }
+
+    h1 {
+        font-size: 50px;
     }
 }
+
+/* Extra-large screens (wider than 992px) */
+@media (min-width: 993px) {}
 </style>
