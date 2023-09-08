@@ -14,7 +14,7 @@ import ceoImage1 from './../../assets/img/ava2.png'
 import { desc } from '../../dumpCeoDesc'
 
 const ceoImages: string[] = [];
-for (let i = 0; i < 45; i++) {
+for (let i = 0; i < 20; i++) {
     ceoImages.push(ceoImage1);
 }
 export default {
