@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <div class=" container " style="   background-color: #6BDD6B;">
+        <div class=" row " style="   background-color: #6BDD6B;">
             <div class=" container" :style="{ 'background-image': 'url(' + dzImage + ') ' }">
                 <dzHeading />
 
@@ -70,6 +70,6 @@ div {
 
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: right top;
 }
 </style>

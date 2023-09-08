@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container  mt-5">
 
         <h1>
 
@@ -49,15 +49,17 @@ h2 {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 45px;
+        text-align: center;
+        font-size: 40px;
     }
 
     h2 {
+        text-align: center;
         -webkit-text-stroke: 2px #6BDD6B;
         /* WebKit browsers (Safari) */
         color: #fff;
         color: #5B0AD9;
-        font-size: 50px;
+        font-size: 38px;
     }
 }
 

@@ -113,7 +113,7 @@ p {
         text-align: center;
         color: #6BDD6B;
 
-        font-size: 40px;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -125,26 +125,27 @@ p {
         /* WebKit browsers (Safari) */
         color: #fff;
 
-        font-size: 45px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
 
     h3 {
-        text-align: center;
+        text-align: right;
         color: #5B0AD9;
 
-        font-size: 35px;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+
     }
 
     h4 {
         color: #6EDD6E;
 
-        font-size: 20px;
+        font-size: 18px;
         font-style: italic;
         font-weight: 400;
         line-height: normal;

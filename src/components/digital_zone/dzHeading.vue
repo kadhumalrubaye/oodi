@@ -1,10 +1,10 @@
 <template>
     <br>
-    <div class="row">
-        <h1 class="text-sm">
+    <div class="   container ">
+        <h1>
             <span>DIGITAL </span> @ ZAIN
         </h1>
-        <h2 class="text-sm">
+        <h2>
             DID YOU KNOW?
         </h2>
 
@@ -21,47 +21,53 @@ export default {
 </script>
 
 <style scoped>
-/* Default styles for larger screens */
 h1,
-h2,
-h3,
-h4 {
+h2 {
     color: #5B0AD9;
     font-family: Inter;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    font-size: 80px;
+
+}
+
+h1 {
     text-align: center;
 }
 
-h1 span,
-h3 span {
+h2 {
+    text-align: right;
+
+}
+
+h1 span {
     -webkit-text-stroke: 5px #ffff;
     color: #6BDD6B;
 }
 
-h1,
-h2 {
-    font-size: 80px;
-}
 
-h3,
-h4 {
-    font-size: 27.802px;
-    margin-left: 50px;
-}
+
+
 
 /* Styles for tablet-sized screens (between 768px and 1024px) */
 @media (max-width: 768px) {
+    .container {}
+
     h1 {
-        font-size: 30px;
+        font-size: 35px;
         text-align: center;
+        margin-left: 0px;
 
     }
 
     h1 span {
-        font-size: 30px;
+        font-size: 35px;
 
+
+        -webkit-text-stroke: 2px #fff;
+        /* WebKit browsers (Safari) */
+        color: #6BDD6B;
 
     }
 
@@ -69,7 +75,7 @@ h4 {
 
 
     h2 {
-        text-align: center;
+        text-align: right;
         -webkit-text-stroke: 1px #6BDD6B;
         /* WebKit browsers (Safari) */
         color: #fff;

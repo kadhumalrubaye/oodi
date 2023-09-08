@@ -71,6 +71,7 @@ export default defineComponent({
     background-color: #5B0AD9;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: bottom;
 }
 
 
