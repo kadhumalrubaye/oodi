@@ -5,7 +5,7 @@
                 <div class="row">
 
                     <div class="row  ">
-                        <div id="oodImgCol" class="col-xl-3 col-xxl-3 outSideCol">
+                        <div id="oodImgCol" class="col-xl-3 col-xxl-3">
                             <picture><img class="image-fluid" :src="img1" style="position: relative;" width="354" />
                             </picture>
                         </div>
@@ -20,25 +20,10 @@
                             </p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div id="digitalServiceImg" class="col-xl-3 col-xxl-3">
-                            <picture><img class="d-xl-flex justify-content-xl-end align-items-xl-end" :src="img2"
-                                    style="width: 354px;height: 228px;position: relative;transform: translate(-34px) translateY(-42px);"
-                                    width="354" height="228" /></picture>
-                        </div>
-                        <div class="col digitalServiceText" id="digitalServiceText">
-                            <p>
-                                Accomplished excellent growth in total <br>
-                                revenues during the past year <br>
-                                Significant contribution to total revenues<br>
-                                Effective contribution to net revenues</p>
-                        </div>
 
-                    </div>
                     <div class="row">
                         <div id="eSportsImgCol" class="col-xl-3 col-xxl-3">
-                            <picture><img :src="img3" style="width: 354px;height: 228px;position: relative;" width="354"
-                                    height="228" />
+                            <picture><img :src="img2" width="354" />
                             </picture>
                         </div>
                         <div class="col digitalServiceText" id="digitalServiceText">
@@ -48,17 +33,28 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div id="digitalFactoryImgCol" class="col-xl-3 col-xxl-3 outSideCol">
-                            <picture><img id="digitalFactoryImg" :src="img4"
-                                    style="width: 354px;height: 228px;position: relative; " width="354" />
+                        <div id="eSportsImgCol" class="col-xl-3 col-xxl-3">
+                            <picture><img :src="img3" width="354" />
                             </picture>
                         </div>
-                        <div id="digitalFactoryTextCol" class="col">
-                            <p>Developed 4 new
-                                Digital Assets in the last year <br> Launched the Zain-Fi application enabling customers to
-                                seamlessly <br> manage their Zain-Fi accounts and devices</p>
+                        <div class="col digitalServiceText" id="digitalServiceText">
+                            <p>
+                                Hosted 20+ tournaments<br>
+                                Welcomed 3k+ participants <br> Awarded $80k in prizes</p>
                         </div>
                     </div>
+                    <div class="row">
+                        <div id="eSportsImgCol" class="col-xl-3 col-xxl-3">
+                            <picture><img :src="img4" width="354" />
+                            </picture>
+                        </div>
+                        <div class="col digitalServiceText" id="digitalServiceText">
+                            <p>
+                                Hosted 20+ tournaments<br>
+                                Welcomed 3k+ participants <br> Awarded $80k in prizes</p>
+                        </div>
+                    </div>
+
 
 
                 </div>
@@ -139,6 +135,10 @@ p {
 
         font-size: 10px;
 
+    }
+
+    img {
+        max-width: 300px;
     }
 }
 

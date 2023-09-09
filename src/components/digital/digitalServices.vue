@@ -1,7 +1,7 @@
 <template>
     <div class="container align-content-center justify-content-center text-center align-self-center">
-        <div class="row">
-            <div class="col-sm-12 col-md-6  " style="margin-top: 50px">
+        <div class="row " style="margin-top: 50px">
+            <div class="col-sm-12 col-md-6  ">
 
                 <div>
                     <img class="img-fluid" :src="img1" width="500">
