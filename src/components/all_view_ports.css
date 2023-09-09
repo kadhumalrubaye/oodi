@@ -1,23 +1,27 @@
-/* The mobile-first pre-defined media queries: */
 
-/* @media (  width < 475px){} */
-/* @media(width >= 600px){} */
+@media (min-width: 320px) {
+ 
+}
 
+@media (min-width: 425px) {
+  
+}
 
-/* xs */
-@media (max-width: 475px) {}
+@media (min-width: 768px) {
+ 
 
-/* sm */
-@media (min-width: 640px) {}
+}
 
-/* md */
-@media (min-width: 768px) {}
+@media (min-width: 992px) {
+ 
 
-/* lg */
-@media (min-width: 1024px) {}
+}
 
-/* xl */
-@media (min-width: 1280px) {}
+@media (min-width: 1024px) {
+   
+}
 
-/* 2xl */
-@media (min-width: 1536px) {}
+ 
+@media (min-width: 1200px) {
+  
+}

@@ -160,6 +160,7 @@ p {
 
     #weAreZainText {
         display: block;
+        margin-top: 50%;
     }
 
     #weAreZainText h1 {
@@ -210,10 +211,7 @@ p {
     }
 }
 
-/* xl */
 
-
-/* 2xl */
 @media (min-width: 1200px) {
     #weAreZainText {
         margin-top: 170px;
