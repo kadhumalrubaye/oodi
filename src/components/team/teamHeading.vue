@@ -46,42 +46,111 @@ h2 {
 }
 
 
-/* xs */
-@media (min-width: 475px) {}
 
-/* sm */
-@media (width<=640px) {
 
-    h1,
+@media (min-width: 320px) {
+    h1 {
+        color: #5B0AD9;
+        font-family: Inter;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
     h2 {
-        font-size: 2.5rem;
+        -webkit-text-stroke: 2px #6BDD6B;
+        /* WebKit browsers (Safari) */
+        color: #fff;
+        color: #5B0AD9;
+
+        font-family: Inter;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: right;
+    }
+
+}
+
+@media (min-width: 425px) {
+    h1 {
+        color: #5B0AD9;
+        font-family: Inter;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    h2 {
+        -webkit-text-stroke: 2px #6BDD6B;
+        /* WebKit browsers (Safari) */
+        color: #fff;
+        color: #5B0AD9;
+
+        font-family: Inter;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: right;
     }
 }
 
-/* md */
 @media (min-width: 768px) {
+    h1 {
+        color: #5B0AD9;
+        font-family: Inter;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
 
-    h1,
     h2 {
-        font-size: 4rem;
+        -webkit-text-stroke: 2px #6BDD6B;
+        /* WebKit browsers (Safari) */
+        color: #fff;
+        color: #5B0AD9;
+
+        font-family: Inter;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: right;
     }
 }
 
-/* lg */
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
+    h1 {
+        color: #5B0AD9;
+        font-family: Inter;
+        font-size: 90px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
 
-    h1,
     h2 {
-        font-size: 5rem;
+        -webkit-text-stroke: 3px #6BDD6B;
+        /* WebKit browsers (Safari) */
+        color: #fff;
+        color: #5B0AD9;
+
+        font-family: Inter;
+        font-size: 90px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: right;
     }
 }
 
-/* xl */
-@media (width>=1280px) {
+@media (min-width: 1024px) {}
 
-    h1,
-    h2 {
-        font-size: 7rem;
-    }
-}
+
+@media (min-width: 1200px) {}
 </style>
