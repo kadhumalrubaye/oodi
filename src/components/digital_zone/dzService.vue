@@ -91,9 +91,7 @@ export default {
 }
 </script>
 <style scoped>
-img {
-    margin-left: -50px;
-}
+img {}
 
 
 #weAreZainText {
@@ -115,7 +113,6 @@ img {
 
 p {
     color: #5B0AD9;
-    font-size: 20px;
 
 
 
@@ -133,12 +130,12 @@ p {
         color: #5B0AD9;
         text-align: left;
 
-        font-size: 10px;
+        font-size: 15px;
 
     }
 
     img {
-        max-width: 100%;
+        max-width: 75%;
     }
 }
 
@@ -151,7 +148,7 @@ p {
         color: #5B0AD9;
         text-align: left;
 
-        font-size: 10px;
+        font-size: 20px;
 
     }
 }
@@ -167,16 +164,18 @@ p {
         font-size: 70px;
     }
 
-
     p {
 
         color: #5B0AD9;
         text-align: left;
 
-        font-size: 15px;
+        font-size: 20px;
 
     }
 
+    img {
+        max-width: 50%;
+    }
 }
 
 @media (min-width: 992px) {
@@ -214,16 +213,20 @@ p {
 
 @media (min-width: 1200px) {
     #weAreZainText {
-        margin-top: 170px;
+        margin-top: 130px;
     }
 
     #weAreZainText h1 {
-        font-size: 90px;
+        font-size: 60px;
     }
 
     p {
-        font-size: 25px;
+        font-size: 20px;
         margin-left: -30px;
+    }
+
+    img {
+        max-width: 100%;
     }
 }
 </style>
