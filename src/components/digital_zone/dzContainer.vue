@@ -50,26 +50,24 @@ export default {
 </script>
 
 <style scoped>
-@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
-
-
-    .halfCircleGreen {
-        width: 50;
-    }
-
-    .halfCircleWhite {
-        width: 30%;
-        margin-right: -6%;
-
-    }
-
-
-}
-
 div {
 
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right top;
 }
+
+
+@media (min-width: 320px) {}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1024px) {}
+
+
+@media (min-width: 1200px) {}
 </style>
