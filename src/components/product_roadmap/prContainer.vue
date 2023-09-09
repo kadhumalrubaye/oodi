@@ -33,5 +33,7 @@ export default {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left top;
+
+
 }
 </style>
