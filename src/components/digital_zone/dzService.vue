@@ -126,66 +126,104 @@ p {
 
 }
 
-
-
-
-@media (max-width: 768px) {
-
-    #dzRow {
-        text-align: center;
-        justify-content: center;
-
-    }
-
+@media (min-width: 320px) {
     #weAreZainText {
         display: none;
 
     }
-
-    .digitalServiceText {
-        margin-left: 0px;
-
-    }
-
-    #middleSection p {}
 
     p {
 
         color: #5B0AD9;
         text-align: left;
 
-        font-size: medium;
+        font-size: 10px;
 
     }
-
-
-
-
 }
 
-/*  Extra small devices (portrait phones, less than 576px) */
-/* // No media query for `xs` since this is the default in Bootstrap */
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
-
-/* // Medium devices (tablets, 768px and up) */
-@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+@media (min-width: 425px) {
     #weAreZainText {
-        margin-top: 80%;
+        display: none;
     }
 
-    h1 {
-        font-size: 70px;
-        /* Adjust the font size as needed */
+    p {
+        color: #5B0AD9;
+        text-align: left;
+
+        font-size: 10px;
+
     }
 }
 
+@media (min-width: 768px) {
+
+    #weAreZainText {
+        display: block;
+    }
+
+    #weAreZainText h1 {
+        font-size: 70px;
+    }
 
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+    p {
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+        color: #5B0AD9;
+        text-align: left;
+
+        font-size: 15px;
+
+    }
+
+}
+
+@media (min-width: 992px) {
+    #weAreZainText {
+        margin-top: 55%;
+        display: block;
+
+    }
+
+    #weAreZainText h1 {
+        font-size: 70px;
+    }
+
+    p {
+
+        color: #5B0AD9;
+        text-align: left;
+
+        font-size: 30px;
+
+    }
+
+}
+
+@media (min-width: 1024px) {
+    #weAreZainText {
+        margin-top: 55%;
+        display: block;
+
+    }
+
+    #weAreZainText h1 {
+        font-size: 70px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {}
+
+/* 2xl */
+@media (min-width: 1440px) {
+    #weAreZainText {
+        margin-top: 170px;
+    }
+
+    #weAreZainText h1 {
+        font-size: 90px;
+    }
+}
 </style>
+ 

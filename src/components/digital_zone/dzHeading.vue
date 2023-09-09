@@ -47,44 +47,59 @@ h1 span {
 }
 
 
+/* xs */
+/* xs */
+@media (max-width: 475px) {
 
-
-
-/* Styles for tablet-sized screens (between 768px and 1024px) */
-@media (max-width: 768px) {
-    .container {}
-
-    h1 {
-        font-size: 35px;
-        text-align: center;
-        margin-left: 0px;
-
+    h1,
+    h2 {
+        font-size: 2rem;
     }
 
     h1 span {
-        font-size: 35px;
-
-
-        -webkit-text-stroke: 2px #fff;
-        /* WebKit browsers (Safari) */
+        -webkit-text-stroke: 2px #ffff;
         color: #6BDD6B;
-
     }
-
-
-
-
-    h2 {
-        text-align: right;
-        -webkit-text-stroke: 1px #6BDD6B;
-        /* WebKit browsers (Safari) */
-        color: #fff;
-        color: #5B0AD9;
-        font-size: 30px;
-    }
-
-
 }
 
-@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {}
+/* sm */
+@media (min-width:640px) {
+
+    h1,
+    h2 {
+        font-size: 2rem;
+    }
+
+    h1 span {
+        -webkit-text-stroke: 2px #ffff;
+        color: #6BDD6B;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+
+    h1,
+    h2 {
+        font-size: 3.5rem;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+    h1,
+    h2 {
+        font-size: 4rem;
+    }
+}
+
+/* xl */
+@media (width>=1280px) {
+
+    h1,
+    h2 {
+        font-size: 7rem;
+    }
+}
 </style>
