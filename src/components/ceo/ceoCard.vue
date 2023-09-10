@@ -100,5 +100,12 @@ p {
     text-align: justify;
     font-size: 3vmin;
 }
+
+@media (min-width: 768px) {
+
+    p {
+        font-size: 1.5vmin;
+    }
+}
 </style>
   
