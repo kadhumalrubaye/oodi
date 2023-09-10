@@ -98,7 +98,7 @@ h6 {
 
 p {
     text-align: justify;
-    font-size: 2vmin;
+    font-size: 3vmin;
 }
 </style>
   
