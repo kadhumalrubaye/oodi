@@ -100,4 +100,25 @@ h1 {
 .container {
     background-color: #6BDD6B;
 }
+
+@media (min-width: 320px) {
+    img {
+        display: none;
+    }
+}
+
+@media (min-width: 425px) {
+    img {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1024px) {}
+
+
+@media (min-width: 1200px) {}
 </style>
