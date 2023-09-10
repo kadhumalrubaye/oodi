@@ -143,7 +143,7 @@ p {
 
     #weAreZainText {
         display: block;
-        margin-top: 70%;
+        margin-top: 60%;
     }
 
     #weAreZainText h1 {
@@ -154,7 +154,7 @@ p {
 
         color: #5B0AD9;
         text-align: left;
-
+        font-size: 2vmin;
 
 
     }
@@ -179,6 +179,7 @@ p {
 
         color: #5B0AD9;
         text-align: left;
+        font-size: 3vmin;
 
 
 
