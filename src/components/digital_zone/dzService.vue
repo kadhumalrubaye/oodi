@@ -143,11 +143,11 @@ p {
 
     #weAreZainText {
         display: block;
-        margin-top: 50%;
+        margin-top: 70%;
     }
 
     #weAreZainText h1 {
-        font-size: 70px;
+        font-size: 8vmin;
     }
 
     p {
