@@ -51,20 +51,17 @@ export default {
 p {
     color: #5B0AD9;
     font-family: Inter;
-    font-size: 29.167px;
+
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    font-size: 3vmin;
+
+
 
 }
 
 img {
     flex-shrink: 0;
-}
-
-@media (max-width: 768px) {
-    p {
-        font-size: 15px;
-    }
 }
 </style>

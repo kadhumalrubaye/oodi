@@ -46,7 +46,8 @@
 
                 </p>
                 <h6>
-                    Wishing you all afantastic quarter ahead!
+                    Let us know what you <br>
+                    thinkdigital@iq.zain.com
 
                 </h6>
             </div>
@@ -77,8 +78,13 @@ export default {
 </script>
 
 <style scoped>
+h4 {
+    font-size: 6vmin;
+}
+
 h5 {
     color: #6BDD6B;
+    font-size: 4vmin;
 }
 
 p,
@@ -86,40 +92,13 @@ h6 {
     color: white;
 }
 
+h6 {
+    font-size: 3vmin;
+}
+
 p {
     text-align: justify;
+    font-size: 3vmin;
 }
-
-/* xs */
-@media (width<=475px) {
-    p {
-        font-size: 0.7rem;
-    }
-}
-
-/* sm */
-@media (min-width: 640px) {}
-
-/* md */
-@media (min-width: 768px) {
-    p {
-        font-size: 0.7rem;
-    }
-
-
-}
-
-/* lg */
-@media (min-width: 1024px) {
-    p {
-        font-size: 1rem;
-    }
-}
-
-/* xl */
-@media (min-width: 1280px) {}
-
-/* 2xl */
-@media (min-width: 1536px) {}
 </style>
   

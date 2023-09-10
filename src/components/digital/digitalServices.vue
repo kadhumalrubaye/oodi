@@ -1,5 +1,5 @@
 <template>
-    <div class="container align-content-center justify-content-center text-center align-self-center">
+    <div class=" row align-content-center justify-content-center text-center align-self-center">
         <div class="row " style="margin-top: 50px">
             <div class="col-sm-12 col-md-6  ">
 
@@ -56,3 +56,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+p {
+    font-size: 3vmin;
+}
+</style>

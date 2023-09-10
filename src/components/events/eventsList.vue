@@ -136,7 +136,7 @@ export default defineComponent({
 h2 {
     color: #5B0AD9;
     font-family: Inter;
-    font-size: 41.667px;
+    font-size: 6vmin;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -145,7 +145,7 @@ h2 {
 h3 {
     color: #6BDD6B;
     font-family: Inter;
-    font-size: 33.333px;
+    font-size: 5vmin;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -154,7 +154,7 @@ h3 {
 p {
     color: #58595B;
     font-family: Inter;
-    font-size: 29.167px;
+    font-size: 3vmin;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -163,19 +163,9 @@ p {
 @media only screen and (min-device-width: 768px) {}
 
 @media only screen and (max-device-width: 768px) {
-    h2 {
-        font-size: 25px;
-    }
-
-    h3 {
-        font-size: 15px;
 
 
-    }
 
-    p {
-        font-size: 10px;
-    }
 
     img {
         max-width: 300px;

@@ -1,5 +1,5 @@
 <template>
-    <div class="container p-5" :style="{ 'background-image': 'url(' + thankYouImgBg + ') ' }">
+    <div class="container p-3" :style="{ 'background-image': 'url(' + thankYouImgBg + ') ' }">
         <h1>
             THANK YOU
         </h1>
@@ -78,7 +78,7 @@ export default defineComponent({
 h1 {
     color: #FFF;
 
-    font-size: 110.402px;
+    font-size: 10vmin;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -87,22 +87,17 @@ h1 {
 p {
     color: #F9FDF9;
 
-    font-size: 29.167px;
+
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    font-size: 3vmin;
 }
 
 /* Small screens (up to 576px) */
 @media (max-width: 576px) {
 
-    p {
-        font-size: 10px;
-    }
 
-    h1 {
-        font-size: 30px;
-    }
 
     img {
         max-width: 60%;
@@ -111,13 +106,9 @@ p {
 
 /* Medium screens (577px to 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
-    p {
-        font-size: 20px;
-    }
 
-    h1 {
-        font-size: 50px;
-    }
+
+
 
     img {
         max-width: 60%;
@@ -126,17 +117,13 @@ p {
 
 /* Large screens (769px to 992px) */
 @media (min-width: 769px) and (max-width: 992px) {
-    p {
-        font-size: 20px;
-    }
+
 
     img {
         max-width: 50%;
     }
 
-    h1 {
-        font-size: 50px;
-    }
+
 }
 
 /* Extra-large screens (wider than 992px) */

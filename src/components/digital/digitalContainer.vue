@@ -1,7 +1,10 @@
 <template>
-    <digitalHeading />
-    <br>
-    <digitalServices />
+    <div class="container">
+        <digitalHeading />
+
+        <digitalServices />
+
+    </div>
 </template>
 
 <script lang="ts" >

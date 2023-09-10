@@ -62,8 +62,7 @@ img {
 
 }
 
-/* for phone */
-@media (max-width: 768px) {}
+
 
 img {
     display: none;
@@ -72,7 +71,7 @@ img {
 h3 {
     color: #5B0AD9;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 5vmin;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -83,7 +82,7 @@ div p {
 
     color: #5B0AD9;
     font-family: Inter;
-    font-size: 15px;
+    font-size: 3vmin;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -92,29 +91,13 @@ div p {
 
 h1 {
     text-align: center;
-    -webkit-text-stroke: 1px #5B0AD9;
+    -webkit-text-stroke: 0.5vmin #5B0AD9;
     /* WebKit browsers (Safari) */
     color: #fff;
 
-    font-size: 40px;
+    font-size: 10vmin;
 }
 
-/* for tablet */
-@media only screen and (min-device-width: 768px) {
-    img {
-        margin: 0;
-        display: block;
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 50px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-}
 
 .container {
     background-color: #6BDD6B;

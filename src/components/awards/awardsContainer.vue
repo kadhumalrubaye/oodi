@@ -5,13 +5,13 @@
         <div class="row text-center">
             <h1>2023</h1>
             <h2>AWARDS</h2>
-            <h5>
+            <p>
                 Zain Iraq Digital Services team won the award for the Most
                 <br>
                 <strong>
                     Disruptive Operator in Zain Group Annual Digital Forum 2023.
                 </strong>
-            </h5>
+            </p>
         </div>
         <div class="row"></div>
     </div>
@@ -51,7 +51,7 @@ img {
     margin-bottom: -25%;
 }
 
-h5 {
+p {
     color: #FFF;
 
     font-size: 29.167px;
@@ -78,25 +78,26 @@ h2 {
     line-height: normal;
 }
 
+
 /* for phone */
 @media only screen and (max-device-width: 768px) {
     img {
         max-width: 20%;
-        margin-top: 8%;
+        margin-top: 35%;
         padding: 0%;
     }
 
     #awardCup {
         max-width: 20%;
-        margin-top: 8%;
+        margin-top: 0%;
         padding: 0%;
     }
 
-    /* #dizleeCup {
-        max-width: 20%;
-        margin-top: 20%;
+    #dizleeCup {
+        max-width: 15%;
+        margin-top: 0%;
         padding: 0%;
-    } */
+    }
 
     h1 {
         font-size: 50px;
@@ -106,7 +107,7 @@ h2 {
         font-size: 40px;
     }
 
-    h5 {
+    p {
         font-size: 10px;
         text-align: center;
 
@@ -134,3 +135,4 @@ h2 {
     }
 }
 </style>
+<style></style>

@@ -92,7 +92,7 @@ h3 {
 h4 {
     color: #6EDD6E;
 
-    font-size: 56.501px;
+    font-size: 50px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
@@ -101,7 +101,7 @@ h4 {
 p {
     color: #5B0AD9;
     font-family: Inter;
-    font-size: 29.167px;
+
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -113,7 +113,7 @@ p {
         text-align: center;
         color: #6BDD6B;
 
-        font-size: 30px;
+        font-size: 12vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -125,7 +125,7 @@ p {
         /* WebKit browsers (Safari) */
         color: #fff;
 
-        font-size: 40px;
+        font-size: 10vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -135,7 +135,7 @@ p {
         text-align: right;
         color: #5B0AD9;
 
-        font-size: 30px;
+        font-size: 10vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -145,7 +145,7 @@ p {
     h4 {
         color: #6EDD6E;
 
-        font-size: 18px;
+        font-size: 5.5vmin;
         font-style: italic;
         font-weight: 400;
         line-height: normal;
@@ -155,7 +155,7 @@ p {
         text-align: left;
         color: #5B0AD9;
         font-family: Inter;
-        font-size: 15px;
+        font-size: 3vmin;
         font-style: normal;
         font-weight: 400;
         line-height: normal;

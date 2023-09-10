@@ -28,8 +28,10 @@
                         </div>
                         <div class="col digitalServiceText" id="digitalServiceText">
                             <p>
-                                Hosted 20+ tournaments<br>
-                                Welcomed 3k+ participants <br> Awarded $80k in prizes</p>
+                                Accomplished excellent growth in total <br>
+                                revenues during the past year <br>
+                                Significant contribution to total revenues<br>
+                                Effective contribution to net revenues</p>
                         </div>
                     </div>
                     <div class="row">
@@ -49,9 +51,10 @@
                             </picture>
                         </div>
                         <div class="col digitalServiceText" id="digitalServiceText">
-                            <p>
-                                Hosted 20+ tournaments<br>
-                                Welcomed 3k+ participants <br> Awarded $80k in prizes</p>
+
+                            <p>Developed 4 new
+                                Digital Assets in the last year Launched the Zain-Fi application enabling customers to
+                                seamlessly manage their Zain-Fi accounts and devices</p>
                         </div>
                     </div>
 
@@ -94,6 +97,7 @@ export default {
 img {}
 
 
+
 #weAreZainText {
     color: #FFF;
     font-family: Inter;
@@ -113,8 +117,7 @@ img {}
 
 p {
     color: #5B0AD9;
-
-
+    font-size: 3vmin;
 
 
 }
@@ -122,15 +125,6 @@ p {
 @media (min-width: 320px) {
     #weAreZainText {
         display: none;
-
-    }
-
-    p {
-
-        color: #5B0AD9;
-        text-align: left;
-
-        font-size: 15px;
 
     }
 
@@ -142,14 +136,6 @@ p {
 @media (min-width: 425px) {
     #weAreZainText {
         display: none;
-    }
-
-    p {
-        color: #5B0AD9;
-        text-align: left;
-
-        font-size: 20px;
-
     }
 }
 
@@ -169,7 +155,7 @@ p {
         color: #5B0AD9;
         text-align: left;
 
-        font-size: 20px;
+
 
     }
 
@@ -194,7 +180,7 @@ p {
         color: #5B0AD9;
         text-align: left;
 
-        font-size: 30px;
+
 
     }
 
@@ -204,6 +190,8 @@ p {
     #weAreZainText {
         margin-top: 50%
     }
+
+    p {}
 
     #weAreZainText h1 {
         font-size: 70px;
@@ -221,8 +209,8 @@ p {
     }
 
     p {
-        font-size: 20px;
-        margin-left: -30px;
+
+        margin-left: -50px;
     }
 
     img {

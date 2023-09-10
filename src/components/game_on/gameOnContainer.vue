@@ -91,7 +91,7 @@ export default defineComponent({
 h1 {
     color: #5B0AD9;
 
-    font-size: 110.402px;
+    font-size: 10vmin;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -100,7 +100,7 @@ h1 {
 h3 {
     color: #5B0AD9;
 
-    font-size: 41.667px;
+    font-size: 5vmin;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -109,7 +109,7 @@ h3 {
 p {
     color: #5B0AD9;
 
-    font-size: 29.167px;
+    font-size: 3vmin;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -119,17 +119,7 @@ p {
 
 @media only screen and (max-device-width: 768px) {
 
-    h1 {
-        font-size: 50px;
-    }
 
-    p {
-        font-size: 15px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
 
     .container {
         background-size: contain;
