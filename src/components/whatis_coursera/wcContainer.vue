@@ -55,7 +55,7 @@ export default {
 <style scoped>
 img {
 
-    margin-right: 20%;
+    margin-right: 10%;
     margin-top: 5%;
 
     float: right;
@@ -64,9 +64,7 @@ img {
 
 
 
-img {
-    display: none;
-}
+
 
 h3 {
     color: #5B0AD9;

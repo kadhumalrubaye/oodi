@@ -26,7 +26,7 @@ h1 {
     color: #5B0AD9;
     font-family: Inter;
 
-    font-size: 15vmin;
+    font-size: 10vmin;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
