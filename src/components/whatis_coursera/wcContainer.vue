@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="col">
-            <img :src="latptopImg" alt=" laptop img" width="300">
+            <img class=" img-fluid" :src="latptopImg" alt=" laptop img" width="300">
         </div>
         <div class="  pt-5">
             <h3>
