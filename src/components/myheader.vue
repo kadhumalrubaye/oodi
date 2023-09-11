@@ -25,4 +25,5 @@ export default {
 img {
     width: 1740.61px;
 }
-</style>
+</style>  
+<style></style>

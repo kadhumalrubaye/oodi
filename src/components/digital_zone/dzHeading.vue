@@ -45,4 +45,5 @@ h1 span {
     -webkit-text-stroke: 0.5vmin #ffff;
     color: #6BDD6B;
 }
-</style>
+</style>  
+<style></style>

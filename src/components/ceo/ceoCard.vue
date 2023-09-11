@@ -93,12 +93,14 @@ h6 {
 }
 
 h6 {
-    font-size: 3vmin;
+    font-size: 1.5vmin;
 }
 
 p {
     text-align: justify;
     font-size: 3vmin;
+
+
 }
 
 @media (min-width: 768px) {
@@ -110,5 +112,7 @@ p {
 
 
 }
-</style>
+</style>  
+<style></style>
+ 
   

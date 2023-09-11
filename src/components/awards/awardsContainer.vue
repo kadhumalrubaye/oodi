@@ -13,7 +13,7 @@
                 </strong>
             </p>
         </div>
-        <div class="row"></div>
+
     </div>
 </template>
 
@@ -134,5 +134,5 @@ h2 {
         font-size: smaller;
     }
 }
-</style>
+</style>  
 <style></style>

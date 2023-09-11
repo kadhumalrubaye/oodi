@@ -36,3 +36,5 @@ import thankYouContainer from './components/thank_you/thankYouContainer.vue'
 </template>
 
 <style scoped></style>
+ 
+  

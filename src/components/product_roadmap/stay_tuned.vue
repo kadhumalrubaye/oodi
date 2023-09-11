@@ -164,4 +164,5 @@ p {
 }
 
 @media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {}
-</style>
+</style>  
+<style></style>

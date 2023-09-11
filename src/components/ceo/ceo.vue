@@ -40,5 +40,8 @@ export default {
     background-position: top;
     background-size: 1000px;
 }
-</style>
+</style>  
+<style></style>
+
+ 
   

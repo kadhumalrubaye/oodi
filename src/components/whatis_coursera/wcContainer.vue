@@ -92,7 +92,7 @@ h1 {
     -webkit-text-stroke: 0.5vmin #5B0AD9;
     /* WebKit browsers (Safari) */
     color: #fff;
-
+    margin: 0%;
     font-size: 10vmin;
 }
 
@@ -137,4 +137,5 @@ h1 {
         display: block;
     }
 }
-</style>
+</style>  
+<style></style>

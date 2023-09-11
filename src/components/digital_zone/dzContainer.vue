@@ -70,4 +70,5 @@ div {
 
 
 @media (min-width: 1200px) {}
-</style>
+</style>  
+<style></style>
