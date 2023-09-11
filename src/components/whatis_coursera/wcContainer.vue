@@ -38,7 +38,7 @@
     </div>
 </template>
 
- 
+   
 <script lang="ts">
 import latptopImg from './../../assets/img/Laptop.png'
 
