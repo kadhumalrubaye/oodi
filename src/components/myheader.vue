@@ -11,12 +11,21 @@
 
 <script lang="ts">
 import image from "../assets/img/header.png"
+import VueLazyload from "vue-lazyload";
+
+
+
 
 export default {
     data: function () {
         return {
+
             headerImage: image
         }
+
+    },
+    components: {
+        VueLazyload,
     }
 }
 </script>
