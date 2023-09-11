@@ -28,7 +28,7 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    font-size: 10vmin;
+    font-size: 8vmin;
 
 }
 

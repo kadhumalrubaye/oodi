@@ -104,6 +104,7 @@ p {
 }
 
 @media (min-width: 768px) {
+
     h4 {
         font-size: 4vmin;
     }
