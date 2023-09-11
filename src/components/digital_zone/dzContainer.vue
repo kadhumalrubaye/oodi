@@ -11,6 +11,7 @@
             </div>
             <div class="col-sm-12 d-md-none ">
                 <div class="container">
+
                     <img id="halfCircleWhite" height="120" :src="halfCircleWhite"
                         style="margin-bottom: -100px;margin-left: -1px;" />
                     <img id="halfCircleGreen" :src="halfCircleGreen" height="50"
@@ -66,26 +67,45 @@ div {
 @media (min-width: 425px) {}
 
 @media (min-width: 768px) {
-
-
     #halfCircleGreen {
-
-        margin-left: -170px !important;
-
-        max-width: 15%;
-
+        display: none;
     }
 
     #halfCircleWhite {
-        max-width: 20%;
+        display: none;
+    }
+
+}
+
+@media (min-width: 992px) {
+    #halfCircleGreen {
+        display: none;
+    }
+
+    #halfCircleWhite {
+        display: none;
     }
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 1024px) {
+    #halfCircleGreen {
+        display: none;
+    }
 
-@media (min-width: 1024px) {}
+    #halfCircleWhite {
+        display: none;
+    }
+}
 
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    #halfCircleGreen {
+        display: none;
+    }
+
+    #halfCircleWhite {
+        display: none;
+    }
+}
 </style>  
 <style></style>
