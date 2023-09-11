@@ -113,12 +113,28 @@ h1 {
     }
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    img {
+        display: block;
+    }
+}
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    img {
+        display: block;
+    }
+}
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    img {
+        display: block;
+    }
+}
 
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    img {
+        display: block;
+    }
+}
 </style>
