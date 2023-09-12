@@ -1,8 +1,10 @@
 <template>
-    <div class=" container mt-3" :style="{ 'background-image': 'url(' + layar7 + ') ' }">
+    <div class="container" :style="{ 'background-image': 'url(' + layar7 + ') ' }">
+
         <PrHeainding />
         <prList />
         <stay_tuned />
+
     </div>
 </template>
 
@@ -33,6 +35,8 @@ export default {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left top;
+
+
 
 
 }

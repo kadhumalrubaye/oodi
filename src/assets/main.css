@@ -12,16 +12,3 @@
 }
 
 
-
-
-/* @font-face {
-  font-family: 'Inter';
-  src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf');
-
-} */
-
-@font-face {
-  font-family: 'MyInter';
-  src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf') format('woff2');
-  /* You may need to provide additional font formats here */
-}

@@ -4,17 +4,14 @@
 
 <template>
     <header>
-
-
-        <v-lazy-image src="http://lorempixel.com/400/200/" />
-
+        <img class="img-fluid object-fit-cover" :src="headerImage" width="1740.61px" alt="header" />
     </header>
 </template>
   
 
 <script lang="ts">
 import image from "../assets/img/header.png"
-import imageLazyLoading from "./util/imageLazyLoading.vue";
+
 
 
 
@@ -28,7 +25,7 @@ export default {
 
     },
     components: {
-        imageLazyLoading,
+
     }
 }
 </script>
