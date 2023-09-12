@@ -23,7 +23,7 @@ export default defineComponent({
 <style scoped>
 h1 {
     color: #5B0AD9;
-    font-family: Inter;
+
     font-size: 12vmin;
     font-style: normal;
     font-weight: 700;
@@ -32,7 +32,7 @@ h1 {
 
 h5 {
     color: #58595B;
-    font-family: Inter;
+
     font-size: 4vmin;
     font-style: normal;
     font-weight: 400;

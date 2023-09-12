@@ -68,7 +68,7 @@ img {
 
 h3 {
     color: #5B0AD9;
-    font-family: Inter;
+
     font-size: 5vmin;
     font-style: normal;
     font-weight: 400;
@@ -79,7 +79,7 @@ div p {
 
 
     color: #5B0AD9;
-    font-family: Inter;
+
     font-size: 3vmin;
     font-style: normal;
     font-weight: 400;

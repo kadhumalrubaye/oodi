@@ -25,8 +25,8 @@ span {
 
 h1 {
     color: #5B0AD9;
-    font-family: Inter;
-    font-family: Inter;
+
+
     font-size: 11vmin;
     font-style: normal;
     font-weight: 700;
@@ -37,7 +37,7 @@ h2 {
 
     color: #5B0AD9;
 
-    font-family: Inter;
+
     font-size: 8vmin;
     font-style: normal;
     font-weight: 700;

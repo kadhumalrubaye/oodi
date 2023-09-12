@@ -100,7 +100,7 @@ h4 {
 
 p {
     color: #5B0AD9;
-    font-family: Inter;
+
     font-size: 3vmin;
     font-style: normal;
     font-weight: 400;
@@ -154,7 +154,7 @@ p {
     p {
         text-align: left;
         color: #5B0AD9;
-        font-family: Inter;
+
         font-size: 3vmin;
         font-style: normal;
         font-weight: 400;

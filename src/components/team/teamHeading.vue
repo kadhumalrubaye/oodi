@@ -24,7 +24,7 @@ export default {
 <style scoped>
 h1 {
     color: #5B0AD9;
-    font-family: Inter;
+
 
     font-size: 10vmin;
     font-style: normal;
@@ -38,7 +38,7 @@ h2 {
     color: #fff;
     color: #5B0AD9;
 
-    font-family: Inter;
+
     font-size: 13vmin;
     font-style: normal;
     font-weight: 700;

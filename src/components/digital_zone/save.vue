@@ -101,7 +101,7 @@ img {
 
 #weAreZainText {
     color: #FFF;
-    font-family: Inter;
+
     font-size: 100px;
     font-style: normal;
     font-weight: 700;

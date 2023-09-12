@@ -24,7 +24,7 @@ export default {
 h1,
 h2 {
     color: #5B0AD9;
-    font-family: Inter;
+
     font-style: normal;
     font-weight: 700;
     line-height: normal;

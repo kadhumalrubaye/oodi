@@ -50,7 +50,7 @@ export default {
 <style scoped>
 p {
     color: #5B0AD9;
-    font-family: Inter;
+
 
     font-style: normal;
     font-weight: 400;
