@@ -20,8 +20,7 @@
 
                 </p>
                 <h6>
-                    Let us know what you <br>
-                    thinkdigital@iq.zain.com
+                   {{ ceo.footer }}
 
                 </h6>
             </div>
@@ -69,7 +68,7 @@ p,
 h6 {
     color: white;
     text-align: justify ;
-    font-size: 3vmin;
+    font-size: 2vmin;
 }
 
 
