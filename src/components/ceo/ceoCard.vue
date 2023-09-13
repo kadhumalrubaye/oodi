@@ -1,48 +1,22 @@
-<template>
-    <div class="col-sm-12 col-md-6 col-lg-6  ">
+<template >
+   
+
+    <div  v-for="ceo in ceos"  class="col-sm-12 col-md-6 col-lg-6"  >
         <div class="card justify-content-center align-items-center align-content-center "
             style="border-style: none; background: rgba(255,255,255,0);">
             <div class=" bg-light border rounded-circle border-5 border-light d-inline float-start justify-content-xxl-center align-items-xxl-center"
                 style="width: 130px; border: 8.5px solid var(--bs-indigo); position: relative; margin-bottom: -50px; height: 130px;">
                 <img alt="any"
                     class=" rounded-circle img-fluid border border-5   justify-content-center align-items-center align-self-center order-2"
-                    :src="AliAlZahidImg">
+                    :src="ceo.img">
             </div>
 
 
-            <div class=" card-body  " style="background-color: #5B0AD9; border-radius: 100px; padding: 10px;">
-                <h4 class=" card-title text-light mt-5">Ali Al-Zahid</h4>
-                <h5 class=" card-subtitle mt-2 mb-3">Chief Executive Officer </h5>
+            <div class=" card-body  " style="background-color: #5B0AD9; border-radius: 100px;">
+                <h4 class=" card-title text-light mt-5">{{ ceo.name }}</h4>
+                <h5 class=" card-subtitle mt-2 mb-3">{{ ceo.position }}</h5>
                 <p class=" card-text ps-2 pe-2   ">
-                    {{ AliAliZahid }}
-
-                </p>
-                <h6>
-                    Wishing you all afantastic quarter ahead!
-
-                </h6>
-            </div>
-
-
-        </div>
-    </div>
-
-    <div class="col-sm-12 col-md-6 col-lg-6 ">
-        <div class="card justify-content-center align-items-center align-content-center "
-            style="border-style: none; background: rgba(255,255,255,0);">
-            <div class=" bg-light border rounded-circle border-5 border-light d-inline float-start justify-content-xxl-center align-items-xxl-center"
-                style="width: 130px; border: 8.5px solid var(--bs-indigo); position: relative; margin-bottom: -50px; height: 130px;">
-                <img alt="any"
-                    class=" rounded-circle img-fluid border border-5   justify-content-center align-items-center align-self-center order-2"
-                    :src="DanielToranImg">
-            </div>
-
-
-            <div class=" card-body  " style="background-color: #5B0AD9; border-radius: 100px; padding: 10px;">
-                <h4 class=" card-title text-light mt-5"> Daniel Turan</h4>
-                <h5 class=" card-subtitle mt-2 mb-3">Chief Digital Officer</h5>
-                <p class=" card-text ps-2 pe-2   ">
-                    {{ DanielToran }}
+                    {{ ceo.msg }}
 
                 </p>
                 <h6>
@@ -59,21 +33,25 @@
 <script lang="ts">
 
 import AliAlZahidImg from '../../assets/img/AliAl-Zahid.png'
-import { AliAliZahid } from '../../dumpCeoDesc';
 import DanielToranImg from '../../assets/img/DanielToran.png'
-import { DanielToran } from '../../dumpCeoDesc';
+import {DanielToranModel,aliAliZahidModel } from '@/models/employee';
+DanielToranModel.img=DanielToranImg
+aliAliZahidModel.img=AliAlZahidImg
+const ceos ={DanielToranModel,aliAliZahidModel};
+
 export default {
+   
     data: function () {
         return {
 
-            AliAlZahidImg: AliAlZahidImg,
-            AliAliZahid: AliAliZahid,
-            DanielToranImg: DanielToranImg,
-            DanielToran: DanielToran,
+        ceos:ceos,
         }
 
+    },
+    computed :{
+     
     }
-    // Component logic here
+    
 };
 </script>
 
@@ -90,36 +68,24 @@ h5 {
 p,
 h6 {
     color: white;
+    text-align: justify ;
+    font-size: 3vmin;
 }
+
+
 
 h6 {
-    font-size: 1.5vmin;
-}
-
-p {
-    text-align: justify;
-    font-size: 3vmin;
-
+  
+text-align: center;
 
 }
 
-@media (min-width: 768px) {
-
-    h4 {
-        font-size: 4vmin;
-    }
-
-    h5 {
-        font-size: 3vmin;
-    }
-
-    p {
-        font-size: 1.5vmin;
-    }
 
 
 
-}
+
+
+  
 </style>  
 <style></style>
  

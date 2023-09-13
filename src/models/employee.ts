@@ -3,6 +3,7 @@ class EmployeeModel {
     name!: string;
     position!: string;
     msg!: string;
+    img!:string;
 }
 
 
