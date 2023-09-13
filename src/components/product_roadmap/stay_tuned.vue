@@ -32,7 +32,7 @@
             Learning is an online platform with video courses taught by experts, offering<br />personalized, on-demand
             learning for career advancement. Integrated with LinkedIn, <br />it allows users to showcase completed
             courses and skills on their profiles.
-         
+        
         </p>
 
         <p>
@@ -67,6 +67,7 @@ h1 {
     line-height: normal;
 }
 
+@supports (  -webkit-text-stroke: 0.8vmin #6BDD6B){
 h2 {
     text-align: left;
     -webkit-text-stroke: 2px #6BDD6B;
@@ -77,7 +78,7 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+}}
 
 h3 {
     text-align: right;
@@ -119,6 +120,7 @@ p {
         line-height: normal;
     }
 
+    @supports (  -webkit-text-stroke: 0.8vmin #6BDD6B){
     h2 {
         text-align: left;
         -webkit-text-stroke: 2px #6BDD6B;
@@ -129,7 +131,7 @@ p {
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-    }
+    }}
 
     h3 {
         text-align: right;

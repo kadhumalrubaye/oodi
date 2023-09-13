@@ -59,6 +59,7 @@ p {
     line-height: normal;
 }
 
+@supports (  -webkit-text-stroke: 0.8vmin #6BDD6B){
 h1 {
     -webkit-text-stroke: 2px #FFF;
     color: #5B0AD9;
@@ -67,7 +68,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+}}
 
 h2 {
     color: #FFF;
