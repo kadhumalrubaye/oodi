@@ -5,6 +5,10 @@
                 <ceoCard />
             </div>
         </div>
+        <div>
+            <img class="float-end img-fluid" :src="greenStarImg" style="text-align: right;margin-top:-30px;" width="78" height="80" />
+
+        </div>
     </div>
 </template>
   
@@ -12,8 +16,8 @@
 
 
 import image from './../../assets/img/Group2276.png'
-
 import ceoCard from './ceoCard.vue';
+import greenStarImg from './../../assets/img/greenstart.png'
 
 
 
@@ -21,24 +25,22 @@ export default {
     data: function () {
         return {
             background: image,
+            greenStarImg: greenStarImg,
         }
     },
     components: {
-
         ceoCard,
-
-
-
     },
 };
 </script>
   
 <style scoped>
 #ceoContainer {
+  
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: 1000px;
+    background-position: right;
+    
 }
 </style>  
 <style></style>

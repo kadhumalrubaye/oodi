@@ -23,9 +23,9 @@ export default {
 
 <style scoped>
 h1 {
+
+    
     color: #5B0AD9;
-
-
     font-size: 10vmin;
     font-style: normal;
     font-weight: 700;
@@ -34,16 +34,16 @@ h1 {
 
  
     h2 {
-        font-family: sans-serif;
+     
 
-    -webkit-text-stroke: 0.8vmin #6BDD6B;
+    -webkit-text-stroke: 0.4vmin #6BDD6B;
     
     /* WebKit browsers (Safari) */
   
     color: #5B0AD9;
 
 
-    font-size: 13vmin;
+    font-size: 10vmin;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

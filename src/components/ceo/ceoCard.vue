@@ -70,7 +70,7 @@ h6 {
     color: white;
     text-align: justify ;
     font-size: 3vmin;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  
 }
 
 
