@@ -32,13 +32,14 @@ h1 {
     line-height: normal;
 }
 
-@supports (  -webkit-text-stroke: 0.8vmin #6BDD6B){
+ 
     h2 {
+        font-family: sans-serif;
 
     -webkit-text-stroke: 0.8vmin #6BDD6B;
     
     /* WebKit browsers (Safari) */
-    color: #fff;
+  
     color: #5B0AD9;
 
 
@@ -48,6 +49,6 @@ h1 {
     line-height: normal;
     text-align: right;
 }
-}
+ 
 </style>  
 <style></style>
