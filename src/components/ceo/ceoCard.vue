@@ -14,7 +14,7 @@
 
             <div class=" card-body  " style="background-color: #5B0AD9; border-radius: 100px;">
                 <h4 class=" card-title text-light mt-5">{{ ceo.name }}</h4>
-                <h5 class=" card-subtitle mt-2 mb-3">{{ ceo.position }}</h5>
+                <h5 class=" card-subtitle mb-3">{{ ceo.position }}</h5>
                 <p class=" card-text ps-2 pe-2   ">
                     {{ ceo.msg }}
 
@@ -68,7 +68,7 @@ p,
 h6 {
     color: white;
     text-align: justify ;
-    font-size: 2vmin;
+    font-size: 3vmin;
 }
 
 
@@ -82,6 +82,59 @@ text-align: center;
 
 
 
+@media (min-width: 320px) {
+ 
+}
+
+@media (min-width: 425px) {
+  
+}
+
+@media (min-width: 768px) {
+    h4{
+    font-size: 3vmin;
+  }
+  h5{
+    font-size: 2.5vmin;
+  } p , h6{
+   
+    font-size: 2vmin;
+  
+  }
+
+}
+
+@media (min-width: 992px) {
+ 
+
+}
+
+@media (min-width: 1024px) {
+    h4{
+    font-size: 3vmin;
+  }
+  h5{
+    font-size: 2.5vmin;
+  } p , h6{
+   
+    font-size: 2vmin;
+  
+  } 
+}
+
+ 
+@media (min-width: 1200px) {
+  h4{
+    font-size: 3vmin;
+  }
+  h5{
+    font-size: 2.5vmin;
+  } p , h6{
+   
+    font-size: 2vmin;
+  
+  }
+}
 
 
   
