@@ -63,9 +63,8 @@ import profileImag44 from './../../assets/img/profile-pic-9.png'
 const imgs: string[] = [profileImag1, profileImag2, profileIma3, profileIma4, profileIma5, profileIma6, profileIma7, profileIma8, profileIma9,
 
     profileIma10, profileIma11, profileIma12, profileImag13, profileImag14, profileImag15, profileImag16, profileImag17, profileImag18, profileImag19,
-    profileImag20, profileImag21, profileImag22, profileImag23, profileImag24, profileImag25, profileImag26, profileImag27, profileImag28, profileImag29,
-    profileImag30, profileImag31, profileImag32, profileImag33, profileImag34, profileImag35, profileImag36, profileImag37, profileImag38, profileImag39, profileImag40,
-    profileImag40, profileImag41, profileImag42, profileImag43, profileImag44
+    profileImag20, profileImag22, profileImag23, profileImag24, profileImag25, profileImag26, profileImag27, profileImag28, profileImag29,
+    profileImag30, profileImag31, profileImag32, profileImag33, profileImag34, profileImag35, profileImag36, profileImag37, profileImag38, profileImag39, profileImag41, profileImag42, profileImag43, profileImag44
 
 
 ]
