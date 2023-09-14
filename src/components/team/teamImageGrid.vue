@@ -15,14 +15,12 @@
 <script lang="ts">
 
 import ceoImage1 from './../../assets/img/ava2.png'
+
 import { desc } from '../../dumpCeoDesc'
-import imgs from '../../assets/img/Profile_Pics/.png'
 
 
 const imgsPath = import.meta.glob('@/assets/img/Profile_Pics/*.png')
 console.log(imgsPath)
-
-
 
 
 

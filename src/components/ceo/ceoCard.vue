@@ -30,8 +30,8 @@
 </template>
 <script lang="ts">
 
-import AliAlZahidImg from '../../assets/img/AliAl-Zahid.png'
-import DanielToranImg from '../../assets/img/DanielToran.png'
+import AliAlZahidImg from '@/assets/img/AliAl-Zahid.png'
+import DanielToranImg from '@/assets/img/DanielToran.png'
 import { DanielToranModel, aliAliZahidModel } from '@/models/employee';
 DanielToranModel.img = DanielToranImg
 aliAliZahidModel.img = AliAlZahidImg
