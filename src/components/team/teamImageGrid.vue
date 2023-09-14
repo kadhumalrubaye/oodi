@@ -18,20 +18,7 @@ import { desc } from '../../dumpCeoDesc'
 import imgs from '../../assets/img/Profile_Pics/profile-pic-11.png'
 
 
-const imgsPath = import.meta.glob('@/assets/img/Profile_Pics/*.png')
-console.log(imgsPath)
 
-
-
-
-
-const ceoImages: string[] = [];
-for (const img in imgsPath) {
-    console.log(img);
-
-    ceoImages.push(img)
-
-}
 
 
 
@@ -50,12 +37,20 @@ export default {
 
     }, methods: {
         loadImages() {
-            // Use webpack's require.context to dynamically import images
-            const imageContext = zain_profile_pics;
+            const imgsPath = import.meta.glob('public/assets/img/Profile_Pics/*.png')
+            console.log(imgsPath)
 
 
-            // Get an array of all image filenames
-            this.images = imageContext;
+
+
+
+            const ceoImages: string[] = [];
+            for (const img in imgsPath) {
+                console.log(img);
+
+                ceoImages.push(img)
+
+            }
         }, created() {
             this.loadImages();
         },
