@@ -3,6 +3,7 @@
 <template>
     <div id="teamImageGridRow" class="row">
         <div v-for="img in ceoImages" class="col-lg-2 col-md-2 col-sm-4 col-6 mb-4">
+
             <img class="img-fluid" :src="img">
         </div>
         <!-- <div v-for="img in ceoImages" class="col-sm-2" :style="{ margin: 100 + 'px', }">
@@ -15,7 +16,7 @@
 
 import ceoImage1 from './../../assets/img/ava2.png'
 import { desc } from '../../dumpCeoDesc'
-import imgs from '../../assets/img/Profile_Pics/profile-pic-11.png'
+import imgs from '../../assets/img/Profile_Pics/.png'
 
 
 const imgsPath = import.meta.glob('@/assets/img/Profile_Pics/*.png')
