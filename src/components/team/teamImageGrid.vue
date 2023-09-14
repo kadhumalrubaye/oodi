@@ -64,7 +64,8 @@ const imgs: string[] = [profileImag1, profileImag2, profileIma3, profileIma4, pr
 
     profileIma10, profileIma11, profileIma12, profileImag13, profileImag14, profileImag15, profileImag16, profileImag17, profileImag18, profileImag19,
     profileImag20, profileImag22, profileImag23, profileImag24, profileImag25, profileImag26, profileImag27, profileImag28, profileImag29,
-    profileImag30, profileImag31, profileImag32, profileImag33, profileImag34, profileImag35, profileImag36, profileImag37, profileImag38, profileImag39, profileImag41, profileImag42, profileImag43, profileImag44
+    profileImag30, profileImag31, profileImag32, profileImag33, profileImag34, profileImag35, profileImag36, profileImag37, profileImag38, profileImag39,
+    profileImag41, profileImag42, profileImag43, profileImag44, profileImag40
 
 
 ]
@@ -74,7 +75,7 @@ import ceoImage1 from './../../assets/img/ava2.png'
 import { desc } from '../../dumpCeoDesc'
 
 
-const imgsPath = import.meta.glob('@/assets/img/Profile_Pics/*.png')
+const imgsPath = import.meta.glob('./../../assets/img/Profile_Pics/*.png')
 console.log(imgsPath)
 
 
@@ -98,7 +99,8 @@ export default {
             ceoDesc: desc,
             ceoImages: ceoImages,
             images: [],
-            imgs: imgs
+            imgs: imgs,
+            imgsPath: imgsPath,
 
         }
 
