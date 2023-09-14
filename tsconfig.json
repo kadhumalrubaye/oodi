@@ -1,7 +1,8 @@
 {
   
   "vueCompilerOptions": {
-    "target": 3.3
+    "target": 3.3,
+    
   },
   "files": [],
   "references": [
@@ -11,7 +12,10 @@
     {
       "path": "./tsconfig.app.json"
     }
-  ],
+  ],"compilerOptions": {
+    "allowJs": true
+  }
+   
  
  
 

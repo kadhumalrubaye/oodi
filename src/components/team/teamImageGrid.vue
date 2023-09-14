@@ -1,3 +1,5 @@
+
+
 <template>
     <div id="teamImageGridRow" class="row">
         <div v-for="img in ceoImages" class="col-lg-2 col-md-2 col-sm-4 col-6 mb-4">
@@ -10,23 +12,53 @@
 </template>
   
 <script lang="ts">
+
 import ceoImage1 from './../../assets/img/ava2.png'
 import { desc } from '../../dumpCeoDesc'
+import imgs from '../../assets/img/Profile_Pics/profile-pic-11.png'
+
+
+const imgsPath = import.meta.glob('@/assets/img/Profile_Pics/*.png')
+console.log(imgsPath)
+
+
+
+
 
 const ceoImages: string[] = [];
-for (let i = 0; i < 20; i++) {
-    ceoImages.push(ceoImage1);
+for (const img in imgsPath) {
+    console.log(img);
+
+    ceoImages.push(img)
+
 }
+
+
+
 export default {
+
 
     data: function () {
         return {
             ceoImage1: ceoImage1,
             ceoDesc: desc,
             ceoImages: ceoImages,
+            images: [],
 
         }
 
+
+    }, methods: {
+        loadImages() {
+            // Use webpack's require.context to dynamically import images
+            const imageContext = zain_profile_pics;
+
+
+            // Get an array of all image filenames
+            this.images = imageContext;
+        }, created() {
+            this.loadImages();
+        },
     }
     // Component logic here
 };
