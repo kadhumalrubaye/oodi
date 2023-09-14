@@ -1,10 +1,10 @@
 <template>
-    <div  class="container">
+    <div class="container">
         <!-- <img class="float-start img-fluid" id="halfcircleBiggreennn" :src="halfcircleBiggreen" />
         <img id="halfcirctIndiago1" class="float-start img-fluid"  :src="halfcirctIndiago" /> -->
     </div>
     <section class=" container text-center">
-        
+
         <teamHeading />
 
         <teamImageGrid />
@@ -17,11 +17,12 @@ import teamImageGrid from './teamImageGrid.vue';
 import halfcircleBiggreen from './../../assets/img/halfcircleBiggreen.png'
 import halfcirctIndiago from './../../assets/img/halfcirctIndiago.png'
 
+
 export default {
     data: function () {
         return {
-            halfcirctIndiago:halfcirctIndiago,
-          
+            halfcirctIndiago: halfcirctIndiago,
+
             halfcircleBiggreen: halfcircleBiggreen,
         }
     },
@@ -34,55 +35,45 @@ export default {
 </script>
 
 <style scoped>
-#halfcircleBiggreennn{
-   
-  
+#halfcircleBiggreennn {
+
+
     width: 100px;
 }
-#halfcirctIndiago1{
+
+#halfcirctIndiago1 {
     margin-left: -10%;
     margin-top: 10%;
     max-width: 8%;
-    float:left;
-   
+    float: left;
+
 }
 
 @media (min-width: 320px) {
-    #halfcircleBiggreennn{
-   
-  
-   width: 50px;
-}
-#halfcirctIndiago1{
-   margin-left: -10%;
-   margin-top: 10%;
-   max-width: 8%;
-   float:left;
-  
-}
- 
-}
+    #halfcircleBiggreennn {
 
-@media (min-width: 425px) {
-  
-}
 
-@media (min-width: 768px) {
- 
+        width: 50px;
+    }
+
+    #halfcirctIndiago1 {
+        margin-left: -10%;
+        margin-top: 10%;
+        max-width: 8%;
+        float: left;
+
+    }
 
 }
 
-@media (min-width: 992px) {
- 
+@media (min-width: 425px) {}
 
-}
+@media (min-width: 768px) {}
 
-@media (min-width: 1024px) {
-   
-}
+@media (min-width: 992px) {}
 
- 
-@media (min-width: 1200px) {
-  
-}
+@media (min-width: 1024px) {}
+
+
+@media (min-width: 1200px) {}
 </style>
