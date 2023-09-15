@@ -6,12 +6,12 @@
                 mobile self-care app</strong> with simplified and <br />modern customer experience.</p>
     </div>
     <div class="row ">
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12  ">
 
             <img class="img-fluid" :src="phone1" />
 
         </div>
-        <div class="col-md-8 col-sm-12">
+        <div class="col-md-8 col-sm-12  ">
             <p s><strong>New and enhanced features are coming…
                 </strong> <br />• Redesigned sign-up journey.<br />• In-depth event tracking. <br />• Clevertap integration
                 for
@@ -55,6 +55,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
     font-size: 3vmin;
 
 
@@ -63,6 +64,7 @@ p {
 
 img {
     flex-shrink: 0;
+
 }
 </style>  
 <style></style>

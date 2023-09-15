@@ -24,7 +24,7 @@ export default {
 <style scoped>
 h1 {
 
-    
+
     color: #5B0AD9;
     font-size: 10vmin;
     font-style: normal;
@@ -32,14 +32,14 @@ h1 {
     line-height: normal;
 }
 
- 
-    h2 {
-     
+
+h2 {
+
 
     -webkit-text-stroke: 0.4vmin #6BDD6B;
-    
+
     /* WebKit browsers (Safari) */
-  
+
     color: #5B0AD9;
 
 
@@ -49,6 +49,5 @@ h1 {
     line-height: normal;
     text-align: right;
 }
- 
 </style>  
 <style></style>
