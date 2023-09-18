@@ -3,13 +3,12 @@
 <template>
     <div id="teamImageGridRow" class="row">
         <div v-for="img in imagesUrl" class="col-lg-2 col-md-2 col-sm-4 col-6 mb-4">
+            <v-progress-circular v-if="!img" indeterminate :size="67"></v-progress-circular>
+            <img class="img-fluid" v-else :src="img" loading="lazy">
 
 
-            <img class="img-fluid" :src="img">
         </div>
-        <!-- <div v-for="img in ceoImages" class="col-sm-2" :style="{ margin: 100 + 'px', }">
-                <img class="rig-column img" :src="img">
-            </div> -->
+
     </div>
 </template>
   
@@ -18,7 +17,8 @@
 
 import ceoImage1 from './../../assets/img/ava2.png'
 import { desc } from '../../dumpCeoDesc'
-
+import imageLoaded from '@/components/util/imageLoaded.vue'
+import { VProgressCircular } from 'vuetify/components';
 
 
 
@@ -34,22 +34,24 @@ export default {
             imagesUrl: imagesUrl,
             ceoImage1: ceoImage1,
             ceoDesc: desc,
-
-            images: [],
-
-
+            imgLoading: false
         }
 
 
     }, methods: {
 
         loadImages() {
-
+            return this.imgLoading = true;
 
         },
     }, computed: {
 
+    },
+    components: {
+        imageLoaded,
+        VProgressCircular,
     }
+
 
 };
 </script>

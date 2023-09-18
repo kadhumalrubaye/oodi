@@ -41,8 +41,8 @@
                         </div>
                         <div class="col digitalServiceText" id="digitalServiceText">
                             <p>
-                                Hosted 20+ tournaments<br>
-                                Welcomed 3k+ participants <br> Awarded $80k in prizes</p>
+                                Hosted <strong>20+</strong> tournaments<br>
+                                Welcomed <strong>3k+</strong> participants <br> Awarded <strong>$80k</strong> in prizes</p>
                         </div>
                     </div>
                     <div class="row">
@@ -52,9 +52,11 @@
                         </div>
                         <div class="col digitalServiceText" id="digitalServiceText">
 
-                            <p>Developed 4 new
-                                Digital Assets in the last year Launched the Zain-Fi application enabling customers to
-                                seamlessly manage their Zain-Fi accounts and devices</p>
+                            <p>Developed <strong>4</strong> new
+                                Digital Assets in the last year <br>
+                                Launched the Zain-Fi application enabling customers to
+                                seamlessly <br>
+                                manage their Zain-Fi accounts and devices</p>
                         </div>
                     </div>
 
@@ -65,7 +67,7 @@
             </div>
 
             <div class="col position-absolute text-end " id="weAreZainText">
-                <h1 style=" color: var(--bs-white);"><strong>..WE ARE <br> ZAIN <br>
+                <h1><strong>..WE ARE <br> ZAIN <br>
                         IRAQ&#39;S <br>
                         DIGITAL
                         <br>
