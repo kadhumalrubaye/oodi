@@ -1,5 +1,5 @@
 <template >
-  <div v-for="ceo in ceos" class="col-sm-12 col-md-6 col-lg-6">
+  <div v-for="ceo in ceos" class="col-sm-12  col-md-6 col-lg-6 ">
     <div class="card justify-content-center align-items-center align-content-center "
       style="border-style: none; background: rgba(255,255,255,0);">
       <div
@@ -11,7 +11,7 @@
       </div>
 
 
-      <div class=" card-body  " style="background-color: #5B0AD9; border-radius: 100px;">
+      <div class=" card-body   " style="background-color: #5B0AD9; border-radius: 100px;">
         <h4 class=" card-title text-light mt-5">{{ ceo.name }}</h4>
         <h5 class=" card-subtitle mb-3">{{ ceo.position }}</h5>
         <p class=" card-text ps-2 pe-2   ">

@@ -4,7 +4,7 @@
             <div class="col-sm-12 col-md-6  ">
 
                 <div>
-                    <img class="img-fluid" :src="img1" width="500">
+                    <img class="img-fluid im" :src="img1" width="500">
                     <p>Iraq’s first and only digital-native telco, on track to become the nation’s
                         leading superapp!</p>
                 </div>
