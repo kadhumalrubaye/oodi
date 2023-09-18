@@ -10,7 +10,7 @@ class EmployeeModel {
 
 
 const aliAliZahidModel: EmployeeModel = new EmployeeModel();
-aliAliZahidModel.name = "AliAliZahid"
+aliAliZahidModel.name = "AliZahid"
 aliAliZahidModel.position = "Chief Executive Officer";
 aliAliZahidModel.msg = AliAliZahid
 aliAliZahidModel.footer="Wishing you all afantastic quarter ahead!"
