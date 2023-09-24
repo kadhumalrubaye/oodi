@@ -1,18 +1,18 @@
 <template >
-  <div v-for="ceo in ceos" class="col-sm-12  col-md-6 col-lg-6 ">
+  <div v-for="ceo in ceos" class="col-sm-12  col-md-6 col-lg-6  " >
     <div class="card justify-content-center align-items-center align-content-center "
-      style="border-style: none; background: rgba(255,255,255,0);">
+      style="border-style: none; background: rgba(255,255,255,0);width: 623px;height: 1218px;">
       <div
         class=" bg-light border rounded-circle border-5 border-light d-inline float-start justify-content-xxl-center align-items-xxl-center"
-        style="width: 130px; border: 8.5px solid var(--bs-indigo); position: relative; margin-bottom: -50px; height: 130px;">
+        style="width: 342px; border: 8.5px solid var(--bs-indigo); position: relative; margin-bottom: -150px; height: 342px;">
         <img alt="any"
           class=" rounded-circle img-fluid border border-5   justify-content-center align-items-center align-self-center order-2"
           :src="ceo.img">
       </div>
 
 
-      <div class=" card-body   " style="background-color: #5B0AD9; border-radius: 100px;">
-        <h4 class=" card-title text-light mt-5">{{ ceo.name }}</h4>
+      <div class=" card-body    " style="background-color: #5B0AD9; border-radius: 200px;">
+        <h4 class=" card-title text-light  mt-5">{{ ceo.name }}</h4>
         <h5 class=" card-subtitle mb-3">{{ ceo.position }}</h5>
         <p class=" card-text ps-2 pe-2   ">
           {{ ceo.msg }}
@@ -139,7 +139,7 @@ h6 {
   p,
   h6 {
 
-    font-size: 2vmin;
+    font-size:29.17px;
 
   }
 }

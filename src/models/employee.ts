@@ -22,6 +22,7 @@ DanielToranModel.msg = DanielToran
 DanielToranModel.footer="Let us know what youthink \n digital@iq.zain.com "
 
 
+
 export {
 
     aliAliZahidModel, DanielToranModel, EmployeeModel
