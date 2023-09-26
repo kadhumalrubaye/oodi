@@ -1,32 +1,20 @@
-<template >
-  <div v-for="ceo in ceos" class="col-sm-12  col-md-6 col-lg-6  " >
-    <div class="card justify-content-center align-items-center align-content-center "
-      style="border-style: none; background: rgba(255,255,255,0);width: 623px;height: 1218px;">
-      <div
-        class=" bg-light border rounded-circle border-5 border-light d-inline float-start justify-content-xxl-center align-items-xxl-center"
-        style="width: 342px; border: 8.5px solid var(--bs-indigo); position: relative; margin-bottom: -150px; height: 342px;">
-        <img alt="any"
-          class=" rounded-circle img-fluid border border-5   justify-content-center align-items-center align-self-center order-2"
-          :src="ceo.img">
-      </div>
-
-
-      <div class=" card-body    " style="background-color: #5B0AD9; border-radius: 200px;">
-        <h4 class=" card-title text-light  mt-5">{{ ceo.name }}</h4>
-        <h5 class=" card-subtitle mb-3">{{ ceo.position }}</h5>
-        <p class=" card-text ps-2 pe-2   ">
-          {{ ceo.msg }}
-
-        </p>
-        <h6>
-          {{ ceo.footer }}
-
-        </h6>
-      </div>
-
-
-    </div>
+<template  >
+ 
+  <div v-for="ceo in ceos" class="card text-center align-items-center col-sm-12 col-md-6 col-lg-6 col-xl-6"  >
+  <img class="card-img-top img-fluid" :src="ceo.img" alt="Card image cap">
+  <div class="card-body  ">
+    <h5 class="card-title">{{ ceo.name }}</h5>
+    <h5 class="card-title">{{ ceo.position }}</h5>
+    <p class="card-text p-2">
+      {{ ceo.msg }}
+    </p>
+    <footer class="blockquote-footer">   {{ ceo.footer }} <cite title="Source Title"> {{ ceo.footer }} </cite></footer>
+ 
   </div>
+</div>
+ 
+ 
+  
 </template>
 <script lang="ts">
 
@@ -56,93 +44,45 @@ export default {
 };
 </script>
 
-<style scoped>
-h4 {
-  font-size: 6vmin;
+<style>
+ 
+.card-img-top{
+  margin-top: -30%;
+  max-width: 21.3rem;
 }
 
-h5 {
-  color: #6BDD6B;
-  font-size: 4vmin;
-}
+.card{
+  
+  background-color: #5B0AD9;
+  margin-top: 18%;
+  border-radius: 200px;
+  padding-bottom: 10%;
+  max-width: 623px;
+  
 
-p,
-h6 {
+  
+  
+}
+.card-text{
   color: white;
   text-align: justify;
-  font-size: 3vmin;
+  font-size: 1.8rem;
 
 }
 
-
-
-h6 {
-
-  text-align: center;
-
+.card-title{
+  color: #6BDD6B;
+  font-size: 2.3rem;
+  
 }
-
-
-
-
-@media (min-width: 320px) {}
-
-@media (min-width: 425px) {}
-
-@media (min-width: 768px) {
-  h4 {
-    font-size: 3vmin;
-  }
-
-  h5 {
-    font-size: 2.5vmin;
-  }
-
-  p,
-  h6 {
-
-    font-size: 2vmin;
-
-  }
-
+footer{
+  font-size: 1.8rem;
 }
-
-@media (min-width: 992px) {}
-
-@media (min-width: 1024px) {
-  h4 {
-    font-size: 3vmin;
-  }
-
-  h5 {
-    font-size: 2.5vmin;
-  }
-
-  p,
-  h6 {
-
-    font-size: 2vmin;
-
-  }
+.blockquote-footer{
+  color: rgb(211, 217, 222);
 }
+ 
 
-
-@media (min-width: 1200px) {
-  h4 {
-    font-size: 3vmin;
-  }
-
-  h5 {
-    font-size: 2.5vmin;
-  }
-
-  p,
-  h6 {
-
-    font-size:29.17px;
-
-  }
-}
 </style>  
 <style></style>
  

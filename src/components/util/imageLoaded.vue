@@ -1,4 +1,4 @@
-<template >
+<!-- <template >
     <div>
         <img v-if="loaded" :src="imageUrl" alt="Image" @load="onImageLoad" />
         <div v-else class="loading-indicator">Loading... {{ imageUrl }}</div>
@@ -30,4 +30,4 @@ export default {
     text-align: center;
 }
 </style>
-  
+   -->

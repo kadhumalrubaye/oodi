@@ -1,9 +1,12 @@
 <template>
-    <div class="container">
-        <!-- <img class="float-start img-fluid" id="halfcircleBiggreennn" :src="halfcircleBiggreen" />
-        <img id="halfcirctIndiago1" class="float-start img-fluid"  :src="halfcirctIndiago" /> -->
+    <div class="container  position-relative">
+        <img class=" img-fluid" id="halfcircleBiggreennn" :src="halfcircleBiggreen" />
+        <img id="halfcirctIndiago1" class=" img-fluid"  :src="halfcirctIndiago" />
+        <img id="grenDots" class=" img-fluid"  :src="grenDots" alt="grenDots" />
+    
+    
     </div>
-    <section class=" container text-center">
+    <section class=" row text-center">
 
         <teamHeading />
 
@@ -16,7 +19,7 @@ import teamHeading from './teamHeading.vue';
 import teamImageGrid from './teamImageGrid.vue';
 import halfcircleBiggreen from './../../assets/img/halfcircleBiggreen.png'
 import halfcirctIndiago from './../../assets/img/halfcirctIndiago.png'
-
+import grenDots from '@/assets/img/dots.png'
 
 export default {
     data: function () {
@@ -24,56 +27,34 @@ export default {
             halfcirctIndiago: halfcirctIndiago,
 
             halfcircleBiggreen: halfcircleBiggreen,
+            grenDots,
         }
     },
     components: {
 
         teamHeading,
-        teamImageGrid
+        teamImageGrid,
+        
     }
 }
 </script>
 
 <style scoped>
 #halfcircleBiggreennn {
+position: absolute;
 
-
-    width: 100px;
+  
 }
 
 #halfcirctIndiago1 {
-    margin-left: -10%;
-    margin-top: 10%;
-    max-width: 8%;
-    float: left;
+ position: absolute;
+left: 10%;
+top: 13.5rem;
 
 }
-
-@media (min-width: 320px) {
-    #halfcircleBiggreennn {
-
-
-        width: 50px;
-    }
-
-    #halfcirctIndiago1 {
-        margin-left: -10%;
-        margin-top: 10%;
-        max-width: 8%;
-        float: left;
-
-    }
-
+#grenDots{
+    position: absolute;
+    top: 17rem;
+    z-index: -1;
 }
-
-@media (min-width: 425px) {}
-
-@media (min-width: 768px) {}
-
-@media (min-width: 992px) {}
-
-@media (min-width: 1024px) {}
-
-
-@media (min-width: 1200px) {}
 </style>

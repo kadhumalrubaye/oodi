@@ -1,10 +1,14 @@
 <template>
-    <div id="ceoContainer" class="container   " :style="{ 'background-image': 'url(' + background + ') ', }">
-        <div class="row text-center">
-            <div class="row mt-5">
-                <ceoCard />
-            </div>
-        </div>
+    <div id="ceoContainer" class="   position-relative  ">
+        <img id="ceo_background" class=" img-fluid " :src="ceo_background" alt=" bg imag" width="970" height="1444">
+        <img id="big_green_ball" class=" img-fluid " :src="big_green_ball" alt=" big_green_ball">
+        <img id="header_gren_dots" class=" img-fluid " :src="header_gren_dots" alt=" header_gren_dots">
+        <img id="bottom_ceo_inidago_wave" class=" img-fluid " :src="bottom_ceo_inidago_wave" alt=" bottom_ceo_inidago_wave">
+  <div class="container">
+    <div class="row d-flex justify-content-around">
+           <ceoCard />
+       </div>
+  </div>
         <div style="position: absolute;float:right; z-index: 2;">
             <img class="img-fluid " :src="greenStarImg" style="text-align: right;" width="78" height="80" />
 
@@ -18,6 +22,11 @@
 import image from './../../assets/img/Group2276.png'
 import ceoCard from './ceoCard.vue';
 import greenStarImg from './../../assets/img/greenstart.png'
+import ceo_background from './../../assets/img/ceo_background.png'
+import big_green_ball from '@/assets/img/header/header_green_ball.png'
+import header_gren_dots from '@/assets/img/header/header_gren_dots.png'
+import bottom_ceo_inidago_wave from '@/assets/img/bottom_ceo_inidago_wave.png'
+
 
 
 
@@ -27,6 +36,10 @@ export default {
         return {
             background: image,
             greenStarImg: greenStarImg,
+            ceo_background,
+            big_green_ball,
+            header_gren_dots,
+            bottom_ceo_inidago_wave,
         }
     },
     components: {
@@ -36,6 +49,28 @@ export default {
 </script>
   
 <style scoped>
+#bottom_ceo_inidago_wave{
+    position: absolute;
+    bottom: 0px;
+}
+#header_gren_dots{
+    position: absolute;
+    margin: 40px 20px;
+}
+#big_green_ball{
+    position: absolute;
+    right: 35%;  
+    top:-100px;
+    z-index: -3;
+
+}
+#ceo_background{
+    position: absolute;
+    right: -1px;
+    max-width: 100%;
+    z-index: -4;
+    
+}
 #ceoContainer {
 
     background-size: contain;

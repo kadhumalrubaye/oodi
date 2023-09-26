@@ -14,10 +14,9 @@
   
 <script lang="ts">
 
-
-import ceoImage1 from './../../assets/img/ava2.png'
+ 
 import { desc } from '../../dumpCeoDesc'
-import imageLoaded from '@/components/util/imageLoaded.vue'
+
 import { VProgressCircular } from 'vuetify/components';
 
 
@@ -32,23 +31,23 @@ export default {
     data: function () {
         return {
             imagesUrl: imagesUrl,
-            ceoImage1: ceoImage1,
+          
             ceoDesc: desc,
-            imgLoading: false
+            
         }
 
 
     }, methods: {
 
         loadImages() {
-            return this.imgLoading = true;
+            return ""
 
         },
     }, computed: {
 
     },
     components: {
-        imageLoaded,
+      
         VProgressCircular,
     }
 

@@ -25,7 +25,7 @@
             <img id="header_white_start_series" :src="header_white_start_series" alt="header_white_start_series" class=" img-fluid">
 
 
-           <div id="TheDigitalInsider" class=" container">
+           <div id="TheDigitalInsider" class=" container-fluid">
             <h2>
                 The
             </h2>
