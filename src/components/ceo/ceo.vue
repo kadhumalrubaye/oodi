@@ -1,9 +1,10 @@
 <template>
     <div id="ceoContainer" class="   position-relative  ">
-        <img id="ceo_background" class=" img-fluid " :src="ceo_background" alt=" bg imag" width="970" height="1444">
+        <img id="ceo_background" class="  img-fluid " :src="ceo_background" alt=" bg imag" width="970" height="1444">
         <img id="big_green_ball" class=" img-fluid " :src="big_green_ball" alt=" big_green_ball">
         <img id="header_gren_dots" class=" img-fluid " :src="header_gren_dots" alt=" header_gren_dots">
         <img id="bottom_ceo_inidago_wave" class=" img-fluid " :src="bottom_ceo_inidago_wave" alt=" bottom_ceo_inidago_wave">
+        <img id="_element_design_purpl" class="  img-fluid " :src="_element_design_purpl" alt=" _element_design_purpl">
   <div class="container">
     <div class="row d-flex justify-content-around">
            <ceoCard />
@@ -26,6 +27,7 @@ import ceo_background from './../../assets/img/ceo_background.png'
 import big_green_ball from '@/assets/img/header/header_green_ball.png'
 import header_gren_dots from '@/assets/img/header/header_gren_dots.png'
 import bottom_ceo_inidago_wave from '@/assets/img/bottom_ceo_inidago_wave.png'
+import _element_design_purpl from '@/assets/img/_element-design_purpl.png'
 
 
 
@@ -40,6 +42,7 @@ export default {
             big_green_ball,
             header_gren_dots,
             bottom_ceo_inidago_wave,
+            _element_design_purpl
         }
     },
     components: {
@@ -49,6 +52,10 @@ export default {
 </script>
   
 <style scoped>
+#_element_design_purpl{
+    position: absolute;
+    top: 50%;
+}
 #bottom_ceo_inidago_wave{
     position: absolute;
     bottom: 0px;
@@ -78,6 +85,7 @@ export default {
     background-position: right;
 
 }
+
 </style>  
 <style></style>
 

@@ -20,7 +20,7 @@ export default {
 h1 {
     color: #5B0AD9;
 
-    font-size: 9vmin;
+    font-size: 110.4px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -29,7 +29,7 @@ h1 {
 h2 {
     color: #5B0AD9;
 
-    font-size: 4.5vmin;
+    font-size: 56.5px;
 
     font-style: italic;
     font-weight: 400;

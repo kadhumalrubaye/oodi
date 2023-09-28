@@ -26,10 +26,11 @@ h1 {
 
 
     color: #5B0AD9;
-    font-size: 10vmin;
+    font-size: 110.4px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-align: center;
 }
 
 
@@ -43,7 +44,7 @@ h2 {
     color: #5B0AD9;
 
 
-    font-size: 10vmin;
+    font-size: 110.4px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

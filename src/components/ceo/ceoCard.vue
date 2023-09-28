@@ -8,7 +8,12 @@
     <p class="card-text p-2">
       {{ ceo.msg }}
     </p>
-    <footer class="blockquote-footer">   {{ ceo.footer }} <cite title="Source Title"> {{ ceo.footer }} </cite></footer>
+    <footer    class="blockquote-footer " >  
+         {{ ceo.footer }} 
+         <cite title="Source Title"> 
+          {{ ceo.footer }} 
+        </cite>
+    </footer>
  
   </div>
 </div>
@@ -37,7 +42,12 @@ export default {
     }
 
   },
-  computed: {
+  methods:{
+    cardFooterClickEvent(alertMessage:string){
+      alert(alertMessage)
+    }
+  }
+  ,computed: {
 
   }
 
@@ -50,7 +60,9 @@ export default {
   margin-top: -30%;
   max-width: 21.3rem;
 }
-
+dev[card]{
+  background-color: #6BDD6B;
+}
 .card{
   
   background-color: #5B0AD9;

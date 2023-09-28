@@ -1,14 +1,15 @@
 
 
 <template>
-    <div id="teamImageGridRow" class="row">
+    <div id="teamImageGridRow" class="row position-relative">
         <div v-for="img in imagesUrl" class="col-lg-2 col-md-2 col-sm-4 col-6 mb-4">
             <v-progress-circular v-if="!img" indeterminate :size="67"></v-progress-circular>
-            <img class="img-fluid" v-else :src="img" loading="lazy">
-
-
+            <img id="profileImage" class="img-fluid" v-else :src="img" loading="lazy" placeholder=" loadding ">
+            
+            
         </div>
-
+        <img id="indigoBigHalfStart" class="img-fluid"  :src="indigoBigHalfStart" loading="lazy">
+        
     </div>
 </template>
   
@@ -18,6 +19,7 @@
 import { desc } from '../../dumpCeoDesc'
 
 import { VProgressCircular } from 'vuetify/components';
+import indigoBigHalfStart from '@/assets/img/indiago_half_big_star.png'
 
 
 
@@ -26,13 +28,11 @@ let imagesUrl = import.meta.glob("@/assets/img/Profile_Pics/*.(jpg|JPG|png|PNG|s
 
 
 export default {
-
-
     data: function () {
         return {
             imagesUrl: imagesUrl,
-          
             ceoDesc: desc,
+            indigoBigHalfStart,
             
         }
 
@@ -56,27 +56,28 @@ export default {
 </script>
   
 <style scoped>
+#indigoBigHalfStart{
+    position: absolute;
+    max-width: 10%;
+    right: -1px;
+     bottom: 20px;
+   
+}
 #teamImageGridRow {
-    padding: 30px;
+    padding: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-img {
+#profileImage{
 
     border-color: #6BDD6B;
-    border-width: 10px;
+   
     border-style: solid;
     border-radius: 50%;
 }
 
-@media (max-width: 768px) {
-    img {
 
-        border-color: #6BDD6B;
-        border-width: 3px;
-        border-style: solid;
-        border-radius: 50%;
-    }
-}
 </style>  
 <style></style>
   

@@ -3,6 +3,7 @@
         <img class=" img-fluid" id="halfcircleBiggreennn" :src="halfcircleBiggreen" />
         <img id="halfcirctIndiago1" class=" img-fluid"  :src="halfcirctIndiago" />
         <img id="grenDots" class=" img-fluid"  :src="grenDots" alt="grenDots" />
+        <img id="grenDots2" class=" img-fluid"  :src="grenDots" alt="grenDots" />
     
     
     </div>
@@ -21,13 +22,14 @@ import halfcircleBiggreen from './../../assets/img/halfcircleBiggreen.png'
 import halfcirctIndiago from './../../assets/img/halfcirctIndiago.png'
 import grenDots from '@/assets/img/dots.png'
 
+
 export default {
     data: function () {
         return {
             halfcirctIndiago: halfcirctIndiago,
-
             halfcircleBiggreen: halfcircleBiggreen,
             grenDots,
+         
         }
     },
     components: {
@@ -57,4 +59,11 @@ top: 13.5rem;
     top: 17rem;
     z-index: -1;
 }
+#grenDots2{
+    position: absolute;
+    right: -2px;
+    top: 25rem;
+    z-index: -1;
+}
+
 </style>

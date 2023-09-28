@@ -1,7 +1,9 @@
 import './assets/main.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import { createApp } from 'vue'
+import 'bootstrap/dist/js/bootstrap.js';
 import App from './App.vue'
+// import store from './store'
 // Vuetify
 
 import { createVuetify } from 'vuetify'
@@ -18,11 +20,14 @@ import.meta.glob([
     '../fonts/**',
     '../img/**',
 ]);
+const app =createApp(App)
+// app.use(store)
+app.use(vuetify)
+app.mount('#app')
 
 
 
-createApp(App).use(vuetify).mount('#app')
 
 
-import 'bootstrap/dist/js/bootstrap.js';
+
 

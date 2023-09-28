@@ -1,13 +1,13 @@
 <template>
-    <div class="row">
+    <div class="">
         <h1> …STAY TUNED!</h1>
 
-        <h2>THE DIGITAL</h2>
+        <h2 :style="{margin:'0px'}">THE DIGITAL</h2>
 
-        <h3>KNOWLEDGE HUB</h3>
+        <h3  :style="{margin:'0px'}">KNOWLEDGE HUB</h3>
     </div>
 
-    <h4>LEARN THE SKILLS OF THE FUTURE</h4>
+    <h4  :style="{margin:'0px'}">LEARN THE SKILLS OF THE FUTURE</h4>
     <br />
     <div class="row">
         <p>In today&#39;s rapidly
@@ -57,11 +57,12 @@ export default {
 </script>
 
 <style scoped>
+
 h1 {
     text-align: center;
     color: #6BDD6B;
 
-    font-size: 80px;
+    font-size: 110.4px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -74,7 +75,7 @@ h2 {
     /* WebKit browsers (Safari) */
     color: #fff;
 
-    font-size: 80px;
+    font-size: 110.4px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -84,7 +85,7 @@ h3 {
     text-align: right;
     color: #5B0AD9;
 
-    font-size: 80px;
+    font-size: 110.4px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -93,7 +94,7 @@ h3 {
 h4 {
     color: #6EDD6E;
 
-    font-size: 50px;
+    font-size: 56.5px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
@@ -102,69 +103,11 @@ h4 {
 p {
     color: #5B0AD9;
 
-    font-size: 3vmin;
+    font-size: 29.17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-
-/* Styles for tablet-sized screens (between 768px and 1024px) */
-@media (max-width: 768px) {
-    h1 {
-        text-align: center;
-        color: #6BDD6B;
-
-        font-size: 12vmin;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    @supports (  -webkit-text-stroke: 0.8vmin #6BDD6B){
-    h2 {
-        text-align: left;
-        -webkit-text-stroke: 2px #6BDD6B;
-        /* WebKit browsers (Safari) */
-        color: #fff;
-
-        font-size: 10vmin;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }}
-
-    h3 {
-        text-align: right;
-        color: #5B0AD9;
-
-        font-size: 10vmin;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-
-    }
-
-    h4 {
-        color: #6EDD6E;
-
-        font-size: 5.5vmin;
-        font-style: italic;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    p {
-        text-align: left;
-        color: #5B0AD9;
-
-        font-size: 3vmin;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-}
-
-@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {}
+ 
 </style>  
 <style></style>

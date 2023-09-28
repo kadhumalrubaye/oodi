@@ -66,12 +66,14 @@
 
             </div>
 
-            <div class="col position-absolute text-end " id="weAreZainText">
-                <h1><strong>..WE ARE <br> ZAIN <br>
+            <div   id="weAreZainText">
+                <h1 :style="{fontSize:'94.46px'}">
+                    <strong>..WE ARE <br> ZAIN <br>
                         IRAQ&#39;S <br>
                         DIGITAL
                         <br>
-                        FUTURE!</strong></h1>
+                        FUTURE!</strong>
+                    </h1>
             </div>
 
         </div>
@@ -96,130 +98,29 @@ export default {
 }
 </script>
 <style scoped>
-img {}
+ 
 
 
 
 #weAreZainText {
+    position: absolute;
     color: #FFF;
-
-    font-size: 100px;
-    font-style: normal;
     font-weight: 700;
-
     text-align: left;
-    justify-content: start;
-
-    margin-top: 20%;
-
-
-
-
+    left: 65%;
+    top: 15%;
+    
 }
+
 
 p {
     color: #5B0AD9;
-    font-size: 3vmin;
+  font-size: 27.08px;
 
 
 }
 
-@media (min-width: 320px) {
-    #weAreZainText {
-        display: none;
 
-    }
-
-    img {
-        max-width: 75%;
-    }
-}
-
-@media (min-width: 425px) {
-    #weAreZainText {
-        display: none;
-    }
-}
-
-@media (min-width: 768px) {
-
-    #weAreZainText {
-        display: block;
-        margin-top: 60%;
-    }
-
-    #weAreZainText h1 {
-        font-size: 8vmin;
-    }
-
-    p {
-
-        color: #5B0AD9;
-        text-align: left;
-        font-size: 2vmin;
-
-
-    }
-
-    img {
-        max-width: 50%;
-    }
-}
-
-@media (min-width: 992px) {
-    #weAreZainText {
-        margin-top: 55%;
-        display: block;
-
-    }
-
-    #weAreZainText h1 {
-        font-size: 70px;
-    }
-
-    p {
-
-        color: #5B0AD9;
-        text-align: left;
-        font-size: 3vmin;
-
-
-
-    }
-
-}
-
-@media (min-width: 1024px) {
-    #weAreZainText {
-        margin-top: 50%
-    }
-
-    p {}
-
-    #weAreZainText h1 {
-        font-size: 70px;
-    }
-}
-
-
-@media (min-width: 1200px) {
-    #weAreZainText {
-        margin-top: 130px;
-    }
-
-    #weAreZainText h1 {
-        font-size: 60px;
-    }
-
-    p {
-
-        margin-left: -50px;
-    }
-
-    img {
-        max-width: 100%;
-    }
-}
 </style>  
 <style></style>
  
