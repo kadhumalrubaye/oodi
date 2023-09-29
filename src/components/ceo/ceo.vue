@@ -5,11 +5,11 @@
         <img id="header_gren_dots" class=" img-fluid " :src="header_gren_dots" alt=" header_gren_dots">
         <img id="bottom_ceo_inidago_wave" class=" img-fluid " :src="bottom_ceo_inidago_wave" alt=" bottom_ceo_inidago_wave">
         <img id="_element_design_purpl" class="  img-fluid " :src="_element_design_purpl" alt=" _element_design_purpl">
-  <div class="container">
-    <div class="row d-flex justify-content-around">
-           <ceoCard />
-       </div>
-  </div>
+        <div class="container ">
+            <div class="row gx-5">
+                <ceoCard />
+            </div>
+        </div>
         <div style="position: absolute;float:right; z-index: 2;">
             <img class="img-fluid " :src="greenStarImg" style="text-align: right;" width="78" height="80" />
 
@@ -52,32 +52,37 @@ export default {
 </script>
   
 <style scoped>
-#_element_design_purpl{
+#_element_design_purpl {
     position: absolute;
     top: 50%;
 }
-#bottom_ceo_inidago_wave{
+
+#bottom_ceo_inidago_wave {
     position: absolute;
     bottom: 0px;
 }
-#header_gren_dots{
+
+#header_gren_dots {
     position: absolute;
     margin: 40px 20px;
 }
-#big_green_ball{
+
+#big_green_ball {
     position: absolute;
-    right: 35%;  
-    top:-100px;
+    right: 35%;
+    top: -100px;
     z-index: -3;
 
 }
-#ceo_background{
+
+#ceo_background {
     position: absolute;
     right: -1px;
     max-width: 100%;
     z-index: -4;
-    
+
 }
+
 #ceoContainer {
 
     background-size: contain;
@@ -85,7 +90,6 @@ export default {
     background-position: right;
 
 }
-
 </style>  
 <style></style>
 
