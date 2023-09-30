@@ -81,7 +81,7 @@ export default {
 .card-text {
   color: white;
   text-align: justify;
-  font-size: 1.8rem;
+  font-size: 27.08px;
 
 }
 

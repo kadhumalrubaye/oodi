@@ -1,5 +1,5 @@
 <template>
-    <div class="container p-5" :style="{ 'background-image': 'url(' + layar7 + ') ' }">
+    <div class="container  " :style="{ 'background-image': 'url(' + layar7 + ') ' }">
 
         <PrHeainding />
         <prList />

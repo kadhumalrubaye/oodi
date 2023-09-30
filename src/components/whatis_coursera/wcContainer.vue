@@ -87,15 +87,16 @@ div p {
 
 }
 
-@supports (  -webkit-text-stroke: 0.8vmin #6BDD6B){
-h1 {
-    text-align: center;
-    -webkit-text-stroke: 0.5vmin #5B0AD9;
-    /* WebKit browsers (Safari) */
-    color: #fff;
-    margin: 0%;
-    font-size: 10vmin;
-}}
+@supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
+    h1 {
+        text-align: center;
+        -webkit-text-stroke: 0.5vmin #5B0AD9;
+        /* WebKit browsers (Safari) */
+        color: #fff;
+        margin: 0%;
+        font-size: 10vmin;
+    }
+}
 
 
 .container {

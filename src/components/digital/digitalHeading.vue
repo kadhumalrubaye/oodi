@@ -1,10 +1,10 @@
 <template>
     <div class="container position-relative">
-    
+
         <img id="halfBigGreenCircle" :src="halfBigGreenCircle" alt="halfBigGreenCircle">
         <img id="halfcirctIndiago" :src="halfcirctIndiago" alt="halfcirctIndiago">
-        
-  
+
+
         <h1>
             WHEN WE SAY
         </h1>
@@ -20,33 +20,35 @@ import halfcirctIndiago from '@/assets/img/halfcirctIndiago.png'
 export default {
 
     data: function () {
-    return {
+        return {
 
-     halfBigGreenCircle,
-     halfcirctIndiago
-    }
+            halfBigGreenCircle,
+            halfcirctIndiago
+        }
 
-  },
+    },
 }
 </script>
 
 <style scoped>
-#halfBigGreenCircle{
+#halfBigGreenCircle {
     position: absolute;
     transform: rotate(90deg);
-   
-bottom: 20%;
-left: -5%;
+
+    bottom: 20%;
+    left: -5%;
 }
-#halfcirctIndiago{
+
+#halfcirctIndiago {
     position: absolute;
     transform: rotate(90deg);
- top: -35%;
-left: 5%;
+    top: -35%;
+    left: 5%;
 }
+
 span {
     color: #6BDD6B;
-    
+
 
 }
 
@@ -54,7 +56,7 @@ h1 {
     color: #5B0AD9;
 
 
-    font-size: 11vmin;
+    font-size: 110.4px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -66,7 +68,7 @@ h2 {
     color: #5B0AD9;
 
 
-    font-size: 11vmin;
+    font-size: 110.4px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

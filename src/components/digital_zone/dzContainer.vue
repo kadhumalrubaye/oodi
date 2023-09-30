@@ -1,24 +1,6 @@
 <template>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 d-none d-md-block">
-                <div class="container">
-                    <img id="halfCircleWhite" class="halfCircleWhite" :src="halfCircleWhite"
-                        style="margin-bottom: -196px;margin-left: 32px;" />
-                    <img id="halfCircleGreen" class="halfCircleGreen" :src="halfCircleGreen"
-                        style="margin-bottom: -144px;margin-left: -236px;" />
-                </div>
-            </div>
-            <div class="col-sm-12 d-md-none ">
-                <div class="container">
+    <div class="  position-relative">
 
-                    <img id="halfCircleWhite" height="120" :src="halfCircleWhite"
-                        style="margin-bottom: -100px;margin-left: -1px;" />
-                    <img id="halfCircleGreen" :src="halfCircleGreen" height="50"
-                        style="margin-bottom: -75px;margin-left: -100px;" />
-                </div>
-            </div>
-        </div>
 
         <div class=" row " style="   background-color: #6BDD6B;">
             <div class=" container" :style="{ 'background-image': 'url(' + dzImage + ') ' }">
