@@ -1,9 +1,11 @@
 <template>
-    <div class="container ">
+    <div class="container position-relative ">
+
         <!-- row 1 -->
         <div class="row">
             <div class="col">
                 <img :src="eventImage1" alt="">
+                <img :src="eventXo" alt=" event xo " class=" position-absolute " :style="{ left: '40%', top: '-5%' }">
             </div>
             <div class="col">
                 <h2>
@@ -26,12 +28,18 @@
         <!-- row 2 -->
         <div class="row flex-column-reverse flex-lg-row flex-md-row flex-sm-row flex-xl-row">
             <div class="col ">
-                <h2>
+                <h2 class=" position-relative">
                     Native Platform Vs Cross-Platform Session
+                    <img :src="eventHalfCirculWithBlackStork" alt=" eventHalfCirculWithBlackStork "
+                        class=" position-absolute " :style="{ bottom: '0px', right: '-50px' }">
+                    <img :src="smallHalfIndiagoCircult" alt=" smallHalfIndiagoCircult " class=" position-absolute "
+                        :style="{ bottom: '0px', right: '5%', transform: 'rotate(-60deg)' }">
                 </h2>
                 <h3>
                     March 2023
                 </h3>
+
+
                 <p>
                     The GDSC of Al-Iraqia University partnered
                     with Zain Youth to organize a development disabilities at ZINC Baghdad. This initiative
@@ -80,11 +88,14 @@
             </div>
 
         </div>
+        <img width="286" :src="indiagoDots" alt="">
         <!-- row4 -->
         <div class="row flex-column-reverse flex-lg-row flex-md-row flex-sm-row flex-xl-row">
             <div class="col">
-                <h2>
+                <h2 class=" position-relative">
+
                     E-Sports: PUBG Regional Tournament
+                    <img :src="eventSinglCup" alt="" class=" position-absolute" :style="{ bottom: '-70%', right: '0px' }">
                 </h2>
                 <h3>
                     July 023
@@ -101,7 +112,14 @@
                 </p>
 
             </div>
-            <div class="col">
+            <div class="col position-relative">
+                <img width="286" :src="eventGreenHalfStra" alt="" class=" img-fluid position-absolute z-n1"
+                    :style="{ top: '-20%', left: '-5%' }">
+                <img width="286" :src="indiagoDots" alt="" class=" img-fluid position-absolute"
+                    :style="{ top: '-15%', right: '10%' }">
+                <img :src="eventHalfCirculStorkOnly" alt="" class=" position-absolute"
+                    :style="{ top: '-30%', right: '-20px' }">
+
                 <img :src="eventImage4" alt="eventImage4">
             </div>
 
@@ -113,20 +131,26 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import eventImage1 from './../../assets/img/event_picture1.png'
-import eventImage2 from './../../assets/img/event_img2.png'
-import eventImage3 from './../../assets/img/event_img3.png'
-import eventImage4 from './../../assets/img/event_img4.png'
+import { indiagoDots, eventSinglCup, eventImage1, eventImage2, eventImage3, eventImage4, eventXo, eventHalfCirculWithBlackStork, smallHalfIndiagoCircult, eventHalfCirculStorkOnly, eventGreenHalfStra } from '../../models/assets_modul';
+
 
 export default defineComponent({
     setup() {
 
 
         return {
-            eventImage1: eventImage1,
-            eventImage2: eventImage2,
-            eventImage3: eventImage3,
-            eventImage4: eventImage4,
+            eventGreenHalfStra,
+            eventHalfCirculStorkOnly,
+            eventSinglCup,
+            indiagoDots,
+            smallHalfIndiagoCircult,
+            eventHalfCirculWithBlackStork,
+            eventXo,
+            eventImage1,
+            eventImage2,
+            eventImage3,
+            eventImage4,
+
         }
     }
 })
@@ -136,7 +160,7 @@ export default defineComponent({
 h2 {
     color: #5B0AD9;
 
-    font-size: 6vmin;
+    font-size: 41.6px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -144,8 +168,8 @@ h2 {
 
 h3 {
     color: #6BDD6B;
-
-    font-size: 5vmin;
+    margin: 0px;
+    font-size: 33.3px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -154,22 +178,10 @@ h3 {
 p {
     color: #58595B;
 
-    font-size: 3vmin;
+    font-size: 29.17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-@media only screen and (min-device-width: 768px) {}
-
-@media only screen and (max-device-width: 768px) {
-
-
-
-
-    img {
-        max-width: 300px;
-    }
 }
 </style>  
 <style></style>

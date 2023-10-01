@@ -24,7 +24,7 @@ export default defineComponent({
 h1 {
     color: #5B0AD9;
 
-    font-size: 12vmin;
+    font-size: 110.41px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -33,7 +33,7 @@ h1 {
 h5 {
     color: #58595B;
 
-    font-size: 4vmin;
+    font-size: 29.17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

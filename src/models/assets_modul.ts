@@ -9,7 +9,25 @@ import whiteCutedCircul from '@/assets/img/white_cuted_circul.png'
 import smallHalfIndiagoCircult from '@/assets/img/halfcirctIndiago.png'
 import cupAward from '@/assets/img/2023_award_cup.png'
 import dizleeAward from '@/assets/img/Dizlee_Award copy.png'
+import eventXo from '@/assets/img/eventsXo.png'
+import eventSinglCup from '@/assets/img/eventSinglCup.png'
+import eventHalfCirculStorkOnly from '@/assets/img/eventHalfCirculOnlyStrok.png'
+import eventGreenHalfStra from '@/assets/img/eventGreenHalfStar.png'
+import eventHalfCirculWithBlackStork from '@/assets/img/eventHalfCicultWithBlackStrok.png'
+import eventImage1 from '@/assets/img/event_picture1.png'
+import eventImage2 from '@/assets/img/event_img2.png'
+import eventImage3 from '@/assets/img/event_img3.png'
+import eventImage4 from '@/assets/img/event_img4.png'
 export {
+  eventImage1,
+  eventImage2,
+  eventImage3,
+  eventImage4,
+  eventSinglCup,
+  eventHalfCirculStorkOnly,
+  eventGreenHalfStra,
+  eventHalfCirculWithBlackStork,
+  eventXo,
   cupAward,
   dizleeAward,
   indiagoDots,
