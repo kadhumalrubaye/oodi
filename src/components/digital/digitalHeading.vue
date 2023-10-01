@@ -35,14 +35,14 @@ export default {
     position: absolute;
     transform: rotate(90deg);
 
-    bottom: 25%;
-    left: -6%;
+    bottom: 30%;
+    left: -5%;
 }
 
 #halfcirctIndiago {
     position: absolute;
     transform: rotate(90deg);
-    top: -40%;
+    top: -30%;
     left: 5%;
 }
 
