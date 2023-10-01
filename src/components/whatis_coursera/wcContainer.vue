@@ -10,7 +10,7 @@
         <img class=" img-fluid position-absolute z-n1    " :src="whiteCutedCircul" alt=" laptop img"
             :style="{ right: '-100px', bottom: '-200px', zIndex: '0' }">
         <img class=" img-fluid  position-absolute" :src="smallHalfIndiagoCircult" alt=" smallHalfIndiagoCircult img"
-            :style="{ right: '150px', bottom: '100px', transform: 'rotate(-90deg)' }">
+            :style="{ right: '150px', bottom: '100px', transform: 'rotate(-80deg)' }">
 
 
 

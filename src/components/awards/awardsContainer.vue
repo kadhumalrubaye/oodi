@@ -1,11 +1,17 @@
 <template>
-    <div class="container " :style="{ backgroundImage: `url(${awardBg})` }">
-        <img id="dizleeCup" width="200" class=" float-end img-fluid" :src="dizleeCup" alt=" dezlee cup">
-        <img id="awardCup" width="200" class=" float-start img-fluid" :src="awardCup" alt=" award cup">
+    <div class="container position-relative pb-5 pt-5 " :style="{ backgroundImage: `url(${awardBg})` }">
+        <img id="dizleeCup" width="280" class="  img-fluid position-absolute " :src="dizleeCup" alt=" dezlee cup" :style="{
+            right: '50px', bottom: '70px',
+
+        }">
+        <img id="awardCup" width="300" class=" img-fluid position-absolute" :src="awardCup" alt=" award cup" :style="{
+            top: '-20px'
+        }">
+
         <div class="row text-center">
-            <h1>2023</h1>
-            <h2>AWARDS</h2>
-            <p>
+            <h1 class=" m-0">2023</h1>
+            <h2 class=" m-0"> AWARDS</h2>
+            <p :style="{ textAlign: 'left', marginLeft: '50px', marginTop: '10px', paddingTop: '30px' }">
                 Zain Iraq Digital Services team won the award for the Most
                 <br>
                 <strong>
@@ -40,35 +46,33 @@ export default {
     background-color: #5B0AD9;
     ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: right center;
 
 
 
 }
 
-img {
-    margin-bottom: -25%;
-}
+
 
 p {
     color: #FFF;
 
     font-size: 29.167px;
-    font-style: normal;
-    line-height: normal;
+
 }
 
-@supports (  -webkit-text-stroke: 0.8vmin #6BDD6B){
-h1 {
-    -webkit-text-stroke: 2px #FFF;
-    color: #5B0AD9;
+@supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
+    h1 {
+        -webkit-text-stroke: 2px #FFF;
+        color: #5B0AD9;
 
-    font-size: 110.402px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}}
+        font-size: 110.402px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
 
 h2 {
     color: #FFF;
@@ -77,63 +81,6 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-
-
-/* for phone */
-@media only screen and (max-device-width: 768px) {
-    img {
-        max-width: 20%;
-        margin-top: 35%;
-        padding: 0%;
-    }
-
-    #awardCup {
-        max-width: 20%;
-        margin-top: 0%;
-        padding: 0%;
-    }
-
-    #dizleeCup {
-        max-width: 15%;
-        margin-top: 0%;
-        padding: 0%;
-    }
-
-    h1 {
-        font-size: 50px;
-    }
-
-    h2 {
-        font-size: 40px;
-    }
-
-    p {
-        font-size: 10px;
-        text-align: center;
-
-    }
-}
-
-/* for tablet */
-@media only screen and (min-device-width: 768px) {
-    img {
-        max-width: 20%;
-        margin: 0%;
-
-    }
-
-    h1 {
-        font-size: 100px;
-    }
-
-    h2 {
-        font-size: 80px;
-    }
-
-    h5 {
-        font-size: smaller;
-    }
 }
 </style>  
 <style></style>

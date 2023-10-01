@@ -7,7 +7,11 @@ import bigHalfWhiteCircul from '@/assets/img/halfcircle.png'
 import smallHalfGreenCircul from '@/assets/img/halfgreencircle.png'
 import whiteCutedCircul from '@/assets/img/white_cuted_circul.png'
 import smallHalfIndiagoCircult from '@/assets/img/halfcirctIndiago.png'
+import cupAward from '@/assets/img/2023_award_cup.png'
+import dizleeAward from '@/assets/img/Dizlee_Award copy.png'
 export {
+  cupAward,
+  dizleeAward,
   indiagoDots,
   greenDots,
   bigHalfGrenCircul,
