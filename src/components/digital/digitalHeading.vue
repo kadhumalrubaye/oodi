@@ -1,8 +1,8 @@
 <template>
     <div class="container position-relative">
 
-        <img id="halfBigGreenCircle" :src="halfBigGreenCircle" alt="halfBigGreenCircle">
-        <img id="halfcirctIndiago" :src="halfcirctIndiago" alt="halfcirctIndiago">
+        <img id="halfBigGreenCircle" :src="halfBigGreenCircle" alt="halfBigGreenCircle" width="271">
+        <img id="halfcirctIndiago" :src="halfcirctIndiago" alt="halfcirctIndiago" width="119">
 
 
         <h1>
@@ -35,14 +35,14 @@ export default {
     position: absolute;
     transform: rotate(90deg);
 
-    bottom: 20%;
-    left: -5%;
+    bottom: 25%;
+    left: -6%;
 }
 
 #halfcirctIndiago {
     position: absolute;
     transform: rotate(90deg);
-    top: -35%;
+    top: -40%;
     left: 5%;
 }
 
@@ -72,7 +72,8 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-align: center;
+    text-align: right;
+
 }
 </style>  
 <style></style>

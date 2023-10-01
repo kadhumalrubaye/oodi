@@ -1,11 +1,11 @@
 <template>
     <div class="container  position-relative">
-        <img class=" img-fluid" id="halfcircleBiggreennn" :src="halfcircleBiggreen" />
-        <img id="halfcirctIndiago1" class=" img-fluid"  :src="halfcirctIndiago" />
-        <img id="grenDots" class=" img-fluid"  :src="grenDots" alt="grenDots" />
-        <img id="grenDots2" class=" img-fluid"  :src="grenDots" alt="grenDots" />
-    
-    
+        <img class=" img-fluid" id="halfcircleBiggreennn" :src="halfcircleBiggreen" :style="{ top: '-100px' }" />
+        <img id="halfcirctIndiago1" class=" img-fluid" :src="halfcirctIndiago" />
+        <img id="grenDots" class=" img-fluid" :src="grenDots" alt="grenDots" />
+        <img id="grenDots2" class=" img-fluid" :src="grenDots" alt="grenDots" />
+
+
     </div>
     <section class=" row text-center">
 
@@ -29,41 +29,44 @@ export default {
             halfcirctIndiago: halfcirctIndiago,
             halfcircleBiggreen: halfcircleBiggreen,
             grenDots,
-         
+
         }
     },
     components: {
 
         teamHeading,
         teamImageGrid,
-        
+
     }
 }
 </script>
 
 <style scoped>
 #halfcircleBiggreennn {
-position: absolute;
+    position: absolute;
 
-  
+
+
 }
 
 #halfcirctIndiago1 {
- position: absolute;
-left: 10%;
-top: 13.5rem;
+    position: absolute;
+    left: 10%;
+    top: 109px;
 
 }
-#grenDots{
+
+#grenDots {
     position: absolute;
-    top: 17rem;
+    top: 170px;
+    left: -100px;
     z-index: -1;
 }
-#grenDots2{
+
+#grenDots2 {
     position: absolute;
     right: -2px;
     top: 25rem;
     z-index: -1;
 }
-
 </style>
