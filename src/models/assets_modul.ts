@@ -20,7 +20,12 @@ import eventImage3 from '@/assets/img/event_img3.png'
 import eventImage4 from '@/assets/img/event_img4.png'
 import gameOneColorCell from '@/assets/img/gameOnColorCells.png'
 import gameOneBigIndiagoStat from '@/assets/img/gameOnBigIndiagStart.png'
+import whitDotes from '@/assets/img/header/header_white_dots.png'
+import oodiSocialMediaAccountLogo from '@/assets/img/oodiSocialMediaAccountsLogo.png'
+
 export {
+  oodiSocialMediaAccountLogo,
+  whitDotes,
   gameOneBigIndiagoStat,
   gameOneColorCell,
   eventImage1,
