@@ -1,8 +1,20 @@
 <template>
-    <div class="container">
-        <div class="col">
-            <img class=" img-fluid" :src="latptopImg" alt=" laptop img" width="300">
-        </div>
+    <div class="container position-relative z-n1">
+
+        <img class=" img-fluid position-absolute    " :src="whiteCutedCircul" alt=" laptop img"
+            :style="{ right: '30px', top: '-56px' }">
+        <img class=" img-fluid  position-absolute" :src="latptopImg" alt=" laptop img"
+            :style="{ right: '50px', top: '-56px' }">
+
+
+        <img class=" img-fluid position-absolute z-n1    " :src="whiteCutedCircul" alt=" laptop img"
+            :style="{ right: '-100px', bottom: '-200px', zIndex: '0' }">
+        <img class=" img-fluid  position-absolute" :src="smallHalfIndiagoCircult" alt=" smallHalfIndiagoCircult img"
+            :style="{ right: '150px', bottom: '100px', transform: 'rotate(-90deg)' }">
+
+
+
+
         <div class="  pt-5">
             <h3>
                 What is <strong>Coursera?</strong> <br>
@@ -14,11 +26,14 @@
                 wide range of paid as well as free courses and<br>
                 programs from top universities and institutions<br>
                 worldwide, accessible to learners globally.<br>
+
             </p>
-            <h3><strong>How does it work:</strong></h3> <br>
+            <h3 class=" pt-5">
+                <strong>How does it work:</strong>
+            </h3>
             <p>
 
-                1. Go to www.coursera.org
+                1. Go to www.coursera.org <br>
                 2. Sign in or create an account. <br>
                 3. Use the search bar to find specific topics or browse through the catalog of available courses. <br>
                 4. Select the desired course. <br>
@@ -33,7 +48,7 @@
                 depending on the course's settings. <br>
             </p>
 
-            <h1>HAPPY LEARNING</h1>
+            <h1 :style="{ fontSize: '110.4px' }">HAPPY LEARNING</h1>
         </div>
     </div>
 </template>
@@ -41,35 +56,26 @@
    
 <script lang="ts">
 import latptopImg from './../../assets/img/Laptop.png'
+import { whiteCutedCircul, smallHalfIndiagoCircult } from '@/models/assets_modul'
 
 
 export default {
     data: function () {
         return {
-            latptopImg: latptopImg
+            latptopImg: latptopImg,
+            whiteCutedCircul,
+            smallHalfIndiagoCircult,
+
 
         }
     }
 }
 </script>
 <style scoped>
-img {
-
-    margin-right: 10%;
-    margin-top: 5%;
-
-    float: right;
-
-}
-
-
-
-
-
 h3 {
     color: #5B0AD9;
 
-    font-size: 5vmin;
+    font-size: 41.67px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -80,64 +86,27 @@ div p {
 
     color: #5B0AD9;
 
-    font-size: 3vmin;
+    font-size: 29.17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 
 }
 
-@supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
+@supports (-webkit-text-stroke: 3px #6BDD6B) {
     h1 {
         text-align: center;
-        -webkit-text-stroke: 0.5vmin #5B0AD9;
+        -webkit-text-stroke: 3px #5B0AD9;
         /* WebKit browsers (Safari) */
         color: #fff;
         margin: 0%;
-        font-size: 10vmin;
+        font-size: 110.4px;
     }
 }
 
 
 .container {
     background-color: #6BDD6B;
-}
-
-@media (min-width: 320px) {
-    img {
-        display: none;
-    }
-}
-
-@media (min-width: 425px) {
-    img {
-        display: none;
-    }
-}
-
-@media (min-width: 768px) {
-    img {
-        display: block;
-    }
-}
-
-@media (min-width: 992px) {
-    img {
-        display: block;
-    }
-}
-
-@media (min-width: 1024px) {
-    img {
-        display: block;
-    }
-}
-
-
-@media (min-width: 1200px) {
-    img {
-        display: block;
-    }
 }
 </style>  
 <style></style>

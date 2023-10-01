@@ -1,13 +1,12 @@
 <template>
-    <div class="">
-        <h1> …STAY TUNED!</h1>
+    <h1 class=" mt-5 mb-5"> …STAY TUNED!</h1>
 
-        <h2 :style="{margin:'0px'}">THE DIGITAL</h2>
+    <h2 class=" m-0">THE DIGITAL</h2>
 
-        <h3  :style="{margin:'0px'}">KNOWLEDGE HUB</h3>
-    </div>
+    <h3 class=" m-0">KNOWLEDGE HUB</h3>
 
-    <h4  :style="{margin:'0px'}">LEARN THE SKILLS OF THE FUTURE</h4>
+
+    <h4 class=" m-0">LEARN THE SKILLS OF THE FUTURE</h4>
     <br />
     <div class="row">
         <p>In today&#39;s rapidly
@@ -32,7 +31,7 @@
             Learning is an online platform with video courses taught by experts, offering<br />personalized, on-demand
             learning for career advancement. Integrated with LinkedIn, <br />it allows users to showcase completed
             courses and skills on their profiles.
-        
+
         </p>
 
         <p>
@@ -57,7 +56,6 @@ export default {
 </script>
 
 <style scoped>
-
 h1 {
     text-align: center;
     color: #6BDD6B;
@@ -68,18 +66,19 @@ h1 {
     line-height: normal;
 }
 
-@supports (  -webkit-text-stroke: 0.8vmin #6BDD6B){
-h2 {
-    text-align: left;
-    -webkit-text-stroke: 2px #6BDD6B;
-    /* WebKit browsers (Safari) */
-    color: #fff;
+@supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
+    h2 {
+        text-align: left;
+        -webkit-text-stroke: 2px #6BDD6B;
+        /* WebKit browsers (Safari) */
+        color: #fff;
 
-    font-size: 110.4px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}}
+        font-size: 110.4px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
 
 h3 {
     text-align: right;
@@ -108,6 +107,5 @@ p {
     font-weight: 400;
     line-height: normal;
 }
- 
 </style>  
 <style></style>
