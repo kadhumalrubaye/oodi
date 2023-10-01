@@ -10,8 +10,8 @@
                 <ceoCard />
             </div>
         </div>
-        <div style="position: absolute;float:right; z-index: 2;">
-            <img class="img-fluid " :src="greenStarImg" style="text-align: right;" width="78" height="80" />
+        <div style="position: absolute; z-index: 2; right: -1px;">
+            <img class="img-fluid " :src="greenStarImg" width="78" height="80" />
 
         </div>
     </div>
