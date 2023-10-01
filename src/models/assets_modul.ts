@@ -18,7 +18,11 @@ import eventImage1 from '@/assets/img/event_picture1.png'
 import eventImage2 from '@/assets/img/event_img2.png'
 import eventImage3 from '@/assets/img/event_img3.png'
 import eventImage4 from '@/assets/img/event_img4.png'
+import gameOneColorCell from '@/assets/img/gameOnColorCells.png'
+import gameOneBigIndiagoStat from '@/assets/img/gameOnBigIndiagStart.png'
 export {
+  gameOneBigIndiagoStat,
+  gameOneColorCell,
   eventImage1,
   eventImage2,
   eventImage3,

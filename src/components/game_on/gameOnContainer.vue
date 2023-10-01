@@ -1,17 +1,24 @@
 
 <template>
-    <div>
-        <div class="container p-5 " :style="{ 'background-image': 'url(' + gameOnBg + ') ' }">
+    <div class="  pt-5"
+        :style="{ backgroundColor: ' #6BDD6B', 'background-image': 'url(' + gameOnBg + ') ', backgroundRepeat: 'no-repeat', backgroundPosition: 'left top', backgroundSize: 'contain' }">
+        <div class="container pt-5  " :style="{ paddingLeft: '10%', paddingRight: '10%', paddingBottom: '5%', }">
 
-            <div class="row">
+            <div class="row position-relative pt-5">
                 <h1>
+                    <img :src="indiagoDots" alt="" class=" img-fluid position-absolute " width="300"
+                        :style="{ right: '10%', top: '15%' }">
+                    <img :src="bigHalfWhiteCircul" alt="" class=" img-fluid position-absolute "
+                        :style="{ right: '5%', top: '-5%' }">
+
+
                     GAME ON!
                 </h1>
-
+                <h3 class=" mt-5">
+                    What is Cross-word? <br>
+                </h3>
                 <p>
-                    <strong>
-                        What is Cross-word?
-                    </strong>
+
                     A crossword puzzle is a word game that consists of a grid of squares,
                     with each square corresponding to a letter in a word. The goal is to fill
                     the squares with words that intersect horizontally and vertically that
@@ -47,8 +54,12 @@
             <div class="row">
                 <img class=" img-fluid" :src="gameOneImg" alt=" game on">
             </div>
-            <br>
-            <p>
+
+            <p class=" position-relative pt-4">
+                <span class=" position-absolute" :style="{ right: '10%', top: '-20px' }">
+                    <strong>KEY</strong><br>
+                    <img :src="gameOneColorCell" alt=" gameOneColorCell">
+                </span>
                 1 - Our newsletter will keep us informed, … and <br>
                 prepared to lead in the industry. <br>
                 2 - Iraq’s first and only digital-native provider. <br>
@@ -61,20 +72,36 @@
 
 
             </p>
+
         </div>
+
     </div>
+    <footer class="  position-relative">
+        <img :src="gameOneBigIndiagoStat" alt=" gameOneColorCell" class=" position-absolute"
+            :style="{ bottom: '-100px', right: '-1px', }">
+
+
+    </footer>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import gameOneImg from './../../assets/img/gameone.png'
 import gameOnBg from './../../assets/img/gameon_background.png'
+import {
+    indiagoDots, bigHalfWhiteCircul, gameOneBigIndiagoStat, gameOneColorCell,
+} from '../../models/assets_modul'
 
 export default defineComponent({
     setup() {
         return {
-            gameOneImg: gameOneImg,
-            gameOnBg: gameOnBg,
+            indiagoDots, bigHalfWhiteCircul,
+            gameOneImg,
+            gameOnBg,
+            gameOneBigIndiagoStat,
+            gameOneColorCell
+
+
         };
     },
 
@@ -82,16 +109,10 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.container {
-    background-color: #6BDD6B;
-    background-repeat: no-repeat;
-    background-position: left top;
-}
-
 h1 {
     color: #5B0AD9;
 
-    font-size: 10vmin;
+    font-size: 110.4px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -100,7 +121,7 @@ h1 {
 h3 {
     color: #5B0AD9;
 
-    font-size: 5vmin;
+    font-size: 41.67px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -109,21 +130,11 @@ h3 {
 p {
     color: #5B0AD9;
 
-    font-size: 3vmin;
+    font-size: 29.17px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-}
+    line-height: 35.3px;
 
-@media only screen and (min-device-width: 768px) {}
-
-@media only screen and (max-device-width: 768px) {
-
-
-
-    .container {
-        background-size: contain;
-    }
 }
 </style>  
 <style></style>
