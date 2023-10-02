@@ -1,7 +1,7 @@
 <template>
     <div class=" overflow-hidden position-relative">
         <div class="row  gx-0 align-items-center  ">
-            <div id="oodImgCol" class=" col-sm-12 col-md-4">
+            <div id="oodImgCol" class=" col-sm-12 col-md-3">
                 <img class="image-fluid" :src="img1" />
 
             </div>
@@ -16,7 +16,7 @@
                 </p>
             </div>
 
-            <div id="digitalServiceImg" class=" col-sm-12 col-md-4">
+            <div id="digitalServiceImg" class=" col-sm-12 col-md-3">
                 <img class=" " :src="img22" />
 
             </div>
@@ -28,7 +28,7 @@
                     Effective contribution to net revenues</p>
             </div>
 
-            <div id="eSportsImgCol" class=" col-sm-12 col-md-4">
+            <div id="eSportsImgCol" class=" col-sm-12 col-md-3">
                 <img :src="img3" />
 
             </div>
@@ -37,7 +37,7 @@
                     Hosted <strong>20+</strong> tournaments<br>
                     Welcomed <strong>3k+</strong> participants <br> Awarded <strong>$80k</strong> in prizes</p>
             </div>
-            <div id="eSportsImgCol" class=" col-sm-12 col-md-4">
+            <div id="eSportsImgCol" class=" col-sm-12 col-md-3">
                 <img :src="img4" />
 
             </div>
@@ -54,7 +54,7 @@
         </div>
 
         <div id="weAreZainText">
-            <h1 :style="{ fontSize: '94.46px' }">
+            <h1 :style="{ fontSize: '94.46px',lineHeight:'0.8' }">
                 <strong>..WE ARE <br> ZAIN <br>
                     IRAQ&#39;S <br>
                     DIGITAL
@@ -84,12 +84,16 @@ export default {
 }
 </script>
 <style scoped>
+ img{
+    max-width: 354px;
+ }
 #weAreZainText {
+    
     position: absolute;
     color: #FFF;
     font-weight: 700;
-    top: 15%;
-    right: -1px;
+    top: 30%;
+    right: 100px;
 
 }
 

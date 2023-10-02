@@ -1,6 +1,6 @@
 <template  >
-  <div v-for="(ceo, index) in ceos" :key="index" class=" col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
-    <div class="card text-center align-items-center  ">
+  <div v-for="(ceo, index) in ceos" :key="index" class="d-flex align-items-end col-sm-12 col-md-6 col-lg-6 col-xl-6   d-flex ">
+    <div class="card text-center  ">
       <img class="card-img-top img-fluid" :src="ceo.img" alt="Card image cap">
 
       <div class="card-body  ">
@@ -9,11 +9,8 @@
         <p class="card-text ">
           {{ ceo.msg }}
         </p>
-        <footer class="blockquote-footer ">
+        <footer class="card-text p-3  ">
           {{ ceo.footer }}
-          <cite title="Source Title">
-            {{ ceo.footer }}
-          </cite>
         </footer>
 
       </div>
@@ -67,21 +64,17 @@ export default {
 
 
 .card {
-
+  height: 1500px;
   background-color: #5B0AD9;
-
   border-radius: 200px;
   padding-bottom: 10%;
   margin-top: 30%;
   max-width: 623px;
-
-
 }
 
 .card-text {
   color: white;
-  text-align: justify;
-  font-size: 27.08px;
+  font-size: 29.17px;
 
 }
 
