@@ -15,32 +15,36 @@
             Qurterly Newsletter
         </h1>
 
-        <section >
+        <section>
             <img id="header_ellips" :src="header_ellips" alt="big start" class=" img-fluid">
             <img id="header_green_ball" :src="header_green_ball" alt=" header_green_ball" class=" img-fluid">
             <img id="header_cutted_circule" :src="header_cutted_circule" alt=" header_cutted_circule" class=" img-fluid">
-            <img id="header_white_half_circul" :src="header_white_half_circul" alt="header_white_half_circul" class=" img-fluid">
-            <img id="header_small_green_half_circle" :src="header_small_green_half_circle" alt="header_small_green_half_circle" class=" img-fluid">
+            <img id="header_white_half_circul" :src="header_white_half_circul" alt="header_white_half_circul"
+                class=" img-fluid">
+            <img id="header_small_green_half_circle" :src="header_small_green_half_circle"
+                alt="header_small_green_half_circle" class=" img-fluid">
             <img id="header_white_dots" :src="header_white_dots" alt="header_white_dots" class=" img-fluid">
-            <img id="header_white_start_series" :src="header_white_start_series" alt="header_white_start_series" class=" img-fluid">
+            <img id="header_white_start_series" :src="header_white_start_series" alt="header_white_start_series"
+                class=" img-fluid">
 
 
-           <div id="TheDigitalInsider" class=" container-fluid">
-            <h2>
-                The
-            </h2>
+            <div id="TheDigitalInsider" class=" container-fluid ">
 
-            <h3>
-                DIGITAL
-            </h3>
-            <h4>
-                INSIDER
-            </h4>
-            
-           </div>
+                <h2>
+                    The
+                </h2>
+
+                <h3 :style="{ lineHeight: '50%' }">
+                    DIGITAL
+                </h3>
+                <h4>
+                    INSIDER
+                </h4>
+
+            </div>
         </section>
         <img id="zain_logo" :src="zain_logo" alt="zain_logo" class=" img-fluid">
-       <span>&</span>
+        <span>&</span>
         <img id="header_oodi_logo" :src="header_oodi_logo" alt="header_oodi_logo" class=" img-fluid">
 
     </header>
@@ -111,7 +115,7 @@ header {
 }
 
 #header_green_start {
- 
+
     position: absolute;
     top: 30%;
     right: -1px
@@ -145,23 +149,24 @@ h1 {
 }
 
 section {
-  
+
     max-width: 600px;
     height: 600px;
 
     position: relative;
-   
+
     margin-left: 5%;
     top: 100px;
- 
+
 
 }
-#TheDigitalInsider{
- 
+
+#TheDigitalInsider {
+    padding-top: 20%;
+    margin-right: 50%;
 }
 
 #header_ellips {
-
     max-width: 559.08px;
     position: absolute;
 }
@@ -174,8 +179,8 @@ h2 {
     margin: 0rem;
     padding: 0rem;
     margin-left: 5rem;
-    
-    
+
+
 }
 
 /* digital */
@@ -196,61 +201,70 @@ h4 {
     padding: 0px;
     margin-left: 10rem;
 }
-#header_green_ball{
+
+#header_green_ball {
     position: absolute;
-  
+
     right: -73px;
-    top:75px;
+    top: 25%;
     z-index: -1;
 }
-#header_cutted_circule{
+
+#header_cutted_circule {
     position: absolute;
-  
-  right: -73px;
-  top:75px;
-  z-index: 0; 
+
+    right: -73px;
+    top: 25%;
+    z-index: 0;
 }
-#header_small_green_half_circle{
+
+#header_small_green_half_circle {
     width: 12%;
-    position: absolute; 
-    top:2.5rem;
-    right: 8.5rem;        
-    
+    position: absolute;
+    top: 15%;
+    right: 8.5rem;
+
 }
-#header_white_half_circul{
-    position: absolute; 
-    top:4rem;
+
+#header_white_half_circul {
+    position: absolute;
+    top: 20%;
     right: 6rem;
 }
-#header_white_dots{
+
+#header_white_dots {
     position: absolute;
     bottom: 10rem;
     left: 1rem;
 }
-#header_white_start_series{
-   position: absolute;
-   right: 1rem;
-   top:-2rem;
+
+#header_white_start_series {
+    position: absolute;
+    right: 1rem;
+    top: 5%;
 }
-#zain_logo{
+
+#zain_logo {
     position: absolute;
     top: 83%;
-    
+
     margin-left: 5rem;
 }
-#header_oodi_logo{
+
+#header_oodi_logo {
     position: absolute;
     top: 82%;
-    
+
     margin-left: 25rem;
 }
-span{
+
+span {
     color: white;
     font-size: 3rem;
     position: absolute;
     top: 83%;
     font-style: italic;
-    margin-left: 22rem; 
+    margin-left: 22rem;
 }
 </style>  
 <style></style>
