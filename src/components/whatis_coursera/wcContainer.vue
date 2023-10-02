@@ -1,5 +1,5 @@
 <template>
-    <div class="container position-relative z-n1">
+    <div class="container position-relative z-n1 mt-5">
 
         <img class=" img-fluid position-absolute    " :src="whiteCutedCircul" alt=" laptop img"
             :style="{ right: '30px', top: '-56px' }">
