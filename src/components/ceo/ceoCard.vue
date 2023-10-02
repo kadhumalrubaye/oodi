@@ -1,7 +1,8 @@
 <template  >
-  <div v-for="(ceo, index) in ceos" :key="index" class="d-flex align-items-end col-sm-12 col-md-6 col-lg-6 col-xl-6   d-flex ">
+  <div v-for="(ceo, index) in ceos" :key="index" class="      col-sm-12 col-md-6 col-lg-6 col-xl-6    ">
     <div class="card text-center  ">
-      <img class="card-img-top img-fluid" :src="ceo.img" alt="Card image cap">
+      <img class="card-img-top img-fluid align-center text-center  align-self-center " :src="ceo.img"
+        alt="Card image cap">
 
       <div class="card-body  ">
         <h5 class="card-title" :style="{ color: 'white' }">{{ ceo.name }}</h5>
