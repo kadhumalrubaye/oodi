@@ -89,7 +89,7 @@ export default {
   position: absolute;
   max-width: 20%;
   transform: rotate(130deg);
-  right: -20%;
+  right: -15%;
   bottom: 30%;
 }
 
