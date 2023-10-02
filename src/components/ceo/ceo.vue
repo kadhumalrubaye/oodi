@@ -1,5 +1,5 @@
 <template>
-    <div id="ceoContainer" class="   position-relative  ">
+    <div id="ceoContainer" class="   position-relative mb-5  ">
         <img id="ceo_background" class="  img-fluid " :src="ceo_background" alt=" bg imag" width="970" height="1444">
         <img id="big_green_ball" class=" img-fluid " :src="big_green_ball" alt=" big_green_ball">
         <img id="header_gren_dots" class=" img-fluid " :src="header_gren_dots" alt=" header_gren_dots">
@@ -12,7 +12,6 @@
         </div>
         <div style="position: absolute; z-index: 2; right: -1px;">
             <img class="img-fluid " :src="greenStarImg" width="78" height="80" />
-
         </div>
     </div>
 </template>
@@ -55,11 +54,15 @@ export default {
 #_element_design_purpl {
     position: absolute;
     top: 50%;
+    z-index: -1;
 }
 
 #bottom_ceo_inidago_wave {
     position: absolute;
-    bottom: 0px;
+    bottom: -10%;
+
+
+
 }
 
 #header_gren_dots {

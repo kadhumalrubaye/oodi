@@ -1,5 +1,5 @@
 <template>
-    <div class="container  position-relative">
+    <div class="container  position-relative ">
         <img class=" img-fluid" id="halfcircleBiggreennn" :src="halfcircleBiggreen" :style="{ top: '-100px' }" />
         <img id="halfcirctIndiago1" class=" img-fluid" :src="halfcirctIndiago" />
         <img id="grenDots" class=" img-fluid" :src="grenDots" alt="grenDots" />
@@ -43,7 +43,9 @@ export default {
 
 <style scoped>
 #halfcircleBiggreennn {
+
     position: absolute;
+    z-index: -1;
 
 
 

@@ -5,7 +5,7 @@
         <img id="halfcirctIndiago" :src="halfcirctIndiago" alt="halfcirctIndiago" width="119">
 
 
-        <h1>
+        <h1 :style="{ marginLeft: '5%' }">
             WHEN WE SAY
         </h1>
         <h2>
@@ -36,14 +36,14 @@ export default {
     transform: rotate(90deg);
 
     bottom: 30%;
-    left: -5%;
+    left: 1%;
 }
 
 #halfcirctIndiago {
     position: absolute;
     transform: rotate(90deg);
-    top: -30%;
-    left: 5%;
+    top: -43%;
+    left: 10%;
 }
 
 span {
