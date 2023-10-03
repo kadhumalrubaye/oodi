@@ -1,13 +1,13 @@
 <template  >
-  <div v-for="(ceo, index) in ceos" :key="index" class="      col-sm-12 col-md-6 col-lg-6 col-xl-6    ">
+  <div v-for="(ceo, index) in ceos" :key="index" class="      col-sm-12 col-md-6 col-lg-6 col-xl-6 card-deck d-flex flex-warp    ">
     <div class="card text-center  ">
       <img class="card-img-top img-fluid align-center text-center  align-self-center " :src="ceo.img"
         alt="Card image cap">
 
-      <div class="card-body  ">
+      <div class="card-body     ">
         <h5 class="card-title" :style="{ color: 'white' }">{{ ceo.name }}</h5>
         <h5 class="card-title">{{ ceo.position }}</h5>
-        <p class="card-text ">
+        <p class="card-text  ">
           {{ ceo.msg }}
         </p>
         <footer class="card-text p-3  ">
@@ -25,6 +25,8 @@ import DanielToranImg from '@/assets/img/DanielToran.png'
 import { DanielToranModel, aliAliZahidModel } from '@/models/employee';
 DanielToranModel.img = DanielToranImg
 aliAliZahidModel.img = AliAlZahidImg
+
+
 const ceos = {
   aliAliZahidModel,
   DanielToranModel,
@@ -70,7 +72,7 @@ export default {
   border-radius: 200px;
   padding-bottom: 10%;
   margin-top: 30%;
-  max-width: 623px;
+
 }
 
 .card-text {

@@ -22,8 +22,10 @@ import gameOneColorCell from '@/assets/img/gameOnColorCells.png'
 import gameOneBigIndiagoStat from '@/assets/img/gameOnBigIndiagStart.png'
 import whitDotes from '@/assets/img/header/header_white_dots.png'
 import oodiSocialMediaAccountLogo from '@/assets/img/oodiSocialMediaAccountsLogo.png'
+import zainDigitalServiceImg from '@/assets/img/zainDigitalSErvicesIMg.png'
 
 export {
+  zainDigitalServiceImg,
   oodiSocialMediaAccountLogo,
   whitDotes,
   gameOneBigIndiagoStat,

@@ -19,7 +19,7 @@
       </div>
       <div class="col-sm-12 col-md-6">
         <div>
-          <img class="img-fluid" :src="img2" />
+          <img class="img-fluid" :src="zainDigitalServiceImg" />
           <p>
             Enabling mobile payments over carrier <br />
             billing, across gaming, apps, entertainment <br />
@@ -53,20 +53,20 @@
 
 <script lang="ts">
 import img1 from '../../assets/img/1.png'
-import img2 from '../../assets/img/2.png'
 import img3 from '../../assets/img/3.png'
 import img4 from '../../assets/img/4.png'
 import indiagoDots from '@/assets/img/dots.png'
 import catedGreenCircult from '@/assets/img/greenCutedCircul.png'
 import smallGreenStar from '@/assets/img/greenstart.png'
-import { greenDots, bigHalfGrenCircul } from '@/models/assets_modul'
+import { greenDots, bigHalfGrenCircul,zainDigitalServiceImg } from '@/models/assets_modul'
 
 
 export default {
   data: function () {
     return {
+      zainDigitalServiceImg,
       img1: img1,
-      img2: img2,
+ 
       img3: img3,
       img4: img4,
       indiagoDots,

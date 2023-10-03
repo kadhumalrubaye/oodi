@@ -17,7 +17,7 @@
             </div>
 
             <div id="digitalServiceImg" class=" col-sm-12 col-md-3">
-                <img class=" " :src="img22" />
+                <img class=" " :src="zainDigitalServiceImg" />
 
             </div>
             <div class=" col-sm-12 col-md-8 ">
@@ -68,15 +68,16 @@
 
 <script lang="ts">
 import img1 from '../../assets/img/1.png'
-import img22 from '../../assets/img/2.png'
+
 import img3 from '../../assets/img/3.png'
 import img4 from '../../assets/img/4.png'
+import { zainDigitalServiceImg } from '@/models/assets_modul'
 
 export default {
     data: function () {
         return {
             img1: img1,
-            img22: img22,
+            zainDigitalServiceImg,
             img3: img3,
             img4: img4,
         }

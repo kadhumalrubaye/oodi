@@ -1,9 +1,11 @@
 <template>
     <h1 class=" mt-5 mb-5"> …STAY TUNED!</h1>
 
-    <h2 class=" m-0">THE DIGITAL</h2>
+   <div :style="{marginTop:'10%'}" >
+    <h2 class=" m-0" :style="{lineHeight:'30%'}">THE DIGITAL</h2>
 
-    <h3 class=" m-0">KNOWLEDGE HUB</h3>
+<h3 class=" m-0">KNOWLEDGE HUB</h3>
+   </div>
 
 
     <h4 class=" m-0">LEARN THE SKILLS OF THE FUTURE</h4>
