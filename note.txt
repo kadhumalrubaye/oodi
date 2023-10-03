@@ -1,2 +1,5 @@
 [] paragraph font size not same in all sections[ceo :1.8 rem,when we say digital :?,digital @ zain :27.08px,] , all sections most have h1,h2,h3,h4 size 
 [] the assets shapes become blur in large screen
+[] digital service image not fit 
+[] favicon not provided 
+[] loading image icon not provide (in case poor internet connection)
