@@ -10,13 +10,13 @@ class EmployeeModel {
 
 
 const aliAliZahidModel: EmployeeModel = new EmployeeModel();
-aliAliZahidModel.name = "Ali Zahid"
+aliAliZahidModel.name = "Ali Al-Zahid"
 aliAliZahidModel.position = "Chief Executive Officer";
 aliAliZahidModel.msg = AliAliZahid
 aliAliZahidModel.footer = "Wishing you all afantastic quarter ahead!"
 
 const DanielToranModel: EmployeeModel = new EmployeeModel();
-DanielToranModel.name = "Daniel Toran"
+DanielToranModel.name = "Daniel Turan"
 DanielToranModel.position = "Chief Digital Officer";
 DanielToranModel.msg = DanielToran
 DanielToranModel.footer = "Let us know what you think \n digital@iq.zain.com "

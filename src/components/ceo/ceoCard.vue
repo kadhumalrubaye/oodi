@@ -1,19 +1,19 @@
 <template  >
-  <div v-for="(ceo, index) in ceos" :key="index" class="      col-sm-12 col-md-6 col-lg-6 col-xl-6 card-deck d-flex ">
-    <div class="card text-center  ">
+  <div v-for="(ceo, index) in ceos" :key="index" class=" col-sm-12 col-md-6 col-lg-6 col-xl-6  d-flex ">
+    <div class="card text-center   ">
       <img class="card-img-top img-fluid align-self-center " :src="ceo.img" alt="Card image cap">
-
       <div class="card-body">
         <h5 class="card-title" :style="{ color: 'white' }">{{ ceo.name }}</h5>
         <h5 class="card-title">{{ ceo.position }}</h5>
-        <p class="card-text  ">
+        <p class="card-text">
           {{ ceo.msg }}
         </p>
-        <footer class="card-text  ">
+        <footer class="card-footer bg-transparent border-0 text-white   ">
           {{ ceo.footer }}
         </footer>
-
       </div>
+
+
     </div>
   </div>
 </template>
@@ -77,7 +77,7 @@ export default {
 .card-text {
   color: white;
   font-size: 29.17px;
-  white-space: pre-line;
+
 
 }
 

@@ -3,3 +3,4 @@
 [] digital service image not fit 
 [] favicon not provided 
 [] loading image icon not provide (in case poor internet connection)
+[] problem in digitalService image size from original asset 

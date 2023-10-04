@@ -48,7 +48,7 @@
                 depending on the course's settings. <br>
             </p>
 
-            <h1 :style="{ fontSize: '110.4px' }">HAPPY LEARNING</h1>
+            <h1 :style="{ fontSize: '110.4px' }">HAPPY LEARNINGS!</h1>
         </div>
     </div>
 </template>
