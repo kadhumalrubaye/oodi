@@ -24,8 +24,9 @@
 
 
             <img class=" img-fluid mt-5  " :src="zainLogo" alt=" zain social media">
-
-            <img class=" img-fluid mt-5   " :src="zainSocilaMedia" alt=" zain social media" :style="{ marginLeft: '10%' }">
+            <a href="#"> <img class=" img-fluid mt-5   " :src="zainSocilaMedia" alt=" zain social media"
+                    :style="{ marginLeft: '10%' }">
+            </a>
             <br>
             <img class=" img-fluid mt-5" :src="oodiLogo" alt=" zain social media">
 
