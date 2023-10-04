@@ -30,8 +30,10 @@
             <br>
             <img class=" img-fluid mt-5" :src="oodiLogo" alt=" zain social media">
 
-            <img class=" img-fluid mt-5" :src="oodiSocialMediaAccountLogo" alt=" zain social media"
-                :style="{ marginLeft: '10%' }">
+            <a href="#">
+                <img class=" img-fluid mt-5" :src="oodiSocialMediaAccountLogo" alt=" zain social media"
+                    :style="{ marginLeft: '10%' }">
+            </a>
 
 
         </div>
