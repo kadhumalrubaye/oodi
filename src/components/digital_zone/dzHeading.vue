@@ -1,5 +1,5 @@
 <template>
-    <div class="container position-relative">
+    <div class="container position-relative mb-5">
         <img id="bigHalfWhiteCircul" :src="bigHalfWhiteCircul" alt="bigHalfWhiteCircul">
         <img id="smallHalfGreenCircul" :src="smallHalfGreenCircul" alt="smallHalfGreenCircul">
 
@@ -61,9 +61,9 @@ h1 {
 }
 
 
-@supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
+@supports (-webkit-text-stroke: 4px #6BDD6B) {
     h1 span {
-        -webkit-text-stroke: 0.5vmin #ffff;
+        -webkit-text-stroke: 4px #ffff;
         color: #6BDD6B;
     }
 }

@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class=" mb-5">
         <digitalHeading />
 
         <digitalServices />

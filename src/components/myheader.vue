@@ -12,7 +12,8 @@
 
         <h1>
             Zain Iraq Digital & oodi's <br>
-            Qurterly Newsletter
+            Quarterly Newsletter <br>
+            <strong :style="{ fontWeight: 'lighter', fontSize: 'smaller' }">Issue 1,Q4 2023</strong>
         </h1>
 
         <section>

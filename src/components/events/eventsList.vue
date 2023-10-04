@@ -72,17 +72,14 @@
                     June 2023
                 </h3>
                 <p>
-                    oodi was thrilled to sponsor the recent event
-                    organized by the Iraqi Journalists Syndicate.
-                    MWith an audience of around 400 people, it
-                    was an excellent platform to showcase oodi
-                    services and support the community.
-                    <br>
-                    The fantastic sponsorship package included
-                    5 vanity numbers for the management team,
-                    with a free balance of up to 35k IQD and Hi5
-                    access for one month. Oodi also showed
+                    oodi was thrilled to sponsor the recent event organized by the Iraqi Journalists Syndicate. MWith
+                    anaudience of around 400 people, it was an excellent platform to showcase oodi services and support
+                    thecommunity.
 
+                <p>
+                    The fantastic sponsorship package included5 vanity numbers for the management
+                    team,with a free balance of up to 35k IQD and Hi5access for one month. Oodi also showed
+                </p>
                 </p>
 
             </div>
@@ -98,7 +95,7 @@
                     <img :src="eventSinglCup" alt="" class=" position-absolute" :style="{ bottom: '-70%', right: '0px' }">
                 </h2>
                 <h3>
-                    July 023
+                    July 2023
                 </h3>
                 <p>
                     Zain Iraq recently sponsored the participation

@@ -1,5 +1,5 @@
 <template>
-    <div class=" overflow-hidden position-relative">
+    <div class=" overflow-hidden position-relative ">
         <div class="row  gx-0 align-items-center  ">
             <div id="oodImgCol" class=" col-sm-12 col-md-3">
                 <img class="image-fluid" :src="img1" />
@@ -54,7 +54,7 @@
         </div>
 
         <div id="weAreZainText">
-            <h1 :style="{ fontSize: '94.46px',lineHeight:'0.8' }">
+            <h1 :style="{ fontSize: '94.46px', lineHeight: '0.8' }">
                 <strong>..WE ARE <br> ZAIN <br>
                     IRAQ&#39;S <br>
                     DIGITAL
@@ -85,11 +85,12 @@ export default {
 }
 </script>
 <style scoped>
- img{
+img {
     max-width: 354px;
- }
+}
+
 #weAreZainText {
-    
+
     position: absolute;
     color: #FFF;
     font-weight: 700;
