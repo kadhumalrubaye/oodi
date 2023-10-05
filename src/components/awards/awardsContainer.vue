@@ -1,25 +1,29 @@
 <template>
-    <div class="container position-relative pb-5 pt-5 " :style="{ backgroundImage: `url(${awardBg})` }">
-        <img id="dizleeCup" width="280" class="  img-fluid position-absolute " :src="dizleeCup" alt=" dezlee cup" :style="{
-            right: '50px', bottom: '70px',
+    <div id="container"
+        :style="{ backgroundImage: `url(${awardBg})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right top' }">
+        <div class="container position-relative pb-5 pt-5 ">
+            <img id="dizleeCup" width="280" class="  img-fluid position-absolute " :src="dizleeCup" alt=" dezlee cup"
+                :style="{
+                    right: '50px', bottom: '70px',
 
-        }">
-        <img id="awardCup" width="300" class=" img-fluid position-absolute" :src="awardCup" alt=" award cup" :style="{
-            top: '-20px'
-        }">
+                }">
+            <img id="awardCup" width="300" class=" img-fluid position-absolute" :src="awardCup" alt=" award cup" :style="{
+                top: '-20px'
+            }">
 
-        <div class="row text-center">
-            <h1 class=" m-0">2023</h1>
-            <h2 class=" m-0"> AWARDS</h2>
-            <p :style="{ textAlign: 'left', marginLeft: '50px', marginTop: '10px', paddingTop: '30px' }">
-                Zain Iraq Digital Services team won the award for the Most
-                <br>
-                <strong>
-                    Disruptive Operator in Zain Group Annual Digital Forum 2023.
-                </strong>
-            </p>
+            <div class="row text-center">
+                <h1 class=" m-0">2023</h1>
+                <h2 class=" m-0"> AWARDS</h2>
+                <p :style="{ textAlign: 'left', marginLeft: '50px', marginTop: '10px', paddingTop: '30px' }">
+                    Zain Iraq Digital Services team won the award for the Most
+                    <br>
+                    <strong>
+                        Disruptive Operator in Zain Group Annual Digital Forum 2023.
+                    </strong>
+                </p>
+            </div>
+
         </div>
-
     </div>
 </template>
 
@@ -42,7 +46,7 @@ export default {
 }
 </script>
 <style scoped>
-.container {
+#container {
     background-color: #5B0AD9;
     ;
     background-repeat: no-repeat;

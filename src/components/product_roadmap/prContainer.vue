@@ -1,9 +1,11 @@
 <template>
-    <div class="container  " :style="{ 'background-image': 'url(' + layar7 + ') ' }">
+    <div class="  " :style="{ 'background-image': 'url(' + layar7 + ') ' }">
 
-        <PrHeainding />
-        <prList />
-        <stay_tuned />
+        <div class="container">
+            <PrHeainding />
+            <prList />
+            <stay_tuned />
+        </div>
 
     </div>
 </template>

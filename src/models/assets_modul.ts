@@ -23,8 +23,9 @@ import gameOneBigIndiagoStat from '@/assets/img/gameOnBigIndiagStart.png'
 import whitDotes from '@/assets/img/header/header_white_dots.png'
 import oodiSocialMediaAccountLogo from '@/assets/img/oodiSocialMediaAccountsLogo.png'
 import zainDigitalServiceImg from '@/assets/img/zainDigitalServiceImg.png'
-
+import zainFavicon from '@/assets/img/zainFavicon.png'
 export {
+  zainFavicon,
   zainDigitalServiceImg,
   oodiSocialMediaAccountLogo,
   whitDotes,

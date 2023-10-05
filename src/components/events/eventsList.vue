@@ -1,8 +1,8 @@
 <template>
-    <div class="container position-relative ">
+    <div class="  position-relative ">
 
         <!-- row 1 -->
-        <div class="row">
+        <div class="row ">
             <div class="col">
                 <img :src="eventImage1" alt="">
                 <img :src="eventXo" alt=" event xo " class=" position-absolute " :style="{ left: '40%', top: '-5%' }">
@@ -92,7 +92,8 @@
                 <h2 class=" position-relative">
 
                     E-Sports: PUBG Regional Tournament
-                    <img :src="eventSinglCup" alt="" class=" position-absolute" :style="{ bottom: '-70%', right: '0px' }">
+                    <img :src="eventSinglCup" alt=" eventSinglCup " class=" img-fluid position-absolute"
+                        :style="{ bottom: '-70%', right: '0%' }">
                 </h2>
                 <h3>
                     July 2023
@@ -110,12 +111,12 @@
 
             </div>
             <div class="col position-relative">
-                <img width="286" :src="eventGreenHalfStra" alt="" class=" img-fluid position-absolute z-n1"
+                <img width="215" :src="eventGreenHalfStra" alt="" class=" img-fluid position-absolute z-n1"
                     :style="{ top: '-20%', left: '-5%' }">
                 <img width="286" :src="indiagoDots" alt="" class=" img-fluid position-absolute"
                     :style="{ top: '-15%', right: '10%' }">
                 <img :src="eventHalfCirculStorkOnly" alt="" class=" position-absolute"
-                    :style="{ top: '-30%', right: '-20px' }">
+                    :style="{ top: '-30%', right: '-1%' }">
 
                 <img :src="eventImage4" alt="eventImage4">
             </div>

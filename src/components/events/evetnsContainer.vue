@@ -1,7 +1,9 @@
 <template>
-    <div class="container mt-5">
-        <EventHeading />
-        <EventsList />
+    <div>
+        <div class="  container mt-5">
+            <EventHeading />
+            <EventsList />
+        </div>
     </div>
 </template>
 
