@@ -7,9 +7,9 @@
             <div class="row position-relative pt-5">
                 <h1>
                     <img :src="indiagoDots" alt="" class=" img-fluid position-absolute " width="300"
-                        :style="{ right: '10%', top: '15%' }">
+                        :style="{ right: '0%', top: '15%' }">
                     <img :src="bigHalfWhiteCircul" alt="" class=" img-fluid position-absolute "
-                        :style="{ right: '5%', top: '-5%' }">
+                        :style="{ right: '-6%', top: '-5%' }">
 
 
                     GAME ON!

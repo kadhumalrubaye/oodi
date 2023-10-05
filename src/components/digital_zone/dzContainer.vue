@@ -42,52 +42,5 @@ div {
     background-size: contain;
     background-position: right top;
 }
-
-
-@media (min-width: 320px) {}
-
-@media (min-width: 425px) {}
-
-@media (min-width: 768px) {
-    #halfCircleGreen {
-        display: none;
-    }
-
-    #halfCircleWhite {
-        display: none;
-    }
-
-}
-
-@media (min-width: 992px) {
-    #halfCircleGreen {
-        display: none;
-    }
-
-    #halfCircleWhite {
-        display: none;
-    }
-}
-
-@media (min-width: 1024px) {
-    #halfCircleGreen {
-        display: none;
-    }
-
-    #halfCircleWhite {
-        display: none;
-    }
-}
-
-
-@media (min-width: 1200px) {
-    #halfCircleGreen {
-        display: none;
-    }
-
-    #halfCircleWhite {
-        display: none;
-    }
-}
 </style>  
 <style></style>

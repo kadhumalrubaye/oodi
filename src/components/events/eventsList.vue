@@ -87,13 +87,13 @@
         </div>
         <img width="286" :src="indiagoDots" alt="">
         <!-- row4 -->
-        <div class="row flex-column-reverse flex-lg-row flex-md-row flex-sm-row flex-xl-row">
+        <div class="row g-0 p-0 m-0 flex-column-reverse flex-lg-row flex-md-row flex-sm-row flex-xl-row">
             <div class="col">
                 <h2 class=" position-relative">
 
                     E-Sports: PUBG Regional Tournament
-                    <img :src="eventSinglCup" alt=" eventSinglCup " class=" img-fluid position-absolute"
-                        :style="{ bottom: '-70%', right: '0%' }">
+                    <img width="" :src="eventSinglCup" alt=" eventSinglCup " class=" img-fluid position-absolute"
+                        :style="{ bottom: '-70%', right: '-10%' }">
                 </h2>
                 <h3>
                     July 2023
@@ -111,8 +111,8 @@
 
             </div>
             <div class="col position-relative">
-                <img width="215" :src="eventGreenHalfStra" alt="" class=" img-fluid position-absolute z-n1"
-                    :style="{ top: '-20%', left: '-5%' }">
+                <img width="150" :src="eventGreenHalfStra" alt="" class=" img-fluid position-absolute z-n1"
+                    :style="{ top: '-10%', left: '5%' }">
                 <img width="286" :src="indiagoDots" alt="" class=" img-fluid position-absolute"
                     :style="{ top: '-15%', right: '10%' }">
                 <img :src="eventHalfCirculStorkOnly" alt="" class=" position-absolute"

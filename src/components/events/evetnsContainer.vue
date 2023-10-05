@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="  container mt-5">
+        <div class="  container  mt-5">
             <EventHeading />
             <EventsList />
         </div>
