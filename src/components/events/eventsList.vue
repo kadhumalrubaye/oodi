@@ -31,9 +31,9 @@
                 <h2 class=" position-relative">
                     Native Platform Vs Cross-Platform Session
                     <img :src="eventHalfCirculWithBlackStork" alt=" eventHalfCirculWithBlackStork "
-                        class=" position-absolute " :style="{ bottom: '0px', right: '-50px' }">
+                        class=" position-absolute " :style="{ bottom: '0px', right: '-25%' }">
                     <img :src="smallHalfIndiagoCircult" alt=" smallHalfIndiagoCircult " class=" position-absolute "
-                        :style="{ bottom: '0px', right: '5%', transform: 'rotate(-60deg)' }">
+                        :style="{ bottom: '0px', right: '-10%', transform: 'rotate(-60deg)' }">
                 </h2>
                 <h3>
                     March 2023
