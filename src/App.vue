@@ -10,6 +10,7 @@ import awards from './components/awards/awardsContainer.vue'
 import EvetnsContainer from './components/events/evetnsContainer.vue';
 import gameOnContainer from './components/game_on/gameOnContainer.vue'
 import thankYouContainer from './components/thank_you/thankYouContainer.vue'
+import LifeStyleSection from './components/lifeStyleSection/LifeStyleSection.vue';
 
 </script>
 
@@ -29,15 +30,13 @@ import thankYouContainer from './components/thank_you/thankYouContainer.vue'
     <wcContainer />
     <awards />
     <EvetnsContainer />
+
     <gameOnContainer />
     <thankYouContainer />
 
   </main>
 </template>
 
-<style scoped>
-
-
-</style>
+<style scoped></style>
  
   

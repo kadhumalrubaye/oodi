@@ -95,7 +95,7 @@ img {
     color: #FFF;
     font-weight: 700;
     top: 30%;
-    right: 100px;
+    right: 10%;
 
 }
 
