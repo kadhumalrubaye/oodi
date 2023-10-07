@@ -3,11 +3,11 @@
 
         <!-- row 1 -->
         <div class="row ">
-            <div class="col">
+            <div class="col col-sm-12">
                 <img :src="eventImage1" alt="">
                 <img :src="eventXo" alt=" event xo " class=" position-absolute " :style="{ left: '40%', top: '-5%' }">
             </div>
-            <div class="col">
+            <div class="col col-sm-12">
                 <h2>
                     FIFA competition at ZINC Baghdad
                 </h2>
@@ -182,4 +182,36 @@ p {
     line-height: normal;
 }
 </style>  
-<style></style>
+ 
+<style scoped>
+@media(max-width: 425px) {
+
+
+    h2 {
+        color: #5B0AD9;
+
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    h3 {
+        color: #6BDD6B;
+        margin: 0px;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    p {
+        color: #58595B;
+
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+</style>  

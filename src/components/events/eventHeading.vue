@@ -40,7 +40,28 @@ h5 {
 
 }
 </style>  
-<style></style>
+<style scoped>
+@media (max-width :425px) {
+    h1 {
+        color: #5B0AD9;
+
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    h5 {
+        color: #58595B;
+
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+}
+</style>
  
 
  

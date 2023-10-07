@@ -57,8 +57,6 @@ export default {
 
 }
 
-
-
 p {
     color: #FFF;
 
@@ -87,4 +85,54 @@ h2 {
     line-height: normal;
 }
 </style>  
-<style></style>
+<style scoped>
+@media(max-width: 425px) {
+    #dizleeCup {
+        max-width: 20%;
+        left: 77%;
+        top: 30%;
+    }
+
+    #awardCup {
+        max-width: 30%;
+
+
+    }
+
+    #container {
+
+        background-color: #5B0AD9;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right center;
+
+    }
+
+    p {
+        margin: 0px !important;
+        color: #FFF;
+        font-size: 0.8rem;
+    }
+
+    @supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
+        h1 {
+            -webkit-text-stroke: 2px #FFF;
+            color: #5B0AD9;
+
+            font-size: 3rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    h2 {
+        color: #FFF;
+
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+</style>
