@@ -40,11 +40,5 @@ export default {
 }
 </style>  
 <style scoped>
-@media(max-width: 425px) {
-    .container {
-        background-image: none;
-        background-repeat: repeat;
-    }
-
-}
+@media(max-width: 425px) {}
 </style>
