@@ -37,10 +37,14 @@ export default {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left top;
-
-
-
-
 }
 </style>  
-<style></style>
+<style scoped>
+@media(max-width: 425px) {
+    .container {
+        background-image: none;
+        background-repeat: repeat;
+    }
+
+}
+</style>

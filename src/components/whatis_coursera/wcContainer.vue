@@ -2,25 +2,26 @@
     <div class="position-relative z-n1 mt-5" :style="{ backgroundColor: '#6BDD6B' }">
         <div class=" container ">
 
-            <img class=" img-fluid position-absolute    " :src="whiteCutedCircul" alt=" laptop img"
+            <img id="whiteCutedCircul" class=" img-fluid position-absolute    " :src="whiteCutedCircul" alt=" laptop img"
                 :style="{ right: '30px', top: '-56px' }">
-            <img class=" img-fluid  position-absolute" :src="latptopImg" alt=" laptop img"
+            <img id="latptopImg" class=" img-fluid  position-absolute" :src="latptopImg" alt=" laptop img"
                 :style="{ right: '50px', top: '-56px' }">
 
 
-            <img class=" img-fluid position-absolute z-n1    " :src="whiteCutedCircul" alt=" laptop img"
-                :style="{ right: '-100px', bottom: '-200px', zIndex: '0' }">
-            <img class=" img-fluid  position-absolute" :src="smallHalfIndiagoCircult" alt=" smallHalfIndiagoCircult img"
+            <img id="whiteCutedCircul2" class=" img-fluid position-absolute z-n1    " :src="whiteCutedCircul"
+                alt=" laptop img" :style="{ right: '-100px', bottom: '-200px', zIndex: '0' }">
+            <img id="smallHalfIndiagoCircult" class=" img-fluid  position-absolute" :src="smallHalfIndiagoCircult"
+                alt=" smallHalfIndiagoCircult img"
                 :style="{ right: '150px', bottom: '100px', transform: 'rotate(-80deg)' }">
 
 
 
 
             <div class="  pt-5">
-                <h3>
+                <h4 id="whatIsCoursira">
                     What is <strong>Coursera?</strong> <br>
 
-                </h3>
+                </h4>
                 <p>
 
                     Coursera is an online learning platform that offers a <br>
@@ -49,7 +50,7 @@
                     depending on the course's settings. <br>
                 </p>
 
-                <h1 :style="{ fontSize: '110.4px' }">HAPPY LEARNINGS!</h1>
+                <h1>HAPPY LEARNINGS!</h1>
             </div>
         </div>
     </div>
@@ -74,6 +75,17 @@ export default {
 }
 </script>
 <style scoped>
+#whatIsCoursira {
+
+    color: #5B0AD9;
+
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
 h3 {
     color: #5B0AD9;
 
@@ -109,4 +121,84 @@ div p {
 
 .container {}
 </style>  
-<style></style>
+<style scoped>
+@media (max-width:425px) {
+    #whiteCutedCircul {
+        position: relative !important;
+        margin-left: 32%;
+        margin-top: 20%;
+        max-width: 50%;
+
+    }
+
+    #whiteCutedCircul2 {
+        display: none;
+    }
+
+    #latptopImg {
+        position: relative !important;
+        margin-left: 32%;
+        margin-top: -55%;
+        max-width: 50%;
+
+    }
+
+    #smallHalfIndiagoCircult {
+        display: none;
+    }
+
+    #whatIsCoursira {
+        margin-top: -26%;
+        color: #5B0AD9;
+
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    h3 {
+
+        color: #5B0AD9;
+
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    div p {
+
+
+        color: #5B0AD9;
+
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    @supports (-webkit-text-stroke: 1px #6BDD6B) {
+        h1 {
+
+            text-align: center;
+            -webkit-text-stroke: 0.7px #5B0AD9;
+            /* WebKit browsers (Safari) */
+            color: #fff;
+            margin: 0%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+
+            font-size: 2rem;
+
+
+        }
+    }
+
+
+    .container {}
+
+}
+</style>

@@ -94,7 +94,58 @@ export default {
 
 }
 </style>  
-<style></style>
+<style>
+@media(max-width: 624px) {
+
+    #_element_design_purpl {
+
+        position: absolute;
+        top: 50%;
+        z-index: -1;
+    }
+
+    #bottom_ceo_inidago_wave {
+        position: absolute;
+        max-width: 50%;
+        display: none;
+
+
+
+    }
+
+    #header_gren_dots {
+        max-width: 20%;
+        position: absolute;
+        margin: 40px 20px;
+    }
+
+    #big_green_ball {
+
+        position: absolute;
+        right: 35%;
+        top: -100px;
+        z-index: -3;
+        max-width: 30%;
+
+    }
+
+    #ceo_background {
+        position: absolute;
+        right: -1px;
+        max-width: 100%;
+        z-index: -4;
+
+    }
+
+    #ceoContainer {
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+
+    }
+}
+</style>
 
  
   

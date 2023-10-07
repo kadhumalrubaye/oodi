@@ -1,5 +1,5 @@
 <template>
-    <div class="  position-relative">
+    <div class="    position-relative">
 
 
         <div class=" row " style="   background-color: #6BDD6B;">
@@ -42,5 +42,17 @@ div {
     background-size: contain;
     background-position: right top;
 }
-</style>  
-<style></style>
+</style> 
+
+<!-- mobile view  -->
+<style scoped>
+@media (max-width: 425px) {
+    div {
+
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right top;
+
+    }
+}
+</style>

@@ -84,6 +84,8 @@ export default {
     }
 }
 </script>
+
+
 <style scoped>
 img {
     max-width: 354px;
@@ -107,5 +109,34 @@ p {
 
 }
 </style>  
-<style></style>
+
+<!-- mobile view -->
+<style scoped>
+@media (max-width: 425px) {
+    img {}
+
+    #weAreZainText {
+        display: none;
+        position: absolute;
+        color: #FFF;
+        font-weight: 700;
+        top: 30%;
+        right: 10%;
+
+
+    }
+
+
+    p {
+        color: #5B0AD9;
+        font-size: 1rem;
+        margin-top: -10%;
+        padding: 10%;
+
+
+
+    }
+
+}
+</style>
  

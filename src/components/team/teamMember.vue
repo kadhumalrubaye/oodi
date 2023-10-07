@@ -72,3 +72,41 @@ export default {
     z-index: -1;
 }
 </style>
+
+<style scoped>
+@media (max-width: 425px) {
+    #halfcircleBiggreennn {
+        display: none;
+        max-width: 30%;
+        position: absolute;
+        z-index: -1;
+
+
+
+    }
+
+    #halfcirctIndiago1 {
+        display: none;
+        position: absolute;
+        max-width: 50%;
+        left: 10%;
+        top: 109px;
+
+    }
+
+    #grenDots {
+        position: absolute;
+        top: 170px;
+        left: -100px;
+        z-index: -1;
+    }
+
+    #grenDots2 {
+        position: absolute;
+        right: -2px;
+        top: 25rem;
+        z-index: -1;
+    }
+
+}
+</style>

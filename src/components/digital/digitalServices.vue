@@ -58,7 +58,7 @@ import img4 from '../../assets/img/4.png'
 import indiagoDots from '@/assets/img/dots.png'
 import catedGreenCircult from '@/assets/img/greenCutedCircul.png'
 import smallGreenStar from '@/assets/img/greenstart.png'
-import { greenDots, bigHalfGrenCircul,zainDigitalServiceImg } from '@/models/assets_modul'
+import { greenDots, bigHalfGrenCircul, zainDigitalServiceImg } from '@/models/assets_modul'
 
 
 export default {
@@ -66,7 +66,7 @@ export default {
     return {
       zainDigitalServiceImg,
       img1: img1,
- 
+
       img3: img3,
       img4: img4,
       indiagoDots,
@@ -130,4 +130,63 @@ p {
   color: #5b0ad9;
 }
 </style>  
-<style></style>
+<style scoped>
+@media (max-width: 425px) {
+
+
+  .row {
+    margin-top: 10%;
+    overflow-x: hidden;
+  }
+
+  #bigHalfGrenCircul {
+    display: none;
+    position: absolute;
+    max-width: 20%;
+    transform: rotate(130deg);
+    right: -15%;
+    bottom: 30%;
+  }
+
+  #catedGreenCircult2 {
+    display: none;
+    position: absolute;
+    max-width: 25%;
+    bottom: 20%;
+    left: -25%;
+  }
+
+  #greenDots {
+    position: absolute;
+    max-width: 20%;
+    right: 40%;
+    top: 60%;
+  }
+
+  #smallGreenStar {
+    display: none;
+    position: absolute;
+    max-width: 62px;
+    right: 10%;
+  }
+
+  #catedGreenCircult {
+    display: none;
+    position: absolute;
+    max-width: 25%;
+    left: 37%;
+    top: -1px;
+  }
+
+  #indiagoDots {
+    position: absolute;
+    max-width: 15%;
+    bottom: 15%
+  }
+
+  p {
+    font-size: 1rem;
+    color: #5b0ad9;
+  }
+}
+</style>

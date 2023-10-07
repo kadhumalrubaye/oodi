@@ -1,9 +1,12 @@
 <template>
-    <div class="row ">
-        <p><strong :style="{fontSize:'33.33px'}">EXCITING NEWS! </strong><br />Some big product
-            releases are planned in the upcoming months: an enhanced <br /><strong>oodi app with advanced lifestyle
-                products and refreshed UI for efficient user</strong>experience, <strong>and a brand-new Zain&#39;s
-                mobile self-care app</strong> with simplified and <br />modern customer experience.</p>
+    <div class="row mt-5 ">
+        <p>
+            <strong style="font-size: 6vmin;">EXCITING NEWS! </strong><br />
+            Some big product releases are planned in the upcoming months: an enhanced<br />
+            <strong>oodi app with advanced lifestyle products and refreshed UI for efficient user experience,</strong>
+            <strong>and a brand-new Zain&#39;s mobile self-care app</strong> with simplified and <br>
+            modern customer experience.
+        </p>
     </div>
     <div class="row  align-items-center gx-0   ">
         <div class="col-md-6 col-sm-12  ">
@@ -20,15 +23,16 @@
         </div>
     </div>
     <div class="row  align-items-center  gx-0 ">
+        <div class="col-md-6 col-sm-12">
+            <img class="img-fluid" :src="phone2" />
+        </div>
         <div class=" col-md-6 col-sm-12">
             <p><strong>Refreshed self-care features including
                 </strong><br /><strong>registration, subscription management, etc.</strong><br />• Next-best-action
                 dashboard.<br />• Exclusive welcome gift.<br />• Embedded Imtiyaz.<br />• App referrals and in-app
                 feedback<br /><strong>&amp; More!</strong></p>
         </div>
-        <div class="col-md-6 col-sm-12">
-            <img class="img-fluid" :src="phone2" />
-        </div>
+
     </div>
 </template>
 <script lang="ts">
@@ -62,9 +66,37 @@ p {
 
 }
 
+#excitingNews {
+    font-size: 33.33px;
+}
+
 img {
-    transform: scale(1.5) ;
+    transform: scale(1.5);
 
 }
-</style>  
-<style></style>
+</style >  
+
+<!-- mobile view -->
+<style scoped>
+@media(max-width:425px) {
+    p {
+        color: #5B0AD9;
+
+
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        font-size: 1rem;
+
+
+
+    }
+
+    #excitingNews {
+        font-size: smaller;
+
+    }
+
+}
+</style>

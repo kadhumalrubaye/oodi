@@ -3,7 +3,7 @@
         backgroundImage: `url(${lifeStyleBackground})`, position: 'relative',
     }">
 
-        <img class=" img-fluid position-absolute d-flex " :style="{ right: '15%', bottom: '25%' }" :src="full_header_start"
+        <img class=" img-fluid position-absolute d-flex  " :style="{ right: '15%', bottom: '25%' }" :src="full_header_start"
             alt="">
         <div class="container " :style="{ height: '1042px' }">
             <h1 :style="{ color: 'white', fontSize: '110.41px' }">

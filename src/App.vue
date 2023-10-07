@@ -13,24 +13,19 @@ import thankYouContainer from './components/thank_you/thankYouContainer.vue'
 import LifeStyleSection from './components/lifeStyleSection/LifeStyleSection.vue';
 
 </script>
-
 <template>
   <main>
     <myheader />
     <ceo />
-
     <teamMember />
-
     <digitalContainer />
-
     <dzContainer />
-
     <prContainer />
 
     <wcContainer />
     <awards />
     <EvetnsContainer />
-
+    <LifeStyleSection />
     <gameOnContainer />
     <thankYouContainer />
 

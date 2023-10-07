@@ -1,11 +1,11 @@
 <template>
     <h1 class=" mt-5 mb-5"> …STAY TUNED!</h1>
 
-   <div :style="{marginTop:'10%'}" >
-    <h2 class=" m-0" :style="{lineHeight:'30%'}">THE DIGITAL</h2>
+    <div :style="{ marginTop: '10%' }">
+        <h2 class=" m-0" :style="{ lineHeight: '30%' }">THE DIGITAL</h2>
 
-<h3 class=" m-0">KNOWLEDGE HUB</h3>
-   </div>
+        <h3 class=" m-0">KNOWLEDGE HUB</h3>
+    </div>
 
 
     <h4 class=" m-0">LEARN THE SKILLS OF THE FUTURE</h4>
@@ -110,4 +110,60 @@ p {
     line-height: normal;
 }
 </style>  
-<style></style>
+<style scoped>
+@media(max-width: 425px) {
+
+    h1 {
+        text-align: center;
+        color: #6BDD6B;
+
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    @supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
+        h2 {
+            text-align: left;
+            -webkit-text-stroke: 1px #6BDD6B;
+            /* WebKit browsers (Safari) */
+            color: #fff;
+
+            font-size: 2rem;
+            font-style: normal;
+            font-weight: 700;
+
+        }
+    }
+
+    h3 {
+        text-align: right;
+        color: #5B0AD9;
+
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    h4 {
+        color: #6EDD6E;
+
+        font-size: 1.2rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    p {
+        color: #5B0AD9;
+
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+}
+</style>

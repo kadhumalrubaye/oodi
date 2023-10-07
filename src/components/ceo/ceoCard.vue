@@ -94,7 +94,58 @@ footer {
 .blockquote-footer {
   color: rgb(211, 217, 222);
 }
-</style>  
-<style></style>
+</style> 
+
+<!-- mobile view -->
+<style>
+@media (max-width: 624px) {
+
+  .col * {
+    margin-top: 18%;
+  }
+
+  .card-img-top {
+    margin-top: -30%;
+    max-width: 50%;
+
+  }
+
+
+
+  .card {
+
+    background-color: #5B0AD9;
+    border-radius: 100px;
+    padding-bottom: 10%;
+    margin-top: 30%;
+
+  }
+
+  .card-text {
+    color: white;
+    font-size: 1rem;
+
+
+
+
+
+  }
+
+  .card-title {
+    color: #6BDD6B;
+    font-size: 2rem;
+
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+
+  .blockquote-footer {
+    color: rgb(211, 217, 222);
+  }
+
+}
+</style> 
  
   

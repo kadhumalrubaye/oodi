@@ -10,10 +10,14 @@
         <img id="header_gren_dots" :src="header_gren_dots" alt="big start" class=" img-fluid">
         <img id="header_small_star" :src="header_small_star" alt="big start" class=" img-fluid">
 
-        <h1>
+        <h1 class=" d-none ">
             Zain Iraq Digital & oodi's <br>
             Quarterly Newsletter <br>
             <strong :style="{ fontWeight: 'lighter', fontSize: 'smaller' }">Issue 1,Q4 2023</strong>
+        </h1>
+        <h1 :style="{ fontSize: '1rem', marginTop: '5%', }">
+            Zain Iraq Digital & oodi's Quarterly Newsletter <br>
+
         </h1>
 
         <section>
@@ -44,9 +48,11 @@
 
             </div>
         </section>
-        <img id="zain_logo" :src="zain_logo" alt="zain_logo" class=" img-fluid">
-        <span>&</span>
-        <img id="header_oodi_logo" :src="header_oodi_logo" alt="header_oodi_logo" class=" img-fluid">
+        <div id="zain_oodi_logo">
+            <img id="zain_logo" :src="zain_logo" alt="zain_logo" class=" img-fluid">
+            <span>&</span>
+            <img id="header_oodi_logo" :src="header_oodi_logo" alt="header_oodi_logo" class=" img-fluid">
+        </div>
 
     </header>
 </template>
@@ -268,4 +274,196 @@ span {
     margin-left: 22rem;
 }
 </style>  
-<style></style>
+ 
+<style scoped>
+@media (max-width: 425px) {
+
+    header {
+
+        width: 100%;
+        height: 100%;
+
+        background-color: #5B0AD9;
+        position: relative;
+        z-index: -1;
+
+    }
+
+    #bgUpperWave {
+
+        position: absolute;
+        top: 0px;
+        right: -1px;
+        z-index: -1;
+
+    }
+
+    #header_green_start {
+        display: none;
+        position: absolute;
+        top: 30%;
+        right: -1px
+    }
+
+    #header_small_star {
+        display: none;
+        position: absolute;
+        top: 61%;
+        right: -1px;
+        margin-right: 12%;
+
+
+    }
+
+    #header_gren_dots {
+        display: none;
+        position: absolute;
+        top: 70%;
+        right: -1px;
+        margin-right: 50px;
+
+    }
+
+    h1 {
+
+
+        font-style: italic;
+        font-weight: lighter;
+        color: white;
+        position: absolute;
+        top: 80%;
+
+        right: 5%;
+    }
+
+    section {
+
+        max-width: 600px;
+        height: 600px;
+
+        position: relative;
+
+        margin-left: 5%;
+        top: 100px;
+
+
+    }
+
+    #TheDigitalInsider {
+        padding-top: 20%;
+        margin-right: 50%;
+    }
+
+    #header_ellips {
+        max-width: 100%;
+
+
+    }
+
+    /* the */
+    h2 {
+
+        color: #6BDD6B;
+        font-size: 5rem;
+        margin: 0rem;
+        padding: 0rem;
+        margin-left: 1%;
+        text-align: left;
+
+
+    }
+
+    /* digital */
+    h3 {
+        color: white;
+        font-size: 5rem;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 5%;
+    }
+
+    /* insider */
+    h4 {
+        color: #6BDD6B;
+        font-weight: bold;
+        font-size: 5rem;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 10%;
+    }
+
+    #header_green_ball {
+        position: absolute;
+        max-width: 40%;
+        right: -73px;
+        top: 15%;
+        z-index: -1;
+    }
+
+    #header_cutted_circule {
+        position: absolute;
+        max-width: 40%;
+        right: -70px;
+        top: 15%;
+        z-index: -1;
+    }
+
+    #header_small_green_half_circle {
+        width: 17%;
+        position: absolute;
+        top: 7%;
+        right: 22%;
+
+    }
+
+    #header_white_half_circul {
+        position: absolute;
+        top: 10%;
+        right: 10%;
+    }
+
+    #header_white_dots {
+        position: absolute;
+        bottom: 40%;
+        left: 1rem;
+
+    }
+
+    #header_white_start_series {
+        display: none;
+        position: absolute;
+        right: 1rem;
+        top: 5%;
+    }
+
+    #zain_logo {
+        position: absolute;
+
+        top: 92%;
+        max-width: 20%;
+
+        left: 10%;
+    }
+
+    #header_oodi_logo {
+        position: absolute;
+        top: 90%;
+        max-width: 20%;
+        right: 22%;
+
+
+    }
+
+    span {
+        color: white;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 91%;
+        font-style: italic;
+        font-weight: lighter;
+        right: 45%;
+    }
+
+}
+</style>  
+ 

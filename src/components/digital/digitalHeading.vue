@@ -5,7 +5,7 @@
         <img id="halfcirctIndiago" :src="halfcirctIndiago" alt="halfcirctIndiago" width="119">
 
 
-        <h1 :style="{ marginLeft: '5%' }">
+        <h1 :style="{ marginLeft: '5%', }">
             WHEN WE SAY
         </h1>
         <h2>
@@ -76,4 +76,53 @@ h2 {
 
 }
 </style>  
-<style></style>
+
+<!-- mobile view -->
+<style scoped> @media (max-width: 425px) {
+     #halfBigGreenCircle {
+         display: none;
+         max-width: 30%;
+         position: absolute;
+         transform: rotate(90deg);
+
+         bottom: 30%;
+         left: 1%;
+     }
+
+     #halfcirctIndiago {
+         display: none;
+         position: absolute;
+         transform: rotate(90deg);
+         top: -43%;
+         left: 10%;
+     }
+
+     span {
+         color: #6BDD6B;
+         font-size: 2rem;
+
+
+     }
+
+     h1 {
+         font-size: 2rem;
+         color: #5B0AD9;
+         text-align: left;
+     }
+
+     h2 {
+
+         color: #5B0AD9;
+
+
+         font-size: 2rem;
+         font-style: normal;
+         font-weight: 700;
+         line-height: normal;
+         text-align: right;
+
+     }
+
+
+ }
+</style>
