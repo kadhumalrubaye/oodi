@@ -1,6 +1,6 @@
 <template>
-    <div class="  " :style="{ 'background-image': 'url(' + layar7 + ') ' }">
-
+    <div>
+        <img :src="layar7" class=" position-absolute w-100 img-fluid z-n1 " alt="">
         <div class="container">
             <PrHeainding />
             <prList />
