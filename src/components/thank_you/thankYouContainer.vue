@@ -1,7 +1,7 @@
 <template>
     <div :style="{ backgroundColor: '#5B0AD9' }" class=" position-relative pb-5   ">
         <img class="d-none d-lg-block d-xl-block" :src="whitDotes" alt="whitDotes" width="326"
-            :style="{ marginTop: '5%', marginBottom: '2%', marginLeft: '5%' }">
+            :style="{ marginTop: '0%', marginBottom: '2%', marginLeft: '5%' }">
         <div class="container    " :style="{ 'background-image': 'url(' + thankYouImgBg + ') ', paddingLeft: '5%' }">
 
             <h1>

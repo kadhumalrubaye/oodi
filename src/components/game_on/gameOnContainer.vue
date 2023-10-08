@@ -69,8 +69,6 @@
                 6 - The nature of our wonderful world. <br>
                 7 - A popular online learning platform. <br>
 
-
-
             </p>
 
         </div>
@@ -138,6 +136,7 @@ p {
 }
 </style>  
 <style scoped>
+
 @media(max-width: 768px) {
     .container{
 
