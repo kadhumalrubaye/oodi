@@ -97,7 +97,7 @@ img {
     color: #FFF;
     font-weight: 700;
     top: 30%;
-    right: 10%;
+    right: 5%;
 
 }
 
@@ -113,7 +113,7 @@ p {
 <!-- mobile view -->
 <style scoped>
 @media(max-width: 768px) {
-    img {}
+     
 
     #weAreZainText {
         display: none;

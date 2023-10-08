@@ -22,7 +22,7 @@
                     More!</strong></p>
         </div>
     </div>
-    <div class="row  align-items-center  gx-0 ">
+    <div class="row  align-items-center flex-row-reverse  gx-0 ">
         <div class="col-md-6 col-sm-12">
             <img class="img-fluid" :src="phone2" />
         </div>
