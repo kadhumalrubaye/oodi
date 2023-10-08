@@ -1,4 +1,5 @@
 <template>
+ <div class=" mb-5">
     <h1>EVENTS</h1>
     <h5>
         A panoply of events was hosted by the Zain Digital teams, demonstrating our ongoing
@@ -6,6 +7,7 @@
             commitment to supporting local initiatives and fostering digital transformation.
         </strong>
     </h5>
+ </div>
 </template>
 
 <script lang="ts">

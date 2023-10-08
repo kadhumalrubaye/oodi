@@ -1,7 +1,3 @@
-
-
-
-
 <template>
     <!-- <header :style="{backgroundImage:'url('+bgUpperWave+')'}" > -->
     <header>
@@ -284,7 +280,7 @@ span {
     header {
  
         width: 100%;
-        height: 100%;
+       height: 320px;
 
         background-color: #5B0AD9;
         position: relative;
@@ -293,7 +289,7 @@ span {
     }
 
     #bgUpperWave {
-
+display: none;
         position: absolute;
         top: 0px;
         right: -1px;
@@ -334,45 +330,40 @@ span {
         font-weight: lighter;
         color: white;
         position: absolute;
-        top: 80%;
         text-align: center;
-
+       
+margin-top: 8% !important;
         right: 5%;
         left: 5%;
     }
 
     section {
-
-        max-width: 600px;
-        height: 600px;
-
+        
+       height: auto !important;
+        margin: auto;
         position: relative;
-
-        margin-left: 5%;
-        top: 100px;
-
-
+        top: auto;
+        left: 20%;
+      
     }
 
     #TheDigitalInsider {
-        padding-top: 20%;
-        margin-right: 50%;
+ 
     }
 
     #header_ellips {
-        max-width: 100%;
-
-
+        margin-top: 8%;
+        max-width: 55%;
     }
 
     /* the */
     h2 {
 
         color: #6BDD6B;
-        font-size: 5rem;
+        font-size: 2.5rem;
         margin: 0rem;
         padding: 0rem;
-        margin-left: 1%;
+        margin-left: -2%;
         text-align: left;
 
 
@@ -381,7 +372,7 @@ span {
     /* digital */
     h3 {
         color: white;
-        font-size: 5rem;
+        font-size: 2.5rem;
         margin: 0px;
         padding: 0px;
         margin-left: 5%;
@@ -391,7 +382,7 @@ span {
     h4 {
         color: #6BDD6B;
         font-weight: bold;
-        font-size: 5rem;
+        font-size: 2.5rem;
         margin: 0px;
         padding: 0px;
         margin-left: 10%;
@@ -399,38 +390,40 @@ span {
 
     #header_green_ball {
         position: absolute;
-        max-width: 40%;
-        right: -73px;
-        top: 15%;
+        max-width: 20%;
+        left: 45%;
+        top: 50%;
         z-index: -1;
     }
 
     #header_cutted_circule {
         position: absolute;
-        max-width: 40%;
-        right: -70px;
-        top: 15%;
+        max-width: 20%;
+        left: 45%;
+        top: 50%;
         z-index: -1;
     }
 
     #header_small_green_half_circle {
-        width: 17%;
+        max-width: 8%;
         position: absolute;
-        top: 7%;
-        right: 22%;
+        top: 35%;
+        right: 55%;
 
     }
 
     #header_white_half_circul {
+        max-width: 10%;
         position: absolute;
-        top: 10%;
-        right: 10%;
+        top: 40%;
+        right: 50%;
     }
 
     #header_white_dots {
         position: absolute;
-        bottom: 40%;
+        bottom: -15%;
         left: 1rem;
+        max-width: 20%;
 
     }
 
@@ -442,31 +435,29 @@ span {
     }
 
     #zain_logo {
+        top: 80%;
         position: absolute;
-
-        top: 92%;
         max-width: 20%;
-
-        left: 10%;
+        left: 5%;
     }
 
     #header_oodi_logo {
         position: absolute;
-        top: 90%;
+        top: 78%;
         max-width: 20%;
-        right: 22%;
+        right: 28%;
 
 
     }
 
     span {
         color: white;
-        font-size: 1.5rem;
+        font-size: 1rem;
         position: absolute;
-        top: 91%;
+       margin-top: -2%;
         font-style: italic;
         font-weight: lighter;
-        right: 45%;
+        right: 50%;
     }
 
 }

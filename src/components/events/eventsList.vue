@@ -1,8 +1,8 @@
 <template>
-    <div class="  position-relative ">
+    <div class="  position-relative  pt-5 ">
 
         <!-- row 1 -->
-        <div class="row ">
+        <div class="row flex-row-reverse ">
          
             <div class=" col-sm-12 col-md-6">
                 <h2>
@@ -22,17 +22,18 @@
             </div>
             <div class=" col-sm-12 col-md-6">
                 <img class=" img-fluid"  id="eventImage1" :src="eventImage1" alt="eventImage1">
-                <img id="eventXo" :src="eventXo" alt=" event xo " class=" position-absolute " :style="{ left: '40%', top: '-5%' }">
+                <img id="eventXo" :src="eventXo" alt=" event xo " class=" position-absolute img-fluid  " :style="{ left: '35%', top: '0%' }" >
             </div>
         </div>
         <!-- row 2 -->
-            <div class="col-sm-12 col-md-6 ">
+         <div class="row ">
+            <div class="col-sm-12 col-md-6   ">
                 <h2 class=" position-relative">
                     Native Platform Vs Cross-Platform Session
                     <img id="eventHalfCirculWithBlackStork" :src="eventHalfCirculWithBlackStork" alt=" eventHalfCirculWithBlackStork "
-                        class=" position-absolute " :style="{ bottom: '0px', right: '-25%' }">
+                        class=" position-absolute " :style="{ bottom: '0px', right: '-10%' }">
                     <img id="smallHalfIndiagoCircult" :src="smallHalfIndiagoCircult" alt=" smallHalfIndiagoCircult " class=" position-absolute "
-                        :style="{ bottom: '0px', right: '-10%', transform: 'rotate(-60deg)' }">
+                        :style="{ bottom: '0px', right: '-1%', transform: 'rotate(-60deg)' }">
                 </h2>
                 <h3>
                     March 2023
@@ -55,11 +56,11 @@
             <div class="col-sm-12 col-md-6 ">
                 <img class=" img-fluid"  :src="eventImage2" alt="">
             </div>
-
-
+         </div>
     
-    
+    <!-- row3 -->
          
+         <div class="row flex-row-reverse">
             <div class="col-sm-12 col-md-6">
                 <h2>
                     Iraqi Journalist Syndicate event
@@ -82,9 +83,11 @@
             <div class="col-sm-12 col-md-6">
                 <img class=" img-fluid"  :src="eventImage3" alt="">
             </div>
+         </div>
  
         <img id="indiagoDots" width="286" :src="indiagoDots" alt="">
         <!-- row4 -->
+           <div class="row ">
             <div class="col-sm-12 col-md-6">
                 <h2 class=" position-relative">
 
@@ -117,6 +120,7 @@
 
                 <img class=" img-fluid"  id="eventImage4" :src="eventImage4" alt="eventImage4">
             </div>
+           </div>
 
 
         </div>
