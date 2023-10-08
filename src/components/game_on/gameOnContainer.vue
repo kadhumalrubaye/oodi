@@ -163,6 +163,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding: 0px;
 }
 
 p {
