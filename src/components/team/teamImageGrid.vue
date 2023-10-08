@@ -2,7 +2,7 @@
 
 <template>
     <div id="teamImageGridRow" class="row position-relative">
-        <div v-for="img in imagesUrl" class=" col-3 col-md-2 ">
+        <div v-for="img in imagesUrl" class=" col-4 col-md-2 ">
             <v-progress-circular v-if="!img" indeterminate :size="67"></v-progress-circular>
             <img id="profileImage" class="img-fluid" v-else :src="img" loading="lazy" placeholder=" loadding ">
 
@@ -58,6 +58,8 @@ export default {
 <style scoped>
 #indigoBigHalfStart {
 
+  
+
     position: absolute;
     max-width: 10%;
     right: -1px;
@@ -66,6 +68,8 @@ export default {
 }
 
 #teamImageGridRow {
+    position: absolute;
+
     padding: 8%;
     padding-left: 10%;
     padding-right: 10%;
@@ -92,6 +96,9 @@ export default {
     }
 
     #teamImageGridRow {
+        overflow-y: scroll;
+        
+ max-height: 300px;
         padding: 8%;
         padding-left: 10%;
         padding-right: 10%;
