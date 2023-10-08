@@ -55,8 +55,6 @@ h2 {
 <style scoped>
 @media(max-width: 768px) {
     h1 {
-
-
         color: #5B0AD9;
         font-size: 3rem;
         font-style: normal;

@@ -91,7 +91,7 @@ export default {
         position: absolute;
         max-width: 10%;
         right: -1px;
-        bottom: 20px;
+        bottom: 50px;
 
     }
 
@@ -113,5 +113,6 @@ export default {
     }
 
 }
+
 </style>
   

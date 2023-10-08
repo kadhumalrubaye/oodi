@@ -23,6 +23,7 @@ import halfcirctIndiago from './../../assets/img/halfcirctIndiago.png'
 import grenDots from '@/assets/img/dots.png'
 
 
+
 export default {
     data: function () {
         return {
