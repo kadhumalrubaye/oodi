@@ -3,11 +3,8 @@
 
         <!-- row 1 -->
         <div class="row ">
-            <div class="col col-sm-12">
-                <img :src="eventImage1" alt="">
-                <img :src="eventXo" alt=" event xo " class=" position-absolute " :style="{ left: '40%', top: '-5%' }">
-            </div>
-            <div class="col col-sm-12">
+         
+            <div class=" col-sm-12 col-md-6">
                 <h2>
                     FIFA competition at ZINC Baghdad
                 </h2>
@@ -23,16 +20,18 @@
                     field of e-sports and create a competitive
                 </p>
             </div>
-
+            <div class=" col-sm-12 col-md-6">
+                <img class=" img-fluid"  id="eventImage1" :src="eventImage1" alt="eventImage1">
+                <img id="eventXo" :src="eventXo" alt=" event xo " class=" position-absolute " :style="{ left: '40%', top: '-5%' }">
+            </div>
         </div>
         <!-- row 2 -->
-        <div class="row flex-column-reverse flex-lg-row flex-md-row flex-sm-row flex-xl-row">
-            <div class="col ">
+            <div class="col-sm-12 col-md-6 ">
                 <h2 class=" position-relative">
                     Native Platform Vs Cross-Platform Session
-                    <img :src="eventHalfCirculWithBlackStork" alt=" eventHalfCirculWithBlackStork "
+                    <img id="eventHalfCirculWithBlackStork" :src="eventHalfCirculWithBlackStork" alt=" eventHalfCirculWithBlackStork "
                         class=" position-absolute " :style="{ bottom: '0px', right: '-25%' }">
-                    <img :src="smallHalfIndiagoCircult" alt=" smallHalfIndiagoCircult " class=" position-absolute "
+                    <img id="smallHalfIndiagoCircult" :src="smallHalfIndiagoCircult" alt=" smallHalfIndiagoCircult " class=" position-absolute "
                         :style="{ bottom: '0px', right: '-10%', transform: 'rotate(-60deg)' }">
                 </h2>
                 <h3>
@@ -53,18 +52,15 @@
                 </p>
 
             </div>
-            <div class="col ">
-                <img :src="eventImage2" alt="">
+            <div class="col-sm-12 col-md-6 ">
+                <img class=" img-fluid"  :src="eventImage2" alt="">
             </div>
 
 
-        </div>
-        <!-- row3 -->
-        <div class="row">
-            <div class="col">
-                <img :src="eventImage3" alt="">
-            </div>
-            <div class="col">
+    
+    
+         
+            <div class="col-sm-12 col-md-6">
                 <h2>
                     Iraqi Journalist Syndicate event
                 </h2>
@@ -83,16 +79,17 @@
                 </p>
 
             </div>
-
-        </div>
-        <img width="286" :src="indiagoDots" alt="">
+            <div class="col-sm-12 col-md-6">
+                <img class=" img-fluid"  :src="eventImage3" alt="">
+            </div>
+ 
+        <img id="indiagoDots" width="286" :src="indiagoDots" alt="">
         <!-- row4 -->
-        <div class="row g-0 p-0 m-0 flex-column-reverse flex-lg-row flex-md-row flex-sm-row flex-xl-row">
-            <div class="col">
+            <div class="col-sm-12 col-md-6">
                 <h2 class=" position-relative">
 
                     E-Sports: PUBG Regional Tournament
-                    <img width="" :src="eventSinglCup" alt=" eventSinglCup " class=" img-fluid position-absolute"
+                    <img  id="eventSinglCup" width="" :src="eventSinglCup" alt=" eventSinglCup " class=" img-fluid position-absolute"
                         :style="{ bottom: '-70%', right: '-10%' }">
                 </h2>
                 <h3>
@@ -110,20 +107,20 @@
                 </p>
 
             </div>
-            <div class="col position-relative">
-                <img width="150" :src="eventGreenHalfStra" alt="" class=" img-fluid position-absolute z-n1"
+            <div class="col-sm-12 col-md-6 position-relative">
+                <img id="eventGreenHalfStra" width="150" :src="eventGreenHalfStra" alt="" class=" img-fluid position-absolute z-n1"
                     :style="{ top: '-10%', left: '5%' }">
-                <img width="286" :src="indiagoDots" alt="" class=" img-fluid position-absolute"
+                <img id="indiagoDots" width="286" :src="indiagoDots" alt="" class=" img-fluid position-absolute"
                     :style="{ top: '-15%', right: '10%' }">
-                <img :src="eventHalfCirculStorkOnly" alt="" class=" position-absolute"
+                <img id="eventHalfCirculStorkOnly" :src="eventHalfCirculStorkOnly" alt="" class=" position-absolute"
                     :style="{ top: '-30%', right: '-1%' }">
 
-                <img :src="eventImage4" alt="eventImage4">
+                <img class=" img-fluid"  id="eventImage4" :src="eventImage4" alt="eventImage4">
             </div>
 
 
         </div>
-    </div>
+   
 </template>
 
 
@@ -186,7 +183,33 @@ p {
 <style scoped>
 @media(max-width: 425px) {
 
+    #eventHalfCirculWithBlackStork{
+        display: none;
+    }
+    #smallHalfIndiagoCircult{
+        display: none;
+    }
+    #eventSinglCup{
+        display: none;
+    }
+    #indiagoDots{
+        display: none;
+    }
+#eventHalfCirculStorkOnly{
+    display: none;
+}
+#eventXo{
+    display: none;
+}
 
+#eventImage1{
+   
+}
+
+#eventGreenHalfStra{
+
+    display: none;
+}
     h2 {
         color: #5B0AD9;
 

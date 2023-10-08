@@ -115,11 +115,10 @@ h2 {
     }
 
     p {
-        margin: 0px !important;
+      margin-left: 5% !important;
+      margin-bottom: -9% !important;
         color: #FFF;
         font-size: 0.8rem;
-    
-     
     }
 
     @supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
