@@ -40,7 +40,7 @@ export default {
 }
 </style>  
 <style scoped>
-@media(max-width: 425px) {
+@media(max-width: 768px) {
     img {
         width: 100%;
 

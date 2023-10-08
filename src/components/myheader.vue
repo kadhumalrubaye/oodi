@@ -102,6 +102,7 @@ export default {
 </script>
 
 <style scoped>
+
 header {
 
     width: 100%;
@@ -266,6 +267,7 @@ h4 {
 }
 
 span {
+
     color: white;
     font-size: 3rem;
     position: absolute;
@@ -273,13 +275,14 @@ span {
     font-style: italic;
     margin-left: 22rem;
 }
+
 </style>  
  
 <style scoped>
-@media (max-width: 425px) {
+@media(max-width: 768px) {
 
     header {
-
+ 
         width: 100%;
         height: 100%;
 
@@ -332,8 +335,10 @@ span {
         color: white;
         position: absolute;
         top: 80%;
+        text-align: center;
 
         right: 5%;
+        left: 5%;
     }
 
     section {

@@ -53,7 +53,7 @@ h2 {
 </style>  
 <!-- mobile view -->
 <style scoped>
-@media (max-width: 624px) {
+@media(max-width: 768px) {
     h1 {
 
 

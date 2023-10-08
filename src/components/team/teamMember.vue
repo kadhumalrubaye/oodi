@@ -74,7 +74,7 @@ export default {
 </style>
 
 <style scoped>
-@media (max-width: 425px) {
+@media(max-width: 768px) {
     #halfcircleBiggreennn {
         display: none;
         max-width: 30%;

@@ -111,7 +111,7 @@ p {
 }
 </style>  
 <style scoped>
-@media(max-width: 425px) {
+@media(max-width: 768px) {
 
     h1 {
         text-align: center;

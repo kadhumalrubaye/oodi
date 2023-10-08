@@ -4,17 +4,17 @@
         <div class="container position-relative pb-5 pt-5 ">
             <img id="dizleeCup" width="280" class="  img-fluid position-absolute " :src="dizleeCup" alt=" dezlee cup"
                 :style="{
-                    right: '50px', bottom: '70px',
+                    right: '50px', bottom: '30%',
 
                 }">
             <img id="awardCup" width="300" class=" img-fluid position-absolute" :src="awardCup" alt=" award cup" :style="{
-                top: '-20px'
+                bottom: '30%',
             }">
 
             <div class="row text-center">
                 <h1 class=" m-0">2023</h1>
                 <h2 class=" m-0"> AWARDS</h2>
-                <p :style="{ textAlign: 'left', marginLeft: '50px', marginTop: '10px', paddingTop: '30px' }">
+                <p :style="{  marginTop: '10px', paddingTop: '30px' }">
                     Zain Iraq Digital Services team won the award for the Most
                     <br>
                     <strong>
@@ -86,7 +86,7 @@ h2 {
 }
 </style>  
 <style scoped>
-@media(max-width: 425px) {
+@media(max-width: 768px) {
     #dizleeCup {
         max-width: 20%;
         left: 77%;
@@ -115,7 +115,7 @@ h2 {
     }
 
     p {
-      margin-left: 5% !important;
+      
       margin-bottom: -9% !important;
         color: #FFF;
         font-size: 0.8rem;

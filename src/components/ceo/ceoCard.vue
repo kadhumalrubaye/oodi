@@ -98,7 +98,7 @@ footer {
 
 <!-- mobile view -->
 <style>
-@media (max-width: 624px) {
+@media(max-width: 768px) {
 
   .col * {
     margin-top: 18%;

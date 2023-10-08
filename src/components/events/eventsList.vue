@@ -181,7 +181,7 @@ p {
 </style>  
  
 <style scoped>
-@media(max-width: 425px) {
+@media(max-width: 768px) {
 
     #eventHalfCirculWithBlackStork{
         display: none;

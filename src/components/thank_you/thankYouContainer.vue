@@ -1,6 +1,6 @@
 <template>
     <div :style="{ backgroundColor: '#5B0AD9' }" class=" position-relative pb-5   ">
-        <img :src="whitDotes" alt="whitDotes" width="326"
+        <img class="d-none d-lg-block d-xl-block" :src="whitDotes" alt="whitDotes" width="326"
             :style="{ marginTop: '5%', marginBottom: '2%', marginLeft: '5%' }">
         <div class="container    " :style="{ 'background-image': 'url(' + thankYouImgBg + ') ', paddingLeft: '5%' }">
 
@@ -23,15 +23,16 @@
 
 
 
-            <img class=" img-fluid mt-5  " :src="zainLogo" alt=" zain social media">
-            <a href="#"> <img class=" img-fluid mt-5   " :src="zainSocilaMedia" alt=" zain social media"
+            <img id="zainLogo" class=" img-fluid mt-5  " :src="zainLogo" alt=" zain social media">
+            <a href="#">
+                 <img id="zainSocilaMedia" class=" img-fluid mt-5   " :src="zainSocilaMedia" alt=" zain social media"
                     :style="{ marginLeft: '10%' }">
             </a>
             <br>
-            <img class=" img-fluid mt-5" :src="oodiLogo" alt=" zain social media">
+            <img id="oodiLogo" class=" img-fluid mt-5" :src="oodiLogo" alt=" zain social media">
 
             <a href="#">
-                <img class=" img-fluid mt-5" :src="oodiSocialMediaAccountLogo" alt=" zain social media"
+                <img id="oodiSocialMediaAccountLogo" class=" img-fluid mt-5" :src="oodiSocialMediaAccountLogo" alt=" zain social media"
                     :style="{ marginLeft: '10%' }">
             </a>
 
@@ -39,16 +40,16 @@
         </div>
 
 
-        <img :src="header_ellips" class=" position-absolute"
+        <img :src="header_ellips" class=" position-absolute  d-none d-lg-block d-xl-block"
             :style="{ right: '-1px', top: '10%', filter: 'hue-rotate(75deg)' }">
-        <img :src="header_green_ball" class=" position-absolute" :style="{ right: '-5%', bottom: '20%' }" width="340">
-        <img :src="header_white_start_series" class=" position-absolute" :style="{ right: '5%', top: '20%' }" width="104">
-        <img :src="header_cutted_circule" class=" position-absolute" :style="{ right: '-5%', bottom: '35%' }" width="239">
-        <img :src="header_small_green_half_circle" class=" position-absolute" :style="{ right: '15%', bottom: '58%' }"
+        <img :src="header_green_ball" class="d-none d-lg-block d-xl-block position-absolute" :style="{ right: '-5%', bottom: '20%' }" width="340">
+        <img :src="header_white_start_series" class="d-none d-lg-block d-xl-block position-absolute" :style="{ right: '5%', top: '20%' }" width="104">
+        <img :src="header_cutted_circule" class="d-none d-lg-block d-xl-block position-absolute" :style="{ right: '-5%', bottom: '35%' }" width="239">
+        <img :src="header_small_green_half_circle" class="d-none d-lg-block d-xl-block position-absolute" :style="{ right: '15%', bottom: '58%' }"
             width="124">
-        <img :src="header_white_half_circul" class=" position-absolute" :style="{ right: '11%', bottom: '51%' }"
+        <img :src="header_white_half_circul" class="d-none d-lg-block d-xl-block position-absolute" :style="{ right: '11%', bottom: '51%' }"
             width="133">
-        <img :src="greenDots" class=" position-absolute"
+        <img :src="greenDots" class="d-none d-lg-block d-xl-block position-absolute"
             :style="{ right: '18%', bottom: '40%', transform: 'rotate(90deg)' }" width="178">
 
 
@@ -107,4 +108,44 @@ p {
     font-size: 29.17px;
 }
 </style>  
-<style></style>
+<style scoped>
+@media(max-width:768px){
+#oodiLogo{
+    max-width: 20% !important;
+    margin-left: 10%;
+}
+    #zainLogo,#oodiLogo{
+        margin-top: 5% !important;
+        max-width: 30%;
+    }
+    #zainSocilaMedia,#oodiSocialMediaAccountLogo{
+        max-width: 30%;
+        margin-top: 5% !important;
+    }
+.container {
+
+background-repeat: no-repeat;
+background-size: contain;
+background-position: bottom;
+}
+
+
+h1 {
+color: #FFF;
+
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+p {
+color: #F9FDF9;
+
+ 
+font-weight: 400;
+font-size: 0.8rem;
+line-height: 130%;
+}
+}
+</style> 

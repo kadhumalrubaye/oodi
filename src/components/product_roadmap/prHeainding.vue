@@ -37,7 +37,7 @@ h2 {
 }
 </style>  
 <style scoped>
-@media(max-width: 425px) {
+@media(max-width: 768px) {
     h1 {
         margin-top: 10%;
         color: #5B0AD9;

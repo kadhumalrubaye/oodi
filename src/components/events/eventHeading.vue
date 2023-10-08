@@ -41,7 +41,7 @@ h5 {
 }
 </style>  
 <style scoped>
-@media (max-width :425px) {
+@media(max-width: 768px) {
     h1 {
         color: #5B0AD9;
 

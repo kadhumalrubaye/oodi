@@ -75,54 +75,57 @@ export default {
 }
 </script>
 <style scoped>
+@media(min-width: 769px){
+    
 #whatIsCoursira {
 
-    color: #5B0AD9;
+color: #5B0AD9;
 
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 
 }
 
 h3 {
-    color: #5B0AD9;
+color: #5B0AD9;
 
-    font-size: 41.67px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+font-size: 41.67px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 div p {
 
 
-    color: #5B0AD9;
+color: #5B0AD9;
 
-    font-size: 29.17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+font-size: 29.17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 
 }
 
 @supports (-webkit-text-stroke: 3px #6BDD6B) {
-    h1 {
-        text-align: center;
-        -webkit-text-stroke: 3px #5B0AD9;
-        /* WebKit browsers (Safari) */
-        color: #fff;
-        margin: 0%;
-        font-size: 110.4px;
-    }
+h1 {
+    text-align: center;
+    -webkit-text-stroke: 3px #5B0AD9;
+    /* WebKit browsers (Safari) */
+    color: #fff;
+    margin: 0%;
+    font-size: 110.4px;
+}
 }
 
 
 .container {}
+}
 </style>  
 <style scoped>
-@media (max-width:425px) {
+@media(max-width: 768px) {
     #whiteCutedCircul {
         position: relative !important;
         margin-left: 32%;

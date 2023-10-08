@@ -138,7 +138,7 @@ p {
 }
 </style>  
 <style scoped>
-@media(max-width: 425px){
+@media(max-width: 768px) {
     .container{
 
      padding-top: 0% !important;
@@ -168,7 +168,7 @@ h3 {
 p {
     color: #5B0AD9;
 
-    font-size:1rem;
+    font-size:0.9rem;
     font-style: normal;
     font-weight: 400;
     line-height:130%;

@@ -81,7 +81,7 @@ export default {
 </style>  
 <!-- mobile view -->
 <style scoped>
-@media (max-width: 425px) {
+@media(max-width: 768px) {
     #indigoBigHalfStart {
         display: none;
         position: absolute;

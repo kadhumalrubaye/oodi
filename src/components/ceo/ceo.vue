@@ -95,7 +95,7 @@ export default {
 }
 </style>  
 <style>
-@media(max-width: 624px) {
+@media(max-width: 768px) {
 
     #_element_design_purpl {
 

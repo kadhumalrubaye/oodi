@@ -78,7 +78,8 @@ h2 {
 </style>  
 
 <!-- mobile view -->
-<style scoped> @media (max-width: 425px) {
+<style scoped>
+@media(max-width: 768px) {
      #halfBigGreenCircle {
          display: none;
          max-width: 30%;
