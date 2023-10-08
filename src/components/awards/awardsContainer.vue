@@ -90,10 +90,13 @@ h2 {
     #dizleeCup {
         max-width: 20%;
         left: 77%;
-        top: 30%;
+        top: 20%;
     }
 
     #awardCup {
+
+        top: 20% !important;
+        left: -1%;
         max-width: 30%;
 
 
@@ -105,6 +108,9 @@ h2 {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: right center;
+     
+
+      
 
     }
 
@@ -112,6 +118,8 @@ h2 {
         margin: 0px !important;
         color: #FFF;
         font-size: 0.8rem;
+    
+     
     }
 
     @supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
@@ -129,7 +137,7 @@ h2 {
     h2 {
         color: #FFF;
 
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
