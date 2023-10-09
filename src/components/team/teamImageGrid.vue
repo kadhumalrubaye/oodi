@@ -98,7 +98,7 @@ export default {
     #teamImageGridRow {
         overflow-y: scroll;
         
- max-height: 400px;
+ max-height: 500px;
         padding: 8%;
         padding-left: 10%;
         padding-right: 10%;
