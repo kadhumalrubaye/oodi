@@ -6,12 +6,12 @@
         <img id="header_gren_dots" :src="header_gren_dots" alt="big start" class=" img-fluid">
         <img id="header_small_star" :src="header_small_star" alt="big start" class=" img-fluid">
 
-        <h1 class=" d-none ">
+        <h1 class=" d-none d-md-block ">
             Zain Iraq Digital & oodi's <br>
-            Quarterly Newsletter <br>
+            Quarterly Newsletter <br> 
             <strong :style="{ fontWeight: 'lighter', fontSize: 'smaller' }">Issue 1,Q4 2023</strong>
         </h1>
-        <h1 :style="{ fontSize: '1rem', marginTop: '5%', }">
+        <h1  class=" d-none d-sm-block " :style="{ fontSize: '1rem', marginTop: '5%', }">
             Zain Iraq Digital & oodi's Quarterly Newsletter <br>
 
         </h1>

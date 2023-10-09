@@ -61,9 +61,9 @@ h1 {
 }
 
 
-@supports (-webkit-text-stroke: 4px #6BDD6B) {
+@supports (-webkit-text-stroke: 2px #6BDD6B) {
     h1 span {
-        -webkit-text-stroke: 4px #ffff;
+        -webkit-text-stroke: 0.5px #ffff;
         color: #6BDD6B;
     }
 }
