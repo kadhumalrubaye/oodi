@@ -59,14 +59,15 @@ export default {
 
 .card-img-top {
   margin-top: -30%;
-  max-width: 20rem;
+  max-width: 342px;
 
 }
 
 
 
 .card {
-
+  max-width: 623px;
+  max-height: 1218px;
   background-color: #5B0AD9;
   border-radius: 200px;
   padding-bottom: 10%;
@@ -76,7 +77,7 @@ export default {
 
 .card-text {
   color: white;
-  font-size: 29.17px;
+  font-size: 20px;
 
 
 }
@@ -88,7 +89,7 @@ export default {
 }
 
 footer {
-  font-size: 1.8rem;
+  font-size: 20px;
 }
 
 .blockquote-footer {
@@ -107,6 +108,7 @@ footer {
   .card-img-top {
     margin-top: -30%;
     max-width: 50%;
+
 
   }
 

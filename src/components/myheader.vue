@@ -16,7 +16,6 @@
             Zain Iraq Digital & oodi's Quarterly Newsletter <br> Issue 1,Q4 2023
         </h1>
 
-
         <section>
             <img id="header_ellips" :src="header_ellips" alt="big start" class=" img-fluid">
             <img id="header_green_ball" :src="header_green_ball" alt=" header_green_ball" class=" img-fluid">
