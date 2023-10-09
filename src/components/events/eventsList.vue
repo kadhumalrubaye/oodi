@@ -2,7 +2,7 @@
     <div class="  position-relative  pt-5 ">
 
         <!-- row 1 -->
-        <div class="row flex-row-reverse ">
+        <div class="row flex-row-reverse align-items-center">
          
             <div class=" col-sm-12 col-md-6">
                 <h2>
@@ -26,7 +26,7 @@
             </div>
         </div>
         <!-- row 2 -->
-         <div class="row ">
+         <div class="row align-items-center">
             <div class="col-sm-12 col-md-6   ">
                 <h2 class=" position-relative">
                     Native Platform Vs Cross-Platform Session
@@ -60,7 +60,7 @@
     
     <!-- row3 -->
          
-         <div class="row flex-row-reverse">
+         <div class="row flex-row-reverse align-items-center">
             <div class="col-sm-12 col-md-6">
                 <h2>
                     Iraqi Journalist Syndicate event
@@ -89,8 +89,8 @@
  
         <img id="indiagoDots" width="286" :src="indiagoDots" alt="">
         <!-- row4 -->
-           <div class="row ">
-            <div class="col-sm-12 col-md-6">
+           <div class="row  align-items-center   ">
+            <div class="col-sm-12 col-md-6 ">
                 <h2 class=" position-relative">
 
                     E-Sports: PUBG Regional Tournament
