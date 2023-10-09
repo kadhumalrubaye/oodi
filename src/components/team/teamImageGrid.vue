@@ -2,7 +2,7 @@
 
 <template>
     <div id="teamImageGridRow" class="row position-relative">
-        <div v-for="img in imagesUrl" class=" col-4 col-md-2 ">
+        <div id="scrollContainer" v-for="img in imagesUrl" class=" col-4 col-md-2 ">
             <v-progress-circular v-if="!img" indeterminate :size="67"></v-progress-circular>
             <img id="profileImage" class="img-fluid" v-else :src="img" loading="lazy" placeholder=" loadding ">
 
@@ -104,6 +104,20 @@ export default {
         padding-right: 10%;
        
     }
+    ::-webkit-scrollbar {
+    width: 12px; /* Adjust the width */
+}
+
+/* This targets the thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background-color: #5B0AD9; /* Color of the thumb */
+    border-radius: 6px; /* Roundness of the thumb */
+}
+
+/* This targets the track (the non-draggable part) */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the track */
+}
 
     #profileImage {
 
