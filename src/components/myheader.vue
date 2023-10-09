@@ -343,7 +343,7 @@ margin-top: 8% !important;
        height: auto !important;
         margin: auto;
         position: relative;
-        top: auto;
+        top: -5%;
         left: 20%;
       
     }
