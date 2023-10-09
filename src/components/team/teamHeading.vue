@@ -37,7 +37,7 @@ h1 {
 h2 {
 
 
-    -webkit-text-stroke: 0.4vmin #6BDD6B;
+    -webkit-text-stroke: 0.5px #6BDD6B;
 
     /* WebKit browsers (Safari) */
 
