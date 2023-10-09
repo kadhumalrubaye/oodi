@@ -25,7 +25,7 @@ import LifeStyleSection from './components/lifeStyleSection/LifeStyleSection.vue
     <wcContainer />
     <awards />
     <EvetnsContainer />
-
+   
     <gameOnContainer />
     <thankYouContainer />
 

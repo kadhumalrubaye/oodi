@@ -69,19 +69,21 @@
                     June 2023
                 </h3>
                 <p>
-                    oodi was thrilled to sponsor the recent event organized by the Iraqi Journalists Syndicate. MWith
+                    oodi was thrilled to sponsor the recent event organized by the Iraqi Journalists Syndicate. With
                     anaudience of around 400 people, it was an excellent platform to showcase oodi services and support
                     thecommunity.
-
-                <p>
+                    <br>
+                    <br>
+                    <br>
+                    
                     The fantastic sponsorship package included5 vanity numbers for the management
                     team,with a free balance of up to 35k IQD and Hi5access for one month. Oodi also showed
-                </p>
+               
                 </p>
 
             </div>
             <div class="col-sm-12 col-md-6">
-                <img class=" img-fluid"  :src="eventImage3" alt="">
+                <img class=" img-fluid"  :src="eventImage3" alt="eventImage3">
             </div>
          </div>
  
