@@ -96,12 +96,13 @@ export default {
     }
 
     #teamImageGridRow {
-        overflow-y: scroll;
+        overflow: auto; 
         
  max-height: 500px;
         padding: 8%;
         padding-left: 10%;
         padding-right: 10%;
+       
     }
 
     #profileImage {
