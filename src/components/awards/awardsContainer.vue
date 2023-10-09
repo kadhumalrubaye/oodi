@@ -85,4 +85,3 @@ h2 {
     line-height: normal;
 }
 </style>  
-<style scoped>
