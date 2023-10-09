@@ -75,28 +75,3 @@ img {
 
 }
 </style >  
-
-<!-- mobile view -->
-<style scoped>
-@media(max-width:768px) {
-    p {
-        color: #5B0AD9;
-
-
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-
-        font-size: 1rem;
-
-
-
-    }
-
-    #excitingNews {
-        font-size: smaller;
-
-    }
-
-}
-</style>

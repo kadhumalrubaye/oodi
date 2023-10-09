@@ -43,16 +43,3 @@ div {
     background-position: right top;
 }
 </style> 
-
-<!-- mobile view  -->
-<style scoped>
-@media(max-width: 768px) {
-    div {
-
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right top;
-
-    }
-}
-</style>

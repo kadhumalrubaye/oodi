@@ -14,7 +14,7 @@
             <div class="row text-center">
                 <h1 class=" m-0">2023</h1>
                 <h2 class=" m-0"> AWARDS</h2>
-                <p :style="{  marginTop: '10px', paddingTop: '30px' }">
+                <p :style="{ marginTop: '10px', paddingTop: '30px' }">
                     Zain Iraq Digital Services team won the award for the Most
                     <br>
                     <strong>
@@ -86,60 +86,3 @@ h2 {
 }
 </style>  
 <style scoped>
-@media(max-width: 768px) {
-    #dizleeCup {
-        max-width: 20%;
-        left: 77%;
-        top: 20%;
-    }
-
-    #awardCup {
-
-        top: 20% !important;
-        left: -1%;
-        max-width: 30%;
-
-
-    }
-
-    #container {
-
-        background-color: #5B0AD9;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right center;
-     
-
-      
-
-    }
-
-    p {
-      
-      margin-bottom: -9% !important;
-        color: #FFF;
-        font-size: 0.8rem;
-    }
-
-    @supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
-        h1 {
-            -webkit-text-stroke: 0.5px #FFF;
-            color: #5B0AD9;
-
-            font-size: 3rem;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-        }
-    }
-
-    h2 {
-        color: #FFF;
-
-        font-size: 2.5rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-}
-</style>

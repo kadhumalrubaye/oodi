@@ -36,26 +36,3 @@ h2 {
     line-height: normal;
 }
 </style>  
-<style scoped>
-@media(max-width: 768px) {
-    h1 {
-        margin-top: 10%;
-        color: #5B0AD9;
-
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    h2 {
-        color: #5B0AD9;
-
-        font-size: 1rem;
-
-        font-style: italic;
-        font-weight: 400;
-        line-height: normal;
-    }
-}
-</style>

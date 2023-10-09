@@ -1,13 +1,13 @@
 <template>
- <div class=" mb-5">
-    <h1>EVENTS</h1>
-    <h5>
-        A panoply of events was hosted by the Zain Digital teams, demonstrating our ongoing
-        <strong>
-            commitment to supporting local initiatives and fostering digital transformation.
-        </strong>
-    </h5>
- </div>
+    <div class=" mb-5">
+        <h1>EVENTS</h1>
+        <h5>
+            A panoply of events was hosted by the Zain Digital teams, demonstrating our ongoing
+            <strong>
+                commitment to supporting local initiatives and fostering digital transformation.
+            </strong>
+        </h5>
+    </div>
 </template>
 
 <script lang="ts">
@@ -41,31 +41,4 @@ h5 {
     line-height: normal;
 
 }
-</style>  
-<style scoped>
-@media(max-width: 768px) {
-    h1 {
-        color: #5B0AD9;
-
-        font-size: 3rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    h5 {
-        color: #58595B;
-
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-
-    }
-}
-</style>
- 
-
- 
-
- 
+</style> 

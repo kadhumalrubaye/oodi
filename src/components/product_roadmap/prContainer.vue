@@ -39,11 +39,3 @@ export default {
     background-position: left top;
 }
 </style>  
-<style scoped>
-@media(max-width: 768px) {
-    img {
-        width: 100%;
-
-    }
-}
-</style>

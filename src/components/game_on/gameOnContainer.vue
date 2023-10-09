@@ -6,9 +6,11 @@
 
             <div class="row position-relative pt-5">
                 <h1>
-                    <img id="indiagoDots" :src="indiagoDots" alt="" class=" d-none d-lg-block d-xl-block img-fluid position-absolute   " width="300"
+                    <img id="indiagoDots" :src="indiagoDots" alt=""
+                        class=" d-none d-lg-block d-xl-block img-fluid position-absolute   " width="300"
                         :style="{ right: '0%', top: '15%' }">
-                    <img id="bigHalfWhiteCircul" :src="bigHalfWhiteCircul" alt="" class=" img-fluid position-absolute  d-none d-lg-block d-xl-block "
+                    <img id="bigHalfWhiteCircul" :src="bigHalfWhiteCircul" alt=""
+                        class=" img-fluid position-absolute  d-none d-lg-block d-xl-block "
                         :style="{ right: '-6%', top: '-5%' }">
 
 
@@ -58,7 +60,8 @@
             <p class=" position-relative pt-4">
                 <span class=" position-absolute" :style="{ right: '10%', top: '-20px' }">
                     <strong>KEY</strong><br>
-                    <img class=" img-fluid  d-none d-lg-block d-xl-block" id="gameOneColorCell" :src="gameOneColorCell" alt=" gameOneColorCell">
+                    <img class=" img-fluid  d-none d-lg-block d-xl-block" id="gameOneColorCell" :src="gameOneColorCell"
+                        alt=" gameOneColorCell">
                 </span>
                 1 - Our newsletter will keep us informed, … and <br>
                 prepared to lead in the industry. <br>
@@ -75,7 +78,8 @@
 
     </div>
     <footer class="  position-relative">
-        <img :src="gameOneBigIndiagoStat" alt=" gameOneColorCell" class=" position-absolute img-fluid  d-none d-lg-block d-xl-block"
+        <img :src="gameOneBigIndiagoStat" alt=" gameOneColorCell"
+            class=" position-absolute img-fluid  d-none d-lg-block d-xl-block"
             :style="{ bottom: '-100px', right: '-1px', }">
 
 
@@ -133,47 +137,4 @@ p {
     font-weight: 400;
     line-height: 35.3px;
 
-}
-</style>  
-<style scoped>
-
-@media(max-width: 768px) {
-    .container{
-
-     padding-top: 0% !important;
-     margin-top: -15%;
-    }
-
-    h1 {
-    
-    color: #5B0AD9;
-
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-h3 {
-   
-    color: #5B0AD9;
-
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 0px;
-}
-
-p {
-    color: #5B0AD9;
-
-    font-size:0.9rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height:130%;
-
-}
-
-}
-</style>
+}</style>  

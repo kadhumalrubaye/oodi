@@ -58,7 +58,7 @@ export default {
 <style scoped>
 #indigoBigHalfStart {
 
-  
+
 
     position: absolute;
     max-width: 10%;
@@ -83,51 +83,3 @@ export default {
     border-radius: 50%;
 }
 </style>  
-<!-- mobile view -->
-<style scoped>
-@media(max-width: 768px) {
-    #indigoBigHalfStart {
-        display: none;
-        position: absolute;
-        max-width: 10%;
-        right: -1px;
-        bottom: 50px;
-
-    }
-
-    #teamImageGridRow {
-        overflow: auto; 
-        
- max-height: 500px;
-        padding: 8%;
-        padding-left: 10%;
-        padding-right: 10%;
-       
-    }
-    ::-webkit-scrollbar {
-    width: 12px; /* Adjust the width */
-}
-
-/* This targets the thumb (the draggable part) */
-::-webkit-scrollbar-thumb {
-    background-color: #5B0AD9; /* Color of the thumb */
-    border-radius: 6px; /* Roundness of the thumb */
-}
-
-/* This targets the track (the non-draggable part) */
-::-webkit-scrollbar-track {
-    background-color: #f1f1f1; /* Color of the track */
-}
-
-    #profileImage {
-
-        border-color: #6BDD6B;
-        padding: 1%;
-        border-style: solid;
-        border-radius: 50%;
-    }
-
-}
-
-</style>
-  
