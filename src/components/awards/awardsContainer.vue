@@ -66,7 +66,7 @@ p {
 
 @supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
     h1 {
-        -webkit-text-stroke: 2px #FFF;
+        -webkit-text-stroke: 1px #FFF;
         color: #5B0AD9;
 
         font-size: 110.402px;
@@ -123,7 +123,7 @@ h2 {
 
     @supports (-webkit-text-stroke: 0.8vmin #6BDD6B) {
         h1 {
-            -webkit-text-stroke: 2px #FFF;
+            -webkit-text-stroke: 0.5px #FFF;
             color: #5B0AD9;
 
             font-size: 3rem;
