@@ -25,6 +25,7 @@ import oodiSocialMediaAccountLogo from '@/assets/img/oodiSocialMediaAccountsLogo
 import zainDigitalServiceImg from '@/assets/img/zainDigitalServiceImg.png'
 import zainFavicon from '@/assets/img/zainFavicon.png'
 import lifeStyleBackground from '@/assets/img/lifeStyleBackground.png'
+
 import full_header_start from '@/assets/img/full_header_start.png'
 export {
   full_header_start,

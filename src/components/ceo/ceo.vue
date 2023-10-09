@@ -6,7 +6,7 @@
         <img id="bottom_ceo_inidago_wave" class=" img-fluid " :src="bottom_ceo_inidago_wave" alt=" bottom_ceo_inidago_wave">
         <img id="_element_design_purpl" class="  img-fluid " :src="_element_design_purpl" alt=" _element_design_purpl">
         <div class="container ">
-            <div class="row gx-5">
+            <div class="row gx-5 flex-row-reverse">
                 <ceoCard />
             </div>
         </div>
