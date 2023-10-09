@@ -7,14 +7,14 @@
         <img id="header_small_star" :src="header_small_star" alt="big start" class=" img-fluid">
 
         <h1 class="d-none d-sm-block">
-    Zain Iraq Digital & oodi's <br>
-    Quarterly Newsletter <br> 
-    <strong :style="{ fontWeight: 'lighter', fontSize: 'smaller' }">Issue 1,Q4 2023</strong>
-</h1>
+            Zain Iraq Digital & oodi's <br>
+            Quarterly Newsletter <br>
+            <strong :style="{ fontWeight: 'lighter', fontSize: 'smaller' }">Issue 1,Q4 2023</strong>
+        </h1>
 
-<h1 class="d-block d-sm-none" :style="{ fontSize: '0.7rem', marginTop: '5%' }">
-    Zain Iraq Digital & oodi's Quarterly Newsletter <br> Issue 1,Q4 2023
-</h1>
+        <h1 class="d-block d-sm-none" :style="{ fontSize: '0.7rem', marginTop: '5%' }">
+            Zain Iraq Digital & oodi's Quarterly Newsletter <br> Issue 1,Q4 2023
+        </h1>
 
 
         <section>
@@ -99,7 +99,6 @@ export default {
 </script>
 
 <style scoped>
-
 header {
 
     width: 100%;
@@ -272,16 +271,15 @@ span {
     font-style: italic;
     margin-left: 22rem;
 }
-
 </style>  
  
 <style scoped>
 @media(max-width: 768px) {
 
     header {
- 
+
         width: 100%;
-       height: 320px;
+        height: 320px;
 
         background-color: #5B0AD9;
         position: relative;
@@ -290,7 +288,7 @@ span {
     }
 
     #bgUpperWave {
-display: none;
+        display: none;
         position: absolute;
         top: 0px;
         right: -1px;
@@ -332,25 +330,23 @@ display: none;
         color: white;
         position: absolute;
         text-align: center;
-       
-margin-top: 8% !important;
+
+        margin-top: 8% !important;
         right: 5%;
         left: 5%;
     }
 
     section {
-        
-       height: auto !important;
+
+        height: auto !important;
         margin: auto;
         position: relative;
         top: -5%;
         left: 20%;
-      
+
     }
 
-    #TheDigitalInsider {
- 
-    }
+    #TheDigitalInsider {}
 
     #header_ellips {
         margin-top: 8%;
@@ -455,7 +451,7 @@ margin-top: 8% !important;
         color: white;
         font-size: 1rem;
         position: absolute;
-       margin-top: -2%;
+        margin-top: -2%;
         font-style: italic;
         font-weight: lighter;
         right: 50%;
